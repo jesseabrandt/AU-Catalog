@@ -56,7 +56,7 @@ df = bind_cols(df, result)
 #NOTE corequisite and concurrent may be the same thing, redundant label
 df <- df %>%
   select(!credits)
-#df$description <- gsub(".*?\\)", "", df$description) # use this to take course name out of description. not sure whether to do this for basic cleaning so im commenting it out
+# sub(".*?\\)", "", description) # use this + mutate to take course name out of description. not sure whether to do this for basic cleaning so im commenting it out
 write_csv(df, "catalog_basic_info.csv")
 
 #values <- df$description %>% str_match("(\\w*): (.*?)\\.") # to examine what words go with :
