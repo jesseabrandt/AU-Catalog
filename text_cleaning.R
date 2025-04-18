@@ -6,7 +6,7 @@ df <- fread("catalog_scrape.csv")
 
 
 #Start by getting info from the titles
-title_info <- str_match(df$title, "([A-Z]*)-(\\d*) (.*)(\\(\\d-*\\d*\\))") %>% data.frame()
+title_info <- str_match(df$title, "([A-Z]*)-(\\d*\\.*\\d*) (.*)(\\(\\.*\\d\\.*\\d*-*\\d*\\.*\\d*\\))") %>% data.frame()
 
 names(title_info) <- c("title", "dept", "course_num", "course_name", "credits")
 credits_all <- str_match(title_info$credits, "\\((\\d*\\.*\\d*)-*(\\d*\\.*\\d*)\\)")
@@ -52,9 +52,11 @@ result = map(to_match, \(x) get_capture_group(pattern = x ,x = df$description))
 names(result) = match_names
 result = data.frame(result)
 
-df2 = bind_cols(df, result)
+df = bind_cols(df, result)
 #NOTE corequisite and concurrent may be the same thing, redundant label
-
+df <- df %>%
+  select(!credits)
+write_csv(df, "catalog_basic_info.csv")
 
 #values <- df$description %>% str_match("(\\w*): (.*?)\\.") # to examine what words go with :
-
+#NOTE: course numbers start w 0 for uncredited, grad courses are >500
