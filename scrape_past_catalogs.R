@@ -2,7 +2,7 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(pacman, tidyverse, rvest, logger)
 
 # todo: implement error handling
-# NOTE this file will take a long time (~19 hours?) to run 
+# NOTE this file will take a long time (~13 hours?) to run 
 # (it complies with 120 second crawl-delay as requested in robots.txt)
 
 #Catalog urls for each academic year
