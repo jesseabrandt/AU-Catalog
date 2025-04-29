@@ -175,3 +175,5 @@ for(i in 432:nrow(full_table)){
 #   gsub(x = ., "\\n", ";") %>%
 #   str_match(., "Degrees.*?;;")
 
+write_csv(full_table, "faculty_profile_scrape.csv")
+
