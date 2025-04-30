@@ -54,5 +54,11 @@ result = data.frame(result)
 df = bind_cols(df, result)
 
 
+#Add Eagle Service URL
+es_url <- "https://eagleservice.american.edu/Student/Student/Courses/Search?keyword="
+formatC(1, format = "d", width = 3, flag = "0")
+df <- df %>%
+  mutate(eagle_service_url = paste0(es_url, dept, "+", formatC(course_num, format = "d", width = 3, flag = "0")))
+
 fwrite(df, "all_catalogs2.csv")
 
