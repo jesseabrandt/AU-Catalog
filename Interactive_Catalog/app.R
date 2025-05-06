@@ -15,66 +15,86 @@
 
 library(shiny)
 library(tidyverse)
+library(bslib)
+library(shinydashboard)
 
 # Define UI for 
-ui <- fluidPage(
-
-    # Application title
-    titlePanel("American University Catalog"),
-
-    # Sidebar with course input
-    sidebarLayout(
-        sidebarPanel(
-          h3("Advanced Search"),
-            textInput("searchBox", label = "Keyword Search"),
-            actionButton("searchButton", label = "Search"),
-            selectInput("yearInput",label = "Academic Year", 
-                        choices =c("2024-2025", "All", "2023-2024", "2022-2023", "2021-2022",
-                                   "2020-2021", "2019-2020", "2018-2019", "2017-2018", 
-                                   "2016-2017", "2015-2016", "2014-2015"))
-        ),
-
-        # Show a plot of the generated distribution
-        mainPanel(
-           #plotOutput("distPlot")
-          DT::dataTableOutput("searchResults"),
-          textOutput("selectedCourse")
-        )
-    ),
-    fluidRow(column(6, textOutput("selectedCourse")))
+ui <- page_navbar(title = "American University Catalog",
+                  nav_panel(title = "Search", fluidPage(
+                    
+                    # Application title
+                    #titlePanel("American University Catalog"),
+                    
+                    # Sidebar with course input
+                    sidebarLayout(
+                      sidebarPanel(
+                        h3("Advanced Search"),
+                        textInput("searchBox", label = "Keyword Search"),
+                        actionButton("searchButton", label = "Search"),
+                        selectInput("yearInput",label = "Academic Year", 
+                                    choices =c("2024-2025", "2023-2024", "2022-2023", "2021-2022",
+                                               "2020-2021", "2019-2020", "2018-2019", "2017-2018", 
+                                               "2016-2017", "2015-2016", "2014-2015"))
+                      ),
+                      
+                      # Show a plot of the generated distribution
+                      mainPanel(
+                        #plotOutput("distPlot")
+                        DT::dataTableOutput("searchResults"),
+                        textOutput("selectedCourse")
+                      )
+                    ),
+                    fluidRow(column(6, textOutput("selectedCourse"))),
+                    
+                  )),
+                  nav_panel(title = "Course Details", fluidPage(
+                    h2(textOutput("selectedCourse")),
+                    textOutput("selectedDescription")
+                  ))
 )
 
-# Define server logic required to draw a histogram
+######## SERVER
 server <- function(input, output) {
-    courses <- read_csv("data_placeholder.csv")
-    #implement year = All, filter or don't filter years in search results
-    
-    
-    #search table
-    output$searchResults <- DT::renderDataTable(
-      courses %>%
+  courses <- read_csv("data_placeholder.csv")
+  #implement year = All, filter or don't filter years in search results
+  
+  
+  #search table
+  output$searchResults <- DT::renderDataTable(
+    courses %>%
+      filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
+      filter(academic_year == input$yearInput) %>%
+      select(title, academic_year),
+    server = TRUE, selection = "single"
+  )
+  #select a course 
+  output$selectedCourse <- reactive(
+    {validate(
+      need(!is.null(input$searchResults_rows_selected), "No Course Selected.")
+    )
+      searched <- courses
+      searched <- courses %>%
         filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
-        filter(academic_year == input$yearInput) %>%
-        select(title, academic_year),
-      server = TRUE, selection = "single"
+        filter(academic_year == input$yearInput)
+      searched$title[[input$searchResults_rows_selected]]
+      #searched$description[[input$searchResults_rows_selected]]
+    }
+    
+      
     )
-    
-    output$selectedCourse <- reactive(
-      {validate(
-        need(!is.null(input$searchResults_rows_selected), "No Course Selected.")
-      )
-        searched <- courses
-        searched <- courses %>%
-          filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
-          filter(academic_year == input$yearInput)
-        searched$title[[input$searchResults_rows_selected]]
-        #searched$description[[input$searchResults_rows_selected]]
-        }
-             
+  output$selectedDescription <- reactive(
+    {validate(
+      need(!is.null(input$searchResults_rows_selected), "Please select a course.")
     )
-    
-    
-    
+      searched <- courses %>%
+        filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
+        filter(academic_year == input$yearInput)
+      searched$description[[input$searchResults_rows_selected]]
+    }
+  )
+  
+  
+  
 }
 
 # Run the application 
