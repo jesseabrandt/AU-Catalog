@@ -54,6 +54,7 @@ server <- function(input, output) {
     output$searchResults <- DT::renderDataTable(
       courses %>%
         filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
+        filter(academic_year == input$yearInput) %>%
         select(title, academic_year),
       server = TRUE, selection = "single"
     )
@@ -65,9 +66,9 @@ server <- function(input, output) {
         searched <- courses
         searched <- courses %>%
           filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
-          select(title, academic_year)
+          filter(academic_year == input$yearInput)
         searched$title[[input$searchResults_rows_selected]]
-        
+        #searched$description[[input$searchResults_rows_selected]]
         }
              
     )
