@@ -41,13 +41,14 @@ course_dtm <- course_words %>%
 #Run LDA
 course_lda <- LDA(course_dtm, k = 20, control = list(seed = 12))
 course_lda
+load("LDA.RData")
 
 
 course_topics <- tidy(course_lda, matrix = "beta")
 course_topics
 top_terms <- course_topics %>%
   group_by(topic) %>%
-  slice_max(beta, n = 10) %>% 
+  slice_max(beta, n = 15) %>% 
   ungroup() %>%
   arrange(topic, -beta)
 top_terms
@@ -67,7 +68,38 @@ top_terms %>%
 
 ggsave("topics2.png", units = "in", width = 10, height = 7)
 
+
+save(course_lda, file = "LDA2.RData")
+
+topic_names <- tribble(
+  ~topic, ~topic_name,
+  1, "Management",
+  2, "Gender/Race/Identity",
+  3, "Information Technology",
+  4, "Finance",
+  5, "International Issues",
+  6, "Media",
+  7, "Arts",
+  8, "Quantitative Analysis",
+  9, "Social Issues",
+  10, "Washington",
+  11, "Research",
+  12, "Politics and Policy",
+  13, "History",
+  14, "Education",
+  15, "Capstone",
+  16, "Repeatable",
+  17, "Psychology",
+  18, "Languages",
+  19, "Community Health",
+  20, "Business"
+)
 course_gamma <- tidy(course_lda, matrix = "gamma")
+course_gamma <- course_gamma %>%
+  left_join(topic_names, by = "topic") %>%
+  data.table()
+
+df2 <- dcast(course_gamma, topic_name + document ~ gamma, value.var = "gamma")
 
 
 
