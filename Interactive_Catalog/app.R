@@ -66,10 +66,14 @@ ui <- fluidPage(titlePanel("American University Catalog"),
                 h2("Course Topics"),
                 p("Course descriptions were analyzed using Latent Dirichlet Allocation (LDA) to find 20 topics based on which words appeared together. These topics were manually classified based on top words."),
                 p("Below are the results of ANOVA for the quantitative analysis topic by school."),
-                textOutput("anova_results")
+                tableOutput("anova_results"),
+                tableOutput("pht")
                 )),
               tabPanel(title = "Budget Visualizations", fluidPage(
                 h2("Budget Analysis"),
+                p("Note: budget for 2022 unavailable."),
+                sliderInput("budget_years"),
+                plotOutput("budget_comparison"),
                 plotOutput("budget_by_school"),
                 plotOutput(("class_budget"))
               )
@@ -261,6 +265,8 @@ server <- function(input, output) {
   #Budget Analysis Section
   budget_allocation <- read_csv("budget_allocation.csv")
   budget_pct_change <- read_csv("budget_pct_change.csv")
+  
+  output$budget_ <- 
   output$budget_by_school <- renderPlot(
     ggplot(budget_allocation, aes(x = year, y = budget, color = school)) +
       geom_line(size = 1.2) +
@@ -347,11 +353,11 @@ server <- function(input, output) {
   topics <- read_csv("topics_clean.csv")
   model <- aov(formula = quant~school, data = topics)
   # anova(model)
-  # DescTools::PostHocTest(model)
-  output$anova_results <- renderText({
+  pht <- DescTools::PostHocTest(model)
+  output$anova_results <- renderTable({
     (anova(model))
   })
-  output$pht <- renderText(PostHocTest(model))
+  output$pht <- renderTable(PostHocTest(model)$school, rownames = TRUE)
 }
 
 # Run the application 

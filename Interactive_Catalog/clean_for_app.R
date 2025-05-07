@@ -6,7 +6,8 @@ topics <- topics %>%
 topics <- topics %>%
   select(Arts:Washington, dept = dept.x, dept_name = dept_name.x,min_credits = min_credits.x, academic_year = academic_year.x,
          fall = fall.x, top = top_topic.x, school = school.x) %>%
-  rename(quant = "Quantitative Analysis")
+  rename(quant = "Quantitative Analysis") %>%
+  mutate(school = ifelse(school == "soe", "School of Education", school))
 fwrite(file = "topics_clean.csv", topics)
 
 
