@@ -72,7 +72,7 @@ ui <- fluidPage(titlePanel("American University Catalog"),
               tabPanel(title = "Budget Visualizations", fluidPage(
                 h2("Budget Analysis"),
                 p("Note: budget for 2022 unavailable."),
-                sliderInput("budget_years"),
+                sliderInput("budget_years", min = 2014, max = 2024, value = c(2014,2024), label = "Years"),
                 plotOutput("budget_comparison"),
                 plotOutput("budget_by_school"),
                 plotOutput(("class_budget"))
@@ -94,6 +94,7 @@ ui <- fluidPage(titlePanel("American University Catalog"),
 ######## SERVER
 server <- function(input, output) {
   courses <- read_csv("data_placeholder3.csv")
+  courses$course_num = as.integer(courses$course_num)
   #implement year = All, filter or don't filter years in search results
   
   # Trying to find a way to just do the search once
@@ -266,7 +267,22 @@ server <- function(input, output) {
   budget_allocation <- read_csv("budget_allocation.csv")
   budget_pct_change <- read_csv("budget_pct_change.csv")
   
-  output$budget_ <- 
+  output$budget_comparison <- renderPlot(
+    budget_allocation %>%
+      filter(year == min(input$budget_years) | year == max(input$budget_years)) %>%
+      mutate(Year = as.character(year)) %>%
+      ggplot( aes(x = school, y = budget, fill = Year)) +
+      geom_bar(position = "dodge", stat = "identity") +
+      theme_minimal() +
+      scale_fill_brewer(palette = "Set2") +
+      labs(
+        title = "Budget Increases",
+        
+        legend.position = "none"
+      ) +
+    theme(plot.title = element_text(face = "bold", size = 16),)
+      
+  ) 
   output$budget_by_school <- renderPlot(
     ggplot(budget_allocation, aes(x = year, y = budget, color = school)) +
       geom_line(size = 1.2) +

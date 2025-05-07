@@ -11,3 +11,7 @@ topics <- topics %>%
 fwrite(file = "topics_clean.csv", topics)
 
 
+
+
+df <- fread("data_placeholder3.csv")
+df <- fread("data_placeholder.csv")
