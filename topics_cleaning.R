@@ -55,4 +55,4 @@ fwrite(df4, file = "top_topics.csv")
 dept_topics <- df4 %>%
   group_by(dept, top_topic) %>%
   summarize(n = n())
-
+fwrite(dept_topics, file = "dept_topics.csv")
