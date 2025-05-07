@@ -1,0 +1,946 @@
+dept,top_topic,n
+ACCT,Business,21
+ACCT,Capstone,10
+ACCT,Community Health,3
+ACCT,Education,4
+ACCT,Finance,18
+ACCT,Information Technology,4
+ACCT,Management,69
+ACCT,Politics and Policy,3
+ACCT,Psychology,10
+ACCT,Repeatable Topics,7
+ACCT,Research,2
+ACCT,Social Issues,8
+ACCT,,14
+AFAM,Arts,7
+AFAM,Capstone,4
+AFAM,Community Health,8
+AFAM,Gender/Race/Identity,1
+AFAM,History,13
+AFAM,,8
+AMGT,Arts,2
+AMGT,Business,6
+AMGT,Capstone,10
+AMGT,Finance,2
+AMGT,Management,8
+AMGT,Media,4
+AMGT,Politics and Policy,6
+AMGT,Research,16
+AMGT,Social Issues,10
+AMGT,Washington,2
+AMGT,,3
+AMST,Arts,3
+AMST,Capstone,31
+AMST,Community Health,24
+AMST,Education,7
+AMST,Gender/Race/Identity,9
+AMST,History,43
+AMST,Languages,6
+AMST,Psychology,5
+AMST,Repeatable Topics,4
+AMST,Washington,8
+AMST,,21
+ANTH,Arts,1
+ANTH,Capstone,63
+ANTH,Community Health,91
+ANTH,Education,83
+ANTH,Gender/Race/Identity,94
+ANTH,History,48
+ANTH,Information Technology,41
+ANTH,International Issues,33
+ANTH,Languages,8
+ANTH,Management,3
+ANTH,Media,21
+ANTH,Psychology,7
+ANTH,Repeatable Topics,34
+ANTH,Research,60
+ANTH,Social Issues,115
+ANTH,Washington,36
+ANTH,,54
+APDS,Arts,9
+APDS,Capstone,10
+APDS,Education,2
+APDS,History,15
+APDS,Repeatable Topics,6
+APDS,,15
+APM,Management,48
+ARAB,Capstone,29
+ARAB,Community Health,13
+ARAB,Education,10
+ARAB,Languages,195
+ARAB,Politics and Policy,11
+ARAB,Repeatable Topics,10
+ARAB,,27
+ARTH,Arts,543
+ARTH,Capstone,33
+ARTH,Education,22
+ARTH,Repeatable Topics,39
+ARTH,Research,48
+ARTH,Social Issues,46
+ARTH,,42
+ARTS,Arts,105
+ARTS,Capstone,52
+ARTS,Community Health,13
+ARTS,Education,20
+ARTS,Finance,119
+ARTS,Gender/Race/Identity,5
+ARTS,Information Technology,3
+ARTS,Management,64
+ARTS,Media,9
+ARTS,Repeatable Topics,36
+ARTS,Research,24
+ARTS,,49
+ASIA,Arts,12
+ASIA,Capstone,11
+ASIA,Education,8
+ASIA,History,10
+ASIA,Politics and Policy,2
+ASIA,Repeatable Topics,26
+ASIA,,20
+ATEC,Capstone,8
+ATEC,Community Health,12
+ATEC,Education,32
+ATEC,Finance,12
+ATEC,Information Technology,331
+ATEC,Media,12
+ATEC,Repeatable Topics,35
+ATEC,Research,16
+ATEC,,48
+AWST,Arts,8
+AWST,Capstone,14
+AWST,Community Health,1
+AWST,Education,8
+AWST,Gender/Race/Identity,2
+AWST,History,13
+AWST,International Issues,12
+AWST,Media,7
+AWST,Politics and Policy,4
+AWST,Psychology,7
+AWST,Repeatable Topics,23
+AWST,,35
+BEHS,Capstone,3
+BEHS,Community Health,1
+BEHS,Education,2
+BEHS,Finance,1
+BEHS,Politics and Policy,1
+BEHS,Repeatable Topics,1
+BEHS,Research,1
+BEHS,Washington,1
+BEHS,,1
+BIO,Capstone,86
+BIO,Community Health,97
+BIO,Education,52
+BIO,Finance,15
+BIO,Gender/Race/Identity,41
+BIO,Information Technology,58
+BIO,Politics and Policy,12
+BIO,Psychology,96
+BIO,Quantitative Analysis,13
+BIO,Repeatable Topics,205
+BIO,Research,54
+BIO,Social Issues,16
+BIO,,48
+CAS,Capstone,30
+CAS,Community Health,20
+CAS,Education,31
+CAS,Gender/Race/Identity,12
+CAS,Research,70
+CAS,Social Issues,2
+CAS,Washington,11
+CAS,,22
+CHEM,Capstone,104
+CHEM,Education,18
+CHEM,Gender/Race/Identity,11
+CHEM,International Issues,38
+CHEM,Quantitative Analysis,141
+CHEM,Repeatable Topics,347
+CHEM,Research,114
+CHEM,,42
+CHIN,Arts,2
+CHIN,Capstone,26
+CHIN,Community Health,9
+CHIN,Education,3
+CHIN,Languages,248
+CHIN,Repeatable Topics,16
+CHIN,,28
+COMM,Arts,76
+COMM,Business,36
+COMM,Capstone,82
+COMM,Community Health,12
+COMM,Education,69
+COMM,Finance,287
+COMM,History,29
+COMM,Information Technology,49
+COMM,International Issues,38
+COMM,Languages,2
+COMM,Management,68
+COMM,Media,1548
+COMM,Politics and Policy,101
+COMM,Quantitative Analysis,9
+COMM,Repeatable Topics,28
+COMM,Research,120
+COMM,Social Issues,32
+COMM,Washington,30
+COMM,,40
+CORE,Arts,85
+CORE,Community Health,6
+CORE,Education,14
+CORE,Gender/Race/Identity,24
+CORE,Washington,21
+CORE,,9
+CRGC,Capstone,17
+CRGC,Gender/Race/Identity,10
+CRGC,Research,5
+CRGC,,24
+CSC,Business,14
+CSC,Capstone,67
+CSC,Community Health,26
+CSC,Education,29
+CSC,Finance,32
+CSC,Information Technology,350
+CSC,Management,18
+CSC,Quantitative Analysis,54
+CSC,Repeatable Topics,17
+CSC,Research,2
+CSC,Social Issues,27
+CSC,,40
+DATA,Capstone,18
+DATA,Education,4
+DATA,Quantitative Analysis,48
+DATA,Research,4
+DATA,,20
+DNCE,Arts,109
+DNCE,Business,19
+DNCE,Capstone,26
+DNCE,Community Health,1
+DNCE,Education,7
+DNCE,Gender/Race/Identity,5
+DNCE,Psychology,15
+DNCE,Research,1
+DNCE,,20
+ECON,Business,11
+ECON,Capstone,74
+ECON,Community Health,44
+ECON,Education,66
+ECON,Finance,64
+ECON,Gender/Race/Identity,66
+ECON,History,27
+ECON,International Issues,165
+ECON,Media,7
+ECON,Politics and Policy,149
+ECON,Psychology,146
+ECON,Quantitative Analysis,208
+ECON,Repeatable Topics,35
+ECON,Research,58
+ECON,Social Issues,35
+ECON,Washington,16
+ECON,,55
+EDU,Business,134
+EDU,Capstone,474
+EDU,Community Health,30
+EDU,Education,282
+EDU,Finance,18
+EDU,Gender/Race/Identity,59
+EDU,Information Technology,27
+EDU,International Issues,23
+EDU,Languages,15
+EDU,Management,13
+EDU,Media,5
+EDU,Politics and Policy,47
+EDU,Psychology,231
+EDU,Quantitative Analysis,29
+EDU,Repeatable Topics,41
+EDU,Research,115
+EDU,Social Issues,73
+EDU,,55
+ELTA,Capstone,4
+ELTA,Education,26
+ELTA,History,21
+ELTA,Languages,13
+ELTA,Media,9
+ELTA,Repeatable Topics,4
+ELTA,Research,85
+ELTA,Washington,7
+ELTA,,13
+ENVS,Capstone,54
+ENVS,Community Health,99
+ENVS,Education,9
+ENVS,Finance,14
+ENVS,Gender/Race/Identity,3
+ENVS,Information Technology,33
+ENVS,International Issues,148
+ENVS,Management,23
+ENVS,Politics and Policy,30
+ENVS,Quantitative Analysis,4
+ENVS,Repeatable Topics,39
+ENVS,Research,79
+ENVS,Washington,22
+ENVS,,48
+FIN,Capstone,36
+FIN,Community Health,8
+FIN,Education,20
+FIN,Finance,268
+FIN,International Issues,21
+FIN,Management,93
+FIN,Quantitative Analysis,116
+FIN,Repeatable Topics,45
+FIN,,54
+FREN,Arts,8
+FREN,Capstone,31
+FREN,Community Health,22
+FREN,Education,35
+FREN,Gender/Race/Identity,2
+FREN,History,66
+FREN,Languages,207
+FREN,Repeatable Topics,24
+FREN,,42
+GAME,Capstone,13
+GAME,Education,9
+GAME,Finance,20
+GAME,Information Technology,20
+GAME,Media,48
+GAME,Repeatable Topics,7
+GAME,Research,19
+GAME,,14
+GDES,Capstone,24
+GDES,Education,9
+GDES,Finance,138
+GDES,Information Technology,38
+GDES,Repeatable Topics,16
+GDES,,28
+GERM,Arts,27
+GERM,Capstone,32
+GERM,Community Health,6
+GERM,Education,12
+GERM,Gender/Race/Identity,11
+GERM,History,34
+GERM,Languages,145
+GERM,Repeatable Topics,8
+GERM,,21
+GNED,Capstone,20
+GNED,Education,50
+GOVT,Arts,85
+GOVT,Business,26
+GOVT,Capstone,96
+GOVT,Community Health,38
+GOVT,Education,45
+GOVT,Finance,10
+GOVT,Gender/Race/Identity,75
+GOVT,History,126
+GOVT,Information Technology,27
+GOVT,International Issues,31
+GOVT,Languages,1
+GOVT,Media,67
+GOVT,Politics and Policy,778
+GOVT,Quantitative Analysis,49
+GOVT,Repeatable Topics,55
+GOVT,Research,52
+GOVT,Social Issues,32
+GOVT,Washington,103
+GOVT,,40
+HCS,Business,22
+HCS,Community Health,15
+HCS,Management,40
+HCS,Politics and Policy,5
+HCS,Research,2
+HEBR,Community Health,6
+HEBR,Education,3
+HEBR,Languages,66
+HEBR,Repeatable Topics,12
+HEBR,,21
+HFIT,Business,3
+HFIT,Capstone,15
+HFIT,Community Health,25
+HFIT,Education,23
+HFIT,Finance,1
+HFIT,Gender/Race/Identity,2
+HFIT,Languages,22
+HFIT,Management,1
+HFIT,Politics and Policy,1
+HFIT,Psychology,117
+HFIT,Quantitative Analysis,2
+HFIT,Repeatable Topics,13
+HFIT,Research,46
+HFIT,,14
+HIST,Arts,172
+HIST,Business,2
+HIST,Capstone,61
+HIST,Community Health,63
+HIST,Education,52
+HIST,Finance,4
+HIST,Gender/Race/Identity,70
+HIST,History,925
+HIST,Politics and Policy,44
+HIST,Psychology,4
+HIST,Quantitative Analysis,32
+HIST,Repeatable Topics,145
+HIST,Research,76
+HIST,Social Issues,3
+HIST,Washington,84
+HIST,,55
+HLTH,Business,47
+HLTH,Capstone,35
+HLTH,Community Health,142
+HLTH,Education,12
+HLTH,Finance,11
+HLTH,Gender/Race/Identity,19
+HLTH,International Issues,12
+HLTH,Management,7
+HLTH,Media,6
+HLTH,Politics and Policy,21
+HLTH,Psychology,138
+HLTH,Quantitative Analysis,25
+HLTH,Research,21
+HLTH,Social Issues,32
+HLTH,,42
+HNRS,Capstone,148
+HNRS,Community Health,14
+HNRS,Repeatable Topics,9
+HNRS,Research,5
+HNRS,Washington,5
+HNRS,,20
+HPRM,Business,11
+HPRM,Capstone,9
+HPRM,Community Health,44
+HPRM,Education,3
+HPRM,Finance,3
+HPRM,Gender/Race/Identity,6
+HPRM,Management,3
+HPRM,Politics and Policy,3
+HPRM,Psychology,59
+HPRM,Quantitative Analysis,6
+HPRM,Repeatable Topics,18
+HPRM,Research,7
+HRAM,Business,26
+HRAM,Management,24
+IBUS,Business,110
+IBUS,Capstone,35
+IBUS,Community Health,7
+IBUS,Education,36
+IBUS,Finance,64
+IBUS,History,7
+IBUS,Information Technology,11
+IBUS,International Issues,106
+IBUS,Languages,13
+IBUS,Management,12
+IBUS,Repeatable Topics,38
+IBUS,Research,4
+IBUS,Washington,15
+IBUS,,55
+IDIS,Community Health,12
+IDIS,Repeatable Topics,5
+IDIS,Research,6
+IDIS,Social Issues,3
+IDIS,Washington,5
+IDIS,,20
+IDLA,Business,30
+IDLA,Information Technology,2
+IDLA,Management,8
+IDLA,Psychology,8
+IGP,Education,1
+IGP,History,1
+IGP,Media,1
+IGP,Repeatable Topics,2
+IGP,Research,4
+ISCI,Business,15
+ISCI,Capstone,34
+ISCI,Community Health,6
+ISCI,Information Technology,12
+ISCI,Media,11
+ISCI,Politics and Policy,1
+ISCI,Repeatable Topics,6
+ISCI,Research,1
+ISCI,,34
+ISR,Capstone,20
+ISR,Education,7
+ISR,History,16
+ISR,Politics and Policy,10
+ISR,Repeatable Topics,16
+ISR,,28
+ITAL,Arts,11
+ITAL,Capstone,24
+ITAL,Community Health,6
+ITAL,Education,12
+ITAL,Languages,66
+ITAL,Repeatable Topics,12
+ITAL,,21
+ITEC,Business,49
+ITEC,Capstone,37
+ITEC,Education,14
+ITEC,Finance,30
+ITEC,Information Technology,103
+ITEC,Management,237
+ITEC,Media,5
+ITEC,Politics and Policy,8
+ITEC,Psychology,8
+ITEC,Quantitative Analysis,35
+ITEC,Repeatable Topics,12
+ITEC,Social Issues,11
+ITEC,Washington,77
+ITEC,,21
+JAPN,Arts,3
+JAPN,Capstone,27
+JAPN,Community Health,6
+JAPN,Education,4
+JAPN,History,6
+JAPN,Languages,73
+JAPN,Repeatable Topics,12
+JAPN,,24
+JLC,Arts,1
+JLC,Business,24
+JLC,Capstone,58
+JLC,Community Health,23
+JLC,Education,35
+JLC,Finance,32
+JLC,Gender/Race/Identity,67
+JLC,History,40
+JLC,Information Technology,22
+JLC,International Issues,74
+JLC,Languages,11
+JLC,Management,22
+JLC,Politics and Policy,356
+JLC,Psychology,66
+JLC,Quantitative Analysis,34
+JLC,Repeatable Topics,29
+JLC,Research,45
+JLC,Social Issues,451
+JLC,Washington,29
+JLC,,48
+JWST,Arts,24
+JWST,Capstone,66
+JWST,Community Health,2
+JWST,Education,11
+JWST,History,9
+JWST,Repeatable Topics,24
+JWST,,42
+KOR,Arts,2
+KOR,Community Health,6
+KOR,Education,3
+KOR,Gender/Race/Identity,6
+KOR,Languages,53
+KOR,Repeatable Topics,8
+KOR,,20
+KSB,Business,153
+KSB,Capstone,64
+KSB,Education,43
+KSB,Finance,4
+KSB,Gender/Race/Identity,1
+KSB,International Issues,5
+KSB,Languages,108
+KSB,Management,16
+KSB,Media,9
+KSB,Quantitative Analysis,4
+KSB,Repeatable Topics,25
+KSB,Research,53
+KSB,Washington,21
+KSB,,48
+LING,Business,2
+LING,Capstone,3
+LING,Community Health,1
+LING,Education,1
+LING,Gender/Race/Identity,4
+LING,Information Technology,8
+LING,Languages,9
+LING,Research,4
+LING,,5
+LIT,Arts,657
+LIT,Capstone,75
+LIT,Community Health,30
+LIT,Education,42
+LIT,Finance,79
+LIT,Gender/Race/Identity,21
+LIT,History,117
+LIT,International Issues,3
+LIT,Languages,29
+LIT,Management,13
+LIT,Media,44
+LIT,Politics and Policy,3
+LIT,Psychology,6
+LIT,Quantitative Analysis,6
+LIT,Repeatable Topics,32
+LIT,Research,85
+LIT,Washington,7
+LIT,,55
+LTST,Capstone,6
+LTST,Community Health,12
+LTST,Education,10
+LTST,Gender/Race/Identity,14
+LTST,,20
+MATH,Capstone,74
+MATH,Community Health,40
+MATH,Education,32
+MATH,Gender/Race/Identity,148
+MATH,Information Technology,13
+MATH,Management,12
+MATH,Psychology,32
+MATH,Quantitative Analysis,284
+MATH,Repeatable Topics,61
+MATH,Research,8
+MATH,,41
+MGMT,Business,377
+MGMT,Capstone,40
+MGMT,Community Health,33
+MGMT,Education,20
+MGMT,Finance,12
+MGMT,Information Technology,11
+MGMT,International Issues,54
+MGMT,Management,44
+MGMT,Media,29
+MGMT,Politics and Policy,33
+MGMT,Psychology,10
+MGMT,Repeatable Topics,39
+MGMT,Social Issues,17
+MGMT,Washington,10
+MGMT,,49
+MKTG,Business,207
+MKTG,Capstone,35
+MKTG,Community Health,12
+MKTG,Education,20
+MKTG,Gender/Race/Identity,4
+MKTG,Media,91
+MKTG,Psychology,19
+MKTG,Repeatable Topics,31
+MKTG,Research,16
+MKTG,Washington,14
+MKTG,,35
+MUS,Arts,12
+MUS,Business,8
+MUS,Capstone,34
+MUS,Finance,12
+MUS,Gender/Race/Identity,1
+MUS,Management,78
+MUS,Psychology,2
+MUS,Repeatable Topics,2
+MUS,Washington,16
+MUS,,5
+NEUR,Capstone,59
+NEUR,Community Health,8
+NEUR,Education,26
+NEUR,Finance,4
+NEUR,Gender/Race/Identity,7
+NEUR,Information Technology,1
+NEUR,Psychology,67
+NEUR,Quantitative Analysis,5
+NEUR,Repeatable Topics,28
+NEUR,Research,28
+NEUR,,33
+OGIS,Capstone,11
+OGIS,Education,8
+OGIS,Research,3
+OGIS,Washington,6
+OGIS,,17
+PERF,Arts,332
+PERF,Business,78
+PERF,Capstone,81
+PERF,Community Health,11
+PERF,Education,95
+PERF,Finance,69
+PERF,Gender/Race/Identity,7
+PERF,Information Technology,52
+PERF,Languages,6
+PERF,Management,157
+PERF,Media,21
+PERF,Politics and Policy,9
+PERF,Psychology,156
+PERF,Repeatable Topics,54
+PERF,Research,23
+PERF,Social Issues,27
+PERF,Washington,156
+PERF,,55
+PERS,Languages,44
+PHIL,Arts,50
+PHIL,Capstone,38
+PHIL,Community Health,30
+PHIL,Education,11
+PHIL,Gender/Race/Identity,310
+PHIL,History,8
+PHIL,Quantitative Analysis,11
+PHIL,Repeatable Topics,47
+PHIL,Research,11
+PHIL,Social Issues,88
+PHIL,Washington,76
+PHIL,,42
+PHYS,Arts,6
+PHYS,Capstone,24
+PHYS,Community Health,22
+PHYS,Education,11
+PHYS,Information Technology,32
+PHYS,Management,6
+PHYS,Quantitative Analysis,146
+PHYS,Repeatable Topics,22
+PHYS,Research,25
+PHYS,Social Issues,5
+PHYS,Washington,5
+PHYS,,28
+PME,Business,41
+PME,Management,1
+PME,Quantitative Analysis,1
+PME,Research,3
+PORT,Community Health,3
+PORT,Education,3
+PORT,Gender/Race/Identity,6
+PORT,Languages,62
+PORT,Repeatable Topics,8
+PORT,,14
+PROF,Business,32
+PROF,Capstone,4
+PROF,Education,4
+PROF,Management,8
+PROF,Quantitative Analysis,4
+PROF,Research,4
+PROF,,11
+PSM,Business,11
+PSM,Capstone,13
+PSM,Community Health,5
+PSM,Education,9
+PSM,Repeatable Topics,1
+PSM,,7
+PSYC,Arts,2
+PSYC,Business,26
+PSYC,Capstone,73
+PSYC,Community Health,55
+PSYC,Education,53
+PSYC,Finance,9
+PSYC,Gender/Race/Identity,43
+PSYC,Information Technology,13
+PSYC,Languages,2
+PSYC,Psychology,591
+PSYC,Quantitative Analysis,19
+PSYC,Repeatable Topics,35
+PSYC,Research,82
+PSYC,Social Issues,79
+PSYC,Washington,6
+PSYC,,42
+PUAD,Business,263
+PUAD,Capstone,17
+PUAD,Education,35
+PUAD,Finance,16
+PUAD,Gender/Race/Identity,6
+PUAD,Information Technology,17
+PUAD,International Issues,34
+PUAD,Management,106
+PUAD,Politics and Policy,151
+PUAD,Psychology,40
+PUAD,Quantitative Analysis,75
+PUAD,Repeatable Topics,29
+PUAD,Research,83
+PUAD,Social Issues,138
+PUAD,,48
+PUBH,Capstone,8
+PUBH,Community Health,29
+PUBH,Education,4
+PUBH,Quantitative Analysis,6
+PUBH,Repeatable Topics,16
+PUBH,Research,2
+PUBH,Social Issues,11
+REAL,Capstone,46
+REAL,Education,18
+REAL,Finance,24
+REAL,International Issues,4
+REAL,Management,68
+REAL,Repeatable Topics,1
+REAL,Washington,12
+REAL,,7
+RELG,Arts,65
+RELG,Capstone,48
+RELG,Community Health,27
+RELG,Education,9
+RELG,Gender/Race/Identity,34
+RELG,History,23
+RELG,Repeatable Topics,123
+RELG,Research,1
+RELG,Washington,28
+RELG,,49
+RUSS,Capstone,39
+RUSS,Community Health,6
+RUSS,Education,21
+RUSS,History,23
+RUSS,International Issues,17
+RUSS,Languages,132
+RUSS,Repeatable Topics,16
+RUSS,Washington,2
+RUSS,,28
+SABD,Capstone,22
+SABD,Education,27
+SABD,Languages,104
+SAM,Business,9
+SAM,Management,9
+SAM,Media,27
+SIS,Arts,11
+SIS,Business,19
+SIS,Capstone,147
+SIS,Education,181
+SIS,Finance,65
+SIS,Gender/Race/Identity,30
+SIS,History,68
+SIS,Information Technology,25
+SIS,International Issues,518
+SIS,Management,16
+SIS,Media,16
+SIS,Politics and Policy,258
+SIS,Psychology,28
+SIS,Quantitative Analysis,18
+SIS,Repeatable Topics,31
+SIS,Research,215
+SIS,Social Issues,73
+SIS,,20
+SISA,Arts,4
+SISA,Capstone,120
+SISA,International Issues,825
+SISA,Languages,3
+SISG,Business,8
+SISG,Finance,8
+SISG,History,10
+SISG,International Issues,61
+SISG,Management,8
+SISG,Politics and Policy,14
+SISG,Psychology,10
+SISG,Research,11
+SISG,Social Issues,3
+SISU,Arts,27
+SISU,Business,11
+SISU,Capstone,168
+SISU,Community Health,55
+SISU,Education,25
+SISU,Gender/Race/Identity,87
+SISU,History,173
+SISU,International Issues,504
+SISU,Media,11
+SISU,Politics and Policy,159
+SISU,Psychology,11
+SISU,Repeatable Topics,60
+SISU,Research,31
+SISU,Social Issues,8
+SISU,,21
+SOCY,Arts,45
+SOCY,Business,1
+SOCY,Capstone,59
+SOCY,Community Health,48
+SOCY,Education,32
+SOCY,Gender/Race/Identity,167
+SOCY,History,26
+SOCY,International Issues,18
+SOCY,Politics and Policy,49
+SOCY,Quantitative Analysis,39
+SOCY,Repeatable Topics,28
+SOCY,Research,88
+SOCY,Social Issues,119
+SOCY,Washington,2
+SOCY,,49
+SPA,Business,10
+SPA,Capstone,37
+SPA,Community Health,32
+SPA,Education,13
+SPA,International Issues,5
+SPA,Management,5
+SPA,Politics and Policy,88
+SPA,Psychology,1
+SPA,Quantitative Analysis,46
+SPA,Repeatable Topics,9
+SPA,Research,30
+SPA,Social Issues,13
+SPA,Washington,14
+SPA,,35
+SPAN,Business,3
+SPAN,Capstone,38
+SPAN,Community Health,48
+SPAN,Education,36
+SPAN,History,245
+SPAN,Languages,280
+SPAN,Media,22
+SPAN,Repeatable Topics,20
+SPAN,,35
+SPEX,Business,33
+SPEX,Capstone,18
+SPEX,Education,27
+SPEX,International Issues,3
+SPEX,Management,11
+SPEX,Quantitative Analysis,6
+SPEX,Repeatable Topics,28
+SPEX,Research,14
+SPEX,Washington,11
+SPEX,,21
+STAT,Capstone,43
+STAT,Community Health,27
+STAT,Education,9
+STAT,Gender/Race/Identity,15
+STAT,Quantitative Analysis,408
+STAT,Repeatable Topics,28
+STAT,Research,20
+STAT,,49
+SWAH,Community Health,3
+SWAH,Education,3
+SWAH,Languages,79
+SWAH,Repeatable Topics,6
+SWAH,,14
+TEFL,Business,6
+TEFL,Languages,32
+TEFL,Repeatable Topics,3
+TEFL,Research,4
+TESL,Business,32
+TESL,Capstone,28
+TESL,Community Health,9
+TESL,Education,46
+TESL,Gender/Race/Identity,4
+TESL,Information Technology,18
+TESL,Languages,202
+TESL,Psychology,4
+TESL,Repeatable Topics,18
+TESL,Research,22
+TESL,,35
+THTR,Arts,5
+THTR,Business,2
+THTR,Capstone,5
+THTR,Education,3
+THTR,Finance,3
+THTR,Information Technology,4
+THTR,Management,4
+THTR,Media,1
+THTR,Psychology,13
+THTR,,5
+UCOL,Education,24
+UGST,Business,11
+UGST,Capstone,3
+UGST,Community Health,1
+UGST,Education,2
+UGST,Repeatable Topics,2
+UGST,Research,4
+UGST,Washington,12
+UGST,,9
+WGSS,Arts,14
+WGSS,Capstone,52
+WGSS,Community Health,38
+WGSS,Gender/Race/Identity,106
+WGSS,History,6
+WGSS,International Issues,12
+WGSS,Languages,2
+WGSS,Repeatable Topics,10
+WGSS,Research,7
+WGSS,,38
+WLC,Capstone,12
+WLC,Community Health,6
+WLC,Education,3
+WLC,History,1
+WLC,,22
+WRT,Arts,5
+WRT,Capstone,1
+WRT,Community Health,11
+WRT,Gender/Race/Identity,1
+WRT,Languages,3
+WRT,Media,19
+WRT,Research,41
+WRTG,Arts,1
+WRTG,Capstone,4
+WRTG,Community Health,5
+WRTG,Media,2
+WRTG,Research,35
+WSEM,Capstone,6
+WSEM,Education,2
+WSEM,International Issues,41
+WSEM,Media,6
+WSEM,Politics and Policy,56
+WSEM,Repeatable Topics,36
+WSEM,Research,17
+WSEM,Social Issues,11
+WSEM,Washington,166
+WSEM,,49

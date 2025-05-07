@@ -38,8 +38,21 @@ df <- fread("all_catalogs3.csv")
 
 df$index = 1:nrow(df)
 
-df2 <- df2 %>%
+df3 <- df2 %>%
   right_join(df, by = join_by(document == index))
 
 fwrite(df2, "topics_data.csv")
+#top_topics$document %>% unique() %>% length()
+top_topics <- course_gamma %>%
+  group_by(document) %>%
+  mutate(max_gamma = max(gamma), document = as.integer(document)) %>%
+  filter(gamma == max_gamma) %>%
+  select(document, top_topic = topic_name, top_topic_gamma = max_gamma)
+df4 <- df3 %>%
+  left_join(top_topics, by = "document")
+fwrite(df4, file = "top_topics.csv")
+
+dept_topics <- df4 %>%
+  group_by(dept, top_topic) %>%
+  summarize(n = n())
 
