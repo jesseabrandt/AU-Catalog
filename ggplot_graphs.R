@@ -5,6 +5,9 @@ library(dplyr)
 
 budget_allocation <- read_csv("budget_allocation.csv")
 budget_allocation <- budget_allocation[ , -1]
+# budget_allocation <- budget_allocation |>
+  # mutate(academic_year = paste(year, year+1, sep = "-"))
+# write_csv(budget_allocation, "budget_allocation.csv")
 all_catalogs3 <- read_csv("all_catalogs3.csv")
 all_catalogs3 <- all_catalogs3[ , -1]
 
@@ -32,6 +35,7 @@ budget_pct_change <- budget_allocation |>
     pct_increase = (year_2024 - year_2014) / year_2014 * 100) |>
   select(school, year_2014, year_2024, pct_increase) |>
   arrange(desc(pct_increase))
+write_csv(budget_pct_change, "budget_pct_change.csv")
 
 print(budget_pct_change)
 
@@ -127,8 +131,9 @@ school_count_budget_2 <- budget_allocation |>
 classes_by_school_2 <- left_join(school_count_2, school_count_budget_2, by = c("school", "year"))
 
 classes_by_school_2 <- classes_by_school_2 |>
-  mutate(budget_divided_by_classes = budget/n)
-
+  mutate(budget_divided_by_classes = budget/n) |>
+  mutate(academic_year = paste(year, year+1, sep = "-"))
+write_csv(classes_by_school_2, "classes_by_school_2.csv")
 ggplot(classes_by_school_2, aes(x = year, y = budget_divided_by_classes, color = school, fill = school)) +  
   geom_line() +
   geom_point(shape = 21, size = 1) +  

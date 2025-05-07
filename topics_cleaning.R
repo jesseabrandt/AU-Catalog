@@ -53,6 +53,6 @@ df4 <- df3 %>%
 fwrite(df4, file = "top_topics.csv")
 
 dept_topics <- df4 %>%
-  group_by(dept, top_topic) %>%
+  group_by(dept, top_topic, fall) %>%
   summarize(n = n())
 fwrite(dept_topics, file = "dept_topics.csv")

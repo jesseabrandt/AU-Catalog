@@ -57,13 +57,27 @@ ui <- fluidPage(titlePanel("American University Catalog"),
                     uiOutput("selectedLink")
                     #textOutput("moreInfo")
                   )),
-              tabPanel(title = "Analysis")
+              tabPanel(title = "Budget Visualizations", fluidPage(
+                h2("Budget Analysis"),
+                plotOutput("budget_by_school"),
+                plotOutput(("class_budget"))
+              )
+                       ),
+              tabPanel(title = "Yearly Analysis", fluidPage(
+                h2("Choose a Year"),
+                selectInput("yearInput2",label = "Academic Year", 
+                            choices =c("2024-2025", "2023-2024", "2022-2023", "2021-2022",
+                                       "2020-2021", "2019-2020", "2018-2019", "2017-2018", 
+                                       "2016-2017", "2015-2016", "2014-2015")),
+                plotOutput("class_num"),
+                plotOutput("year_budget")
+              ))
               )
 )
 
 ######## SERVER
 server <- function(input, output) {
-  courses <- read_csv("data_placeholder.csv")
+  courses <- read_csv("data_placeholder3.csv")
   #implement year = All, filter or don't filter years in search results
   
   # Trying to find a way to just do the search once
@@ -167,6 +181,92 @@ server <- function(input, output) {
         arrange(fall)
       #paste("First offered:", past_versions$academic_year[[1]])
     }
+  )
+  
+  #Budget Analysis Section
+  budget_allocation <- read_csv("budget_allocation.csv")
+  budget_pct_change <- read_csv("budget_pct_change.csv")
+  output$budget_by_school <- renderPlot(
+    ggplot(budget_allocation, aes(x = year, y = budget, color = school)) +
+      geom_line(size = 1.2) +
+      geom_point(size = 2) +
+      labs(
+        title = "Budget Allocation by School (2014–2024)",
+        x = "Year",
+        y = "Budget (in thousands)",
+        color = "School"
+      ) +
+      scale_y_continuous(labels = scales::comma) +
+      theme_minimal() +
+      scale_color_brewer(palette = "Set2") + 
+      scale_fill_brewer(palette = "Set2") +  
+      theme(
+        plot.title = element_text(face = "bold", size = 16),
+        axis.title = element_text(size = 12),
+        legend.position = "bottom"
+      )
+  )
+  classes_by_school_2 <- read_csv("classes_by_school_2.csv")
+  output$class_budget <- renderPlot(
+    ggplot(classes_by_school_2, aes(x = year, y = budget_divided_by_classes, color = school, fill = school)) +  
+      geom_line() +
+      geom_point(shape = 21, size = 1) +  
+      labs(
+        title = "Budget Divided by Classes Over Time",
+        x = "Year",
+        y = "Budget per Class"
+      ) +
+      scale_color_brewer(palette = "Set2") + 
+      scale_fill_brewer(palette = "Set2") +  
+      theme_minimal() +
+      theme(plot.title = element_text(face = "bold", size = 16),
+            axis.text.x = element_text(angle = 45, hjust = 1))  
+  )
+  
+  
+  output$class_num <- renderPlot(
+    courses %>%
+      filter(academic_year == input$yearInput2) |>
+      group_by(school) |> 
+      tally() |>
+      ggplot( aes(x = reorder(school, n), y = n, fill = school)) +
+      geom_bar(stat = "identity", position = "dodge") +
+      labs(
+        title = "Number of Classes by School",
+        x = "School",
+        y = "Number of Classes",
+        fill = "School"
+      ) +
+      scale_color_brewer(palette = "Set2") + 
+      scale_fill_brewer(palette = "Set2") + 
+      theme_minimal() +
+      theme(
+        plot.title = element_text(face = "bold", size = 16),
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        axis.text.y = element_text(size = 8)
+      )
+    
+  )
+  output$year_budget <- renderPlot(
+    budget_allocation %>%
+      filter(academic_year == input$yearInput2) %>%
+    ggplot(aes(x = reorder(school, budget), y = budget, fill = school)) +
+      geom_col() +
+      labs(
+        title = "Budget Allocation by School",
+        x = "School",
+        y = "Budget (in thousands)",
+        color = "School"
+      ) +
+      scale_y_continuous(labels = scales::comma) +
+      theme_minimal() +
+      scale_color_brewer(palette = "Set2") + 
+      scale_fill_brewer(palette = "BrBG") +  
+      theme(
+        axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+        plot.title = element_text(face = "bold", size = 16),
+        axis.title = element_text(size = 12)
+      )
   )
   
 }

@@ -1,946 +1,7051 @@
-dept,top_topic,n
-ACCT,Business,21
-ACCT,Capstone,10
-ACCT,Community Health,3
-ACCT,Education,4
-ACCT,Finance,18
-ACCT,Information Technology,4
-ACCT,Management,69
-ACCT,Politics and Policy,3
-ACCT,Psychology,10
-ACCT,Repeatable Topics,7
-ACCT,Research,2
-ACCT,Social Issues,8
-ACCT,,14
-AFAM,Arts,7
-AFAM,Capstone,4
-AFAM,Community Health,8
-AFAM,Gender/Race/Identity,1
-AFAM,History,13
-AFAM,,8
-AMGT,Arts,2
-AMGT,Business,6
-AMGT,Capstone,10
-AMGT,Finance,2
-AMGT,Management,8
-AMGT,Media,4
-AMGT,Politics and Policy,6
-AMGT,Research,16
-AMGT,Social Issues,10
-AMGT,Washington,2
-AMGT,,3
-AMST,Arts,3
-AMST,Capstone,31
-AMST,Community Health,24
-AMST,Education,7
-AMST,Gender/Race/Identity,9
-AMST,History,43
-AMST,Languages,6
-AMST,Psychology,5
-AMST,Repeatable Topics,4
-AMST,Washington,8
-AMST,,21
-ANTH,Arts,1
-ANTH,Capstone,63
-ANTH,Community Health,91
-ANTH,Education,83
-ANTH,Gender/Race/Identity,94
-ANTH,History,48
-ANTH,Information Technology,41
-ANTH,International Issues,33
-ANTH,Languages,8
-ANTH,Management,3
-ANTH,Media,21
-ANTH,Psychology,7
-ANTH,Repeatable Topics,34
-ANTH,Research,60
-ANTH,Social Issues,115
-ANTH,Washington,36
-ANTH,,54
-APDS,Arts,9
-APDS,Capstone,10
-APDS,Education,2
-APDS,History,15
-APDS,Repeatable Topics,6
-APDS,,15
-APM,Management,48
-ARAB,Capstone,29
-ARAB,Community Health,13
-ARAB,Education,10
-ARAB,Languages,195
-ARAB,Politics and Policy,11
-ARAB,Repeatable Topics,10
-ARAB,,27
-ARTH,Arts,543
-ARTH,Capstone,33
-ARTH,Education,22
-ARTH,Repeatable Topics,39
-ARTH,Research,48
-ARTH,Social Issues,46
-ARTH,,42
-ARTS,Arts,105
-ARTS,Capstone,52
-ARTS,Community Health,13
-ARTS,Education,20
-ARTS,Finance,119
-ARTS,Gender/Race/Identity,5
-ARTS,Information Technology,3
-ARTS,Management,64
-ARTS,Media,9
-ARTS,Repeatable Topics,36
-ARTS,Research,24
-ARTS,,49
-ASIA,Arts,12
-ASIA,Capstone,11
-ASIA,Education,8
-ASIA,History,10
-ASIA,Politics and Policy,2
-ASIA,Repeatable Topics,26
-ASIA,,20
-ATEC,Capstone,8
-ATEC,Community Health,12
-ATEC,Education,32
-ATEC,Finance,12
-ATEC,Information Technology,331
-ATEC,Media,12
-ATEC,Repeatable Topics,35
-ATEC,Research,16
-ATEC,,48
-AWST,Arts,8
-AWST,Capstone,14
-AWST,Community Health,1
-AWST,Education,8
-AWST,Gender/Race/Identity,2
-AWST,History,13
-AWST,International Issues,12
-AWST,Media,7
-AWST,Politics and Policy,4
-AWST,Psychology,7
-AWST,Repeatable Topics,23
-AWST,,35
-BEHS,Capstone,3
-BEHS,Community Health,1
-BEHS,Education,2
-BEHS,Finance,1
-BEHS,Politics and Policy,1
-BEHS,Repeatable Topics,1
-BEHS,Research,1
-BEHS,Washington,1
-BEHS,,1
-BIO,Capstone,86
-BIO,Community Health,97
-BIO,Education,52
-BIO,Finance,15
-BIO,Gender/Race/Identity,41
-BIO,Information Technology,58
-BIO,Politics and Policy,12
-BIO,Psychology,96
-BIO,Quantitative Analysis,13
-BIO,Repeatable Topics,205
-BIO,Research,54
-BIO,Social Issues,16
-BIO,,48
-CAS,Capstone,30
-CAS,Community Health,20
-CAS,Education,31
-CAS,Gender/Race/Identity,12
-CAS,Research,70
-CAS,Social Issues,2
-CAS,Washington,11
-CAS,,22
-CHEM,Capstone,104
-CHEM,Education,18
-CHEM,Gender/Race/Identity,11
-CHEM,International Issues,38
-CHEM,Quantitative Analysis,141
-CHEM,Repeatable Topics,347
-CHEM,Research,114
-CHEM,,42
-CHIN,Arts,2
-CHIN,Capstone,26
-CHIN,Community Health,9
-CHIN,Education,3
-CHIN,Languages,248
-CHIN,Repeatable Topics,16
-CHIN,,28
-COMM,Arts,76
-COMM,Business,36
-COMM,Capstone,82
-COMM,Community Health,12
-COMM,Education,69
-COMM,Finance,287
-COMM,History,29
-COMM,Information Technology,49
-COMM,International Issues,38
-COMM,Languages,2
-COMM,Management,68
-COMM,Media,1548
-COMM,Politics and Policy,101
-COMM,Quantitative Analysis,9
-COMM,Repeatable Topics,28
-COMM,Research,120
-COMM,Social Issues,32
-COMM,Washington,30
-COMM,,40
-CORE,Arts,85
-CORE,Community Health,6
-CORE,Education,14
-CORE,Gender/Race/Identity,24
-CORE,Washington,21
-CORE,,9
-CRGC,Capstone,17
-CRGC,Gender/Race/Identity,10
-CRGC,Research,5
-CRGC,,24
-CSC,Business,14
-CSC,Capstone,67
-CSC,Community Health,26
-CSC,Education,29
-CSC,Finance,32
-CSC,Information Technology,350
-CSC,Management,18
-CSC,Quantitative Analysis,54
-CSC,Repeatable Topics,17
-CSC,Research,2
-CSC,Social Issues,27
-CSC,,40
-DATA,Capstone,18
-DATA,Education,4
-DATA,Quantitative Analysis,48
-DATA,Research,4
-DATA,,20
-DNCE,Arts,109
-DNCE,Business,19
-DNCE,Capstone,26
-DNCE,Community Health,1
-DNCE,Education,7
-DNCE,Gender/Race/Identity,5
-DNCE,Psychology,15
-DNCE,Research,1
-DNCE,,20
-ECON,Business,11
-ECON,Capstone,74
-ECON,Community Health,44
-ECON,Education,66
-ECON,Finance,64
-ECON,Gender/Race/Identity,66
-ECON,History,27
-ECON,International Issues,165
-ECON,Media,7
-ECON,Politics and Policy,149
-ECON,Psychology,146
-ECON,Quantitative Analysis,208
-ECON,Repeatable Topics,35
-ECON,Research,58
-ECON,Social Issues,35
-ECON,Washington,16
-ECON,,55
-EDU,Business,134
-EDU,Capstone,474
-EDU,Community Health,30
-EDU,Education,282
-EDU,Finance,18
-EDU,Gender/Race/Identity,59
-EDU,Information Technology,27
-EDU,International Issues,23
-EDU,Languages,15
-EDU,Management,13
-EDU,Media,5
-EDU,Politics and Policy,47
-EDU,Psychology,231
-EDU,Quantitative Analysis,29
-EDU,Repeatable Topics,41
-EDU,Research,115
-EDU,Social Issues,73
-EDU,,55
-ELTA,Capstone,4
-ELTA,Education,26
-ELTA,History,21
-ELTA,Languages,13
-ELTA,Media,9
-ELTA,Repeatable Topics,4
-ELTA,Research,85
-ELTA,Washington,7
-ELTA,,13
-ENVS,Capstone,54
-ENVS,Community Health,99
-ENVS,Education,9
-ENVS,Finance,14
-ENVS,Gender/Race/Identity,3
-ENVS,Information Technology,33
-ENVS,International Issues,148
-ENVS,Management,23
-ENVS,Politics and Policy,30
-ENVS,Quantitative Analysis,4
-ENVS,Repeatable Topics,39
-ENVS,Research,79
-ENVS,Washington,22
-ENVS,,48
-FIN,Capstone,36
-FIN,Community Health,8
-FIN,Education,20
-FIN,Finance,268
-FIN,International Issues,21
-FIN,Management,93
-FIN,Quantitative Analysis,116
-FIN,Repeatable Topics,45
-FIN,,54
-FREN,Arts,8
-FREN,Capstone,31
-FREN,Community Health,22
-FREN,Education,35
-FREN,Gender/Race/Identity,2
-FREN,History,66
-FREN,Languages,207
-FREN,Repeatable Topics,24
-FREN,,42
-GAME,Capstone,13
-GAME,Education,9
-GAME,Finance,20
-GAME,Information Technology,20
-GAME,Media,48
-GAME,Repeatable Topics,7
-GAME,Research,19
-GAME,,14
-GDES,Capstone,24
-GDES,Education,9
-GDES,Finance,138
-GDES,Information Technology,38
-GDES,Repeatable Topics,16
-GDES,,28
-GERM,Arts,27
-GERM,Capstone,32
-GERM,Community Health,6
-GERM,Education,12
-GERM,Gender/Race/Identity,11
-GERM,History,34
-GERM,Languages,145
-GERM,Repeatable Topics,8
-GERM,,21
-GNED,Capstone,20
-GNED,Education,50
-GOVT,Arts,85
-GOVT,Business,26
-GOVT,Capstone,96
-GOVT,Community Health,38
-GOVT,Education,45
-GOVT,Finance,10
-GOVT,Gender/Race/Identity,75
-GOVT,History,126
-GOVT,Information Technology,27
-GOVT,International Issues,31
-GOVT,Languages,1
-GOVT,Media,67
-GOVT,Politics and Policy,778
-GOVT,Quantitative Analysis,49
-GOVT,Repeatable Topics,55
-GOVT,Research,52
-GOVT,Social Issues,32
-GOVT,Washington,103
-GOVT,,40
-HCS,Business,22
-HCS,Community Health,15
-HCS,Management,40
-HCS,Politics and Policy,5
-HCS,Research,2
-HEBR,Community Health,6
-HEBR,Education,3
-HEBR,Languages,66
-HEBR,Repeatable Topics,12
-HEBR,,21
-HFIT,Business,3
-HFIT,Capstone,15
-HFIT,Community Health,25
-HFIT,Education,23
-HFIT,Finance,1
-HFIT,Gender/Race/Identity,2
-HFIT,Languages,22
-HFIT,Management,1
-HFIT,Politics and Policy,1
-HFIT,Psychology,117
-HFIT,Quantitative Analysis,2
-HFIT,Repeatable Topics,13
-HFIT,Research,46
-HFIT,,14
-HIST,Arts,172
-HIST,Business,2
-HIST,Capstone,61
-HIST,Community Health,63
-HIST,Education,52
-HIST,Finance,4
-HIST,Gender/Race/Identity,70
-HIST,History,925
-HIST,Politics and Policy,44
-HIST,Psychology,4
-HIST,Quantitative Analysis,32
-HIST,Repeatable Topics,145
-HIST,Research,76
-HIST,Social Issues,3
-HIST,Washington,84
-HIST,,55
-HLTH,Business,47
-HLTH,Capstone,35
-HLTH,Community Health,142
-HLTH,Education,12
-HLTH,Finance,11
-HLTH,Gender/Race/Identity,19
-HLTH,International Issues,12
-HLTH,Management,7
-HLTH,Media,6
-HLTH,Politics and Policy,21
-HLTH,Psychology,138
-HLTH,Quantitative Analysis,25
-HLTH,Research,21
-HLTH,Social Issues,32
-HLTH,,42
-HNRS,Capstone,148
-HNRS,Community Health,14
-HNRS,Repeatable Topics,9
-HNRS,Research,5
-HNRS,Washington,5
-HNRS,,20
-HPRM,Business,11
-HPRM,Capstone,9
-HPRM,Community Health,44
-HPRM,Education,3
-HPRM,Finance,3
-HPRM,Gender/Race/Identity,6
-HPRM,Management,3
-HPRM,Politics and Policy,3
-HPRM,Psychology,59
-HPRM,Quantitative Analysis,6
-HPRM,Repeatable Topics,18
-HPRM,Research,7
-HRAM,Business,26
-HRAM,Management,24
-IBUS,Business,110
-IBUS,Capstone,35
-IBUS,Community Health,7
-IBUS,Education,36
-IBUS,Finance,64
-IBUS,History,7
-IBUS,Information Technology,11
-IBUS,International Issues,106
-IBUS,Languages,13
-IBUS,Management,12
-IBUS,Repeatable Topics,38
-IBUS,Research,4
-IBUS,Washington,15
-IBUS,,55
-IDIS,Community Health,12
-IDIS,Repeatable Topics,5
-IDIS,Research,6
-IDIS,Social Issues,3
-IDIS,Washington,5
-IDIS,,20
-IDLA,Business,30
-IDLA,Information Technology,2
-IDLA,Management,8
-IDLA,Psychology,8
-IGP,Education,1
-IGP,History,1
-IGP,Media,1
-IGP,Repeatable Topics,2
-IGP,Research,4
-ISCI,Business,15
-ISCI,Capstone,34
-ISCI,Community Health,6
-ISCI,Information Technology,12
-ISCI,Media,11
-ISCI,Politics and Policy,1
-ISCI,Repeatable Topics,6
-ISCI,Research,1
-ISCI,,34
-ISR,Capstone,20
-ISR,Education,7
-ISR,History,16
-ISR,Politics and Policy,10
-ISR,Repeatable Topics,16
-ISR,,28
-ITAL,Arts,11
-ITAL,Capstone,24
-ITAL,Community Health,6
-ITAL,Education,12
-ITAL,Languages,66
-ITAL,Repeatable Topics,12
-ITAL,,21
-ITEC,Business,49
-ITEC,Capstone,37
-ITEC,Education,14
-ITEC,Finance,30
-ITEC,Information Technology,103
-ITEC,Management,237
-ITEC,Media,5
-ITEC,Politics and Policy,8
-ITEC,Psychology,8
-ITEC,Quantitative Analysis,35
-ITEC,Repeatable Topics,12
-ITEC,Social Issues,11
-ITEC,Washington,77
-ITEC,,21
-JAPN,Arts,3
-JAPN,Capstone,27
-JAPN,Community Health,6
-JAPN,Education,4
-JAPN,History,6
-JAPN,Languages,73
-JAPN,Repeatable Topics,12
-JAPN,,24
-JLC,Arts,1
-JLC,Business,24
-JLC,Capstone,58
-JLC,Community Health,23
-JLC,Education,35
-JLC,Finance,32
-JLC,Gender/Race/Identity,67
-JLC,History,40
-JLC,Information Technology,22
-JLC,International Issues,74
-JLC,Languages,11
-JLC,Management,22
-JLC,Politics and Policy,356
-JLC,Psychology,66
-JLC,Quantitative Analysis,34
-JLC,Repeatable Topics,29
-JLC,Research,45
-JLC,Social Issues,451
-JLC,Washington,29
-JLC,,48
-JWST,Arts,24
-JWST,Capstone,66
-JWST,Community Health,2
-JWST,Education,11
-JWST,History,9
-JWST,Repeatable Topics,24
-JWST,,42
-KOR,Arts,2
-KOR,Community Health,6
-KOR,Education,3
-KOR,Gender/Race/Identity,6
-KOR,Languages,53
-KOR,Repeatable Topics,8
-KOR,,20
-KSB,Business,153
-KSB,Capstone,64
-KSB,Education,43
-KSB,Finance,4
-KSB,Gender/Race/Identity,1
-KSB,International Issues,5
-KSB,Languages,108
-KSB,Management,16
-KSB,Media,9
-KSB,Quantitative Analysis,4
-KSB,Repeatable Topics,25
-KSB,Research,53
-KSB,Washington,21
-KSB,,48
-LING,Business,2
-LING,Capstone,3
-LING,Community Health,1
-LING,Education,1
-LING,Gender/Race/Identity,4
-LING,Information Technology,8
-LING,Languages,9
-LING,Research,4
-LING,,5
-LIT,Arts,657
-LIT,Capstone,75
-LIT,Community Health,30
-LIT,Education,42
-LIT,Finance,79
-LIT,Gender/Race/Identity,21
-LIT,History,117
-LIT,International Issues,3
-LIT,Languages,29
-LIT,Management,13
-LIT,Media,44
-LIT,Politics and Policy,3
-LIT,Psychology,6
-LIT,Quantitative Analysis,6
-LIT,Repeatable Topics,32
-LIT,Research,85
-LIT,Washington,7
-LIT,,55
-LTST,Capstone,6
-LTST,Community Health,12
-LTST,Education,10
-LTST,Gender/Race/Identity,14
-LTST,,20
-MATH,Capstone,74
-MATH,Community Health,40
-MATH,Education,32
-MATH,Gender/Race/Identity,148
-MATH,Information Technology,13
-MATH,Management,12
-MATH,Psychology,32
-MATH,Quantitative Analysis,284
-MATH,Repeatable Topics,61
-MATH,Research,8
-MATH,,41
-MGMT,Business,377
-MGMT,Capstone,40
-MGMT,Community Health,33
-MGMT,Education,20
-MGMT,Finance,12
-MGMT,Information Technology,11
-MGMT,International Issues,54
-MGMT,Management,44
-MGMT,Media,29
-MGMT,Politics and Policy,33
-MGMT,Psychology,10
-MGMT,Repeatable Topics,39
-MGMT,Social Issues,17
-MGMT,Washington,10
-MGMT,,49
-MKTG,Business,207
-MKTG,Capstone,35
-MKTG,Community Health,12
-MKTG,Education,20
-MKTG,Gender/Race/Identity,4
-MKTG,Media,91
-MKTG,Psychology,19
-MKTG,Repeatable Topics,31
-MKTG,Research,16
-MKTG,Washington,14
-MKTG,,35
-MUS,Arts,12
-MUS,Business,8
-MUS,Capstone,34
-MUS,Finance,12
-MUS,Gender/Race/Identity,1
-MUS,Management,78
-MUS,Psychology,2
-MUS,Repeatable Topics,2
-MUS,Washington,16
-MUS,,5
-NEUR,Capstone,59
-NEUR,Community Health,8
-NEUR,Education,26
-NEUR,Finance,4
-NEUR,Gender/Race/Identity,7
-NEUR,Information Technology,1
-NEUR,Psychology,67
-NEUR,Quantitative Analysis,5
-NEUR,Repeatable Topics,28
-NEUR,Research,28
-NEUR,,33
-OGIS,Capstone,11
-OGIS,Education,8
-OGIS,Research,3
-OGIS,Washington,6
-OGIS,,17
-PERF,Arts,332
-PERF,Business,78
-PERF,Capstone,81
-PERF,Community Health,11
-PERF,Education,95
-PERF,Finance,69
-PERF,Gender/Race/Identity,7
-PERF,Information Technology,52
-PERF,Languages,6
-PERF,Management,157
-PERF,Media,21
-PERF,Politics and Policy,9
-PERF,Psychology,156
-PERF,Repeatable Topics,54
-PERF,Research,23
-PERF,Social Issues,27
-PERF,Washington,156
-PERF,,55
-PERS,Languages,44
-PHIL,Arts,50
-PHIL,Capstone,38
-PHIL,Community Health,30
-PHIL,Education,11
-PHIL,Gender/Race/Identity,310
-PHIL,History,8
-PHIL,Quantitative Analysis,11
-PHIL,Repeatable Topics,47
-PHIL,Research,11
-PHIL,Social Issues,88
-PHIL,Washington,76
-PHIL,,42
-PHYS,Arts,6
-PHYS,Capstone,24
-PHYS,Community Health,22
-PHYS,Education,11
-PHYS,Information Technology,32
-PHYS,Management,6
-PHYS,Quantitative Analysis,146
-PHYS,Repeatable Topics,22
-PHYS,Research,25
-PHYS,Social Issues,5
-PHYS,Washington,5
-PHYS,,28
-PME,Business,41
-PME,Management,1
-PME,Quantitative Analysis,1
-PME,Research,3
-PORT,Community Health,3
-PORT,Education,3
-PORT,Gender/Race/Identity,6
-PORT,Languages,62
-PORT,Repeatable Topics,8
-PORT,,14
-PROF,Business,32
-PROF,Capstone,4
-PROF,Education,4
-PROF,Management,8
-PROF,Quantitative Analysis,4
-PROF,Research,4
-PROF,,11
-PSM,Business,11
-PSM,Capstone,13
-PSM,Community Health,5
-PSM,Education,9
-PSM,Repeatable Topics,1
-PSM,,7
-PSYC,Arts,2
-PSYC,Business,26
-PSYC,Capstone,73
-PSYC,Community Health,55
-PSYC,Education,53
-PSYC,Finance,9
-PSYC,Gender/Race/Identity,43
-PSYC,Information Technology,13
-PSYC,Languages,2
-PSYC,Psychology,591
-PSYC,Quantitative Analysis,19
-PSYC,Repeatable Topics,35
-PSYC,Research,82
-PSYC,Social Issues,79
-PSYC,Washington,6
-PSYC,,42
-PUAD,Business,263
-PUAD,Capstone,17
-PUAD,Education,35
-PUAD,Finance,16
-PUAD,Gender/Race/Identity,6
-PUAD,Information Technology,17
-PUAD,International Issues,34
-PUAD,Management,106
-PUAD,Politics and Policy,151
-PUAD,Psychology,40
-PUAD,Quantitative Analysis,75
-PUAD,Repeatable Topics,29
-PUAD,Research,83
-PUAD,Social Issues,138
-PUAD,,48
-PUBH,Capstone,8
-PUBH,Community Health,29
-PUBH,Education,4
-PUBH,Quantitative Analysis,6
-PUBH,Repeatable Topics,16
-PUBH,Research,2
-PUBH,Social Issues,11
-REAL,Capstone,46
-REAL,Education,18
-REAL,Finance,24
-REAL,International Issues,4
-REAL,Management,68
-REAL,Repeatable Topics,1
-REAL,Washington,12
-REAL,,7
-RELG,Arts,65
-RELG,Capstone,48
-RELG,Community Health,27
-RELG,Education,9
-RELG,Gender/Race/Identity,34
-RELG,History,23
-RELG,Repeatable Topics,123
-RELG,Research,1
-RELG,Washington,28
-RELG,,49
-RUSS,Capstone,39
-RUSS,Community Health,6
-RUSS,Education,21
-RUSS,History,23
-RUSS,International Issues,17
-RUSS,Languages,132
-RUSS,Repeatable Topics,16
-RUSS,Washington,2
-RUSS,,28
-SABD,Capstone,22
-SABD,Education,27
-SABD,Languages,104
-SAM,Business,9
-SAM,Management,9
-SAM,Media,27
-SIS,Arts,11
-SIS,Business,19
-SIS,Capstone,147
-SIS,Education,181
-SIS,Finance,65
-SIS,Gender/Race/Identity,30
-SIS,History,68
-SIS,Information Technology,25
-SIS,International Issues,518
-SIS,Management,16
-SIS,Media,16
-SIS,Politics and Policy,258
-SIS,Psychology,28
-SIS,Quantitative Analysis,18
-SIS,Repeatable Topics,31
-SIS,Research,215
-SIS,Social Issues,73
-SIS,,20
-SISA,Arts,4
-SISA,Capstone,120
-SISA,International Issues,825
-SISA,Languages,3
-SISG,Business,8
-SISG,Finance,8
-SISG,History,10
-SISG,International Issues,61
-SISG,Management,8
-SISG,Politics and Policy,14
-SISG,Psychology,10
-SISG,Research,11
-SISG,Social Issues,3
-SISU,Arts,27
-SISU,Business,11
-SISU,Capstone,168
-SISU,Community Health,55
-SISU,Education,25
-SISU,Gender/Race/Identity,87
-SISU,History,173
-SISU,International Issues,504
-SISU,Media,11
-SISU,Politics and Policy,159
-SISU,Psychology,11
-SISU,Repeatable Topics,60
-SISU,Research,31
-SISU,Social Issues,8
-SISU,,21
-SOCY,Arts,45
-SOCY,Business,1
-SOCY,Capstone,59
-SOCY,Community Health,48
-SOCY,Education,32
-SOCY,Gender/Race/Identity,167
-SOCY,History,26
-SOCY,International Issues,18
-SOCY,Politics and Policy,49
-SOCY,Quantitative Analysis,39
-SOCY,Repeatable Topics,28
-SOCY,Research,88
-SOCY,Social Issues,119
-SOCY,Washington,2
-SOCY,,49
-SPA,Business,10
-SPA,Capstone,37
-SPA,Community Health,32
-SPA,Education,13
-SPA,International Issues,5
-SPA,Management,5
-SPA,Politics and Policy,88
-SPA,Psychology,1
-SPA,Quantitative Analysis,46
-SPA,Repeatable Topics,9
-SPA,Research,30
-SPA,Social Issues,13
-SPA,Washington,14
-SPA,,35
-SPAN,Business,3
-SPAN,Capstone,38
-SPAN,Community Health,48
-SPAN,Education,36
-SPAN,History,245
-SPAN,Languages,280
-SPAN,Media,22
-SPAN,Repeatable Topics,20
-SPAN,,35
-SPEX,Business,33
-SPEX,Capstone,18
-SPEX,Education,27
-SPEX,International Issues,3
-SPEX,Management,11
-SPEX,Quantitative Analysis,6
-SPEX,Repeatable Topics,28
-SPEX,Research,14
-SPEX,Washington,11
-SPEX,,21
-STAT,Capstone,43
-STAT,Community Health,27
-STAT,Education,9
-STAT,Gender/Race/Identity,15
-STAT,Quantitative Analysis,408
-STAT,Repeatable Topics,28
-STAT,Research,20
-STAT,,49
-SWAH,Community Health,3
-SWAH,Education,3
-SWAH,Languages,79
-SWAH,Repeatable Topics,6
-SWAH,,14
-TEFL,Business,6
-TEFL,Languages,32
-TEFL,Repeatable Topics,3
-TEFL,Research,4
-TESL,Business,32
-TESL,Capstone,28
-TESL,Community Health,9
-TESL,Education,46
-TESL,Gender/Race/Identity,4
-TESL,Information Technology,18
-TESL,Languages,202
-TESL,Psychology,4
-TESL,Repeatable Topics,18
-TESL,Research,22
-TESL,,35
-THTR,Arts,5
-THTR,Business,2
-THTR,Capstone,5
-THTR,Education,3
-THTR,Finance,3
-THTR,Information Technology,4
-THTR,Management,4
-THTR,Media,1
-THTR,Psychology,13
-THTR,,5
-UCOL,Education,24
-UGST,Business,11
-UGST,Capstone,3
-UGST,Community Health,1
-UGST,Education,2
-UGST,Repeatable Topics,2
-UGST,Research,4
-UGST,Washington,12
-UGST,,9
-WGSS,Arts,14
-WGSS,Capstone,52
-WGSS,Community Health,38
-WGSS,Gender/Race/Identity,106
-WGSS,History,6
-WGSS,International Issues,12
-WGSS,Languages,2
-WGSS,Repeatable Topics,10
-WGSS,Research,7
-WGSS,,38
-WLC,Capstone,12
-WLC,Community Health,6
-WLC,Education,3
-WLC,History,1
-WLC,,22
-WRT,Arts,5
-WRT,Capstone,1
-WRT,Community Health,11
-WRT,Gender/Race/Identity,1
-WRT,Languages,3
-WRT,Media,19
-WRT,Research,41
-WRTG,Arts,1
-WRTG,Capstone,4
-WRTG,Community Health,5
-WRTG,Media,2
-WRTG,Research,35
-WSEM,Capstone,6
-WSEM,Education,2
-WSEM,International Issues,41
-WSEM,Media,6
-WSEM,Politics and Policy,56
-WSEM,Repeatable Topics,36
-WSEM,Research,17
-WSEM,Social Issues,11
-WSEM,Washington,166
-WSEM,,49
+dept,top_topic,fall,n
+ACCT,Business,2014,7
+ACCT,Business,2023,7
+ACCT,Business,2024,7
+ACCT,Capstone,2014,2
+ACCT,Capstone,2023,4
+ACCT,Capstone,2024,4
+ACCT,Community Health,2014,1
+ACCT,Community Health,2023,1
+ACCT,Community Health,2024,1
+ACCT,Education,2014,2
+ACCT,Education,2023,1
+ACCT,Education,2024,1
+ACCT,Finance,2014,5
+ACCT,Finance,2023,6
+ACCT,Finance,2024,7
+ACCT,Information Technology,2014,1
+ACCT,Information Technology,2023,2
+ACCT,Information Technology,2024,1
+ACCT,Management,2014,24
+ACCT,Management,2023,25
+ACCT,Management,2024,20
+ACCT,Politics and Policy,2014,2
+ACCT,Politics and Policy,2023,1
+ACCT,Psychology,2014,2
+ACCT,Psychology,2023,4
+ACCT,Psychology,2024,4
+ACCT,Repeatable Topics,2014,7
+ACCT,Research,2014,2
+ACCT,Social Issues,2014,2
+ACCT,Social Issues,2023,3
+ACCT,Social Issues,2024,3
+ACCT,,2023,7
+ACCT,,2024,7
+AFAM,Arts,2023,3
+AFAM,Arts,2024,4
+AFAM,Capstone,2023,2
+AFAM,Capstone,2024,2
+AFAM,Community Health,2023,4
+AFAM,Community Health,2024,4
+AFAM,Gender/Race/Identity,2024,1
+AFAM,History,2023,6
+AFAM,History,2024,7
+AFAM,,2023,4
+AFAM,,2024,4
+AMGT,Arts,2023,1
+AMGT,Arts,2024,1
+AMGT,Business,2023,3
+AMGT,Business,2024,3
+AMGT,Capstone,2022,2
+AMGT,Capstone,2023,4
+AMGT,Capstone,2024,4
+AMGT,Finance,2023,1
+AMGT,Finance,2024,1
+AMGT,Management,2023,4
+AMGT,Management,2024,4
+AMGT,Media,2023,2
+AMGT,Media,2024,2
+AMGT,Politics and Policy,2023,3
+AMGT,Politics and Policy,2024,3
+AMGT,Research,2022,4
+AMGT,Research,2023,6
+AMGT,Research,2024,6
+AMGT,Social Issues,2023,5
+AMGT,Social Issues,2024,5
+AMGT,Washington,2023,1
+AMGT,Washington,2024,1
+AMGT,,2022,1
+AMGT,,2023,1
+AMGT,,2024,1
+AMST,Arts,2022,1
+AMST,Arts,2023,1
+AMST,Arts,2024,1
+AMST,Capstone,2014,3
+AMST,Capstone,2019,4
+AMST,Capstone,2020,4
+AMST,Capstone,2021,5
+AMST,Capstone,2022,5
+AMST,Capstone,2023,5
+AMST,Capstone,2024,5
+AMST,Community Health,2014,3
+AMST,Community Health,2019,1
+AMST,Community Health,2020,2
+AMST,Community Health,2021,3
+AMST,Community Health,2022,5
+AMST,Community Health,2023,5
+AMST,Community Health,2024,5
+AMST,Education,2014,1
+AMST,Education,2019,1
+AMST,Education,2020,1
+AMST,Education,2021,1
+AMST,Education,2022,1
+AMST,Education,2023,1
+AMST,Education,2024,1
+AMST,Gender/Race/Identity,2014,1
+AMST,Gender/Race/Identity,2022,2
+AMST,Gender/Race/Identity,2023,3
+AMST,Gender/Race/Identity,2024,3
+AMST,History,2014,3
+AMST,History,2019,2
+AMST,History,2020,3
+AMST,History,2021,7
+AMST,History,2022,8
+AMST,History,2023,10
+AMST,History,2024,10
+AMST,Languages,2021,1
+AMST,Languages,2022,1
+AMST,Languages,2023,2
+AMST,Languages,2024,2
+AMST,Psychology,2014,1
+AMST,Psychology,2021,1
+AMST,Psychology,2022,1
+AMST,Psychology,2023,1
+AMST,Psychology,2024,1
+AMST,Repeatable Topics,2014,4
+AMST,Washington,2014,2
+AMST,Washington,2019,1
+AMST,Washington,2020,1
+AMST,Washington,2021,1
+AMST,Washington,2022,1
+AMST,Washington,2023,1
+AMST,Washington,2024,1
+AMST,,2019,3
+AMST,,2020,3
+AMST,,2021,3
+AMST,,2022,4
+AMST,,2023,4
+AMST,,2024,4
+ANTH,Arts,2014,1
+ANTH,Capstone,2014,11
+ANTH,Capstone,2015,5
+ANTH,Capstone,2016,6
+ANTH,Capstone,2017,4
+ANTH,Capstone,2018,4
+ANTH,Capstone,2019,4
+ANTH,Capstone,2020,4
+ANTH,Capstone,2021,4
+ANTH,Capstone,2022,4
+ANTH,Capstone,2023,6
+ANTH,Capstone,2024,6
+ANTH,Capstone,,5
+ANTH,Community Health,2014,5
+ANTH,Community Health,2015,1
+ANTH,Community Health,2016,8
+ANTH,Community Health,2017,8
+ANTH,Community Health,2018,8
+ANTH,Community Health,2019,10
+ANTH,Community Health,2020,10
+ANTH,Community Health,2021,10
+ANTH,Community Health,2022,10
+ANTH,Community Health,2023,10
+ANTH,Community Health,2024,10
+ANTH,Community Health,,1
+ANTH,Education,2014,12
+ANTH,Education,2015,6
+ANTH,Education,2016,7
+ANTH,Education,2017,7
+ANTH,Education,2018,7
+ANTH,Education,2019,7
+ANTH,Education,2020,7
+ANTH,Education,2021,7
+ANTH,Education,2022,7
+ANTH,Education,2023,5
+ANTH,Education,2024,5
+ANTH,Education,,6
+ANTH,Gender/Race/Identity,2014,11
+ANTH,Gender/Race/Identity,2015,5
+ANTH,Gender/Race/Identity,2016,5
+ANTH,Gender/Race/Identity,2017,5
+ANTH,Gender/Race/Identity,2018,4
+ANTH,Gender/Race/Identity,2019,10
+ANTH,Gender/Race/Identity,2020,10
+ANTH,Gender/Race/Identity,2021,10
+ANTH,Gender/Race/Identity,2022,10
+ANTH,Gender/Race/Identity,2023,10
+ANTH,Gender/Race/Identity,2024,10
+ANTH,Gender/Race/Identity,,4
+ANTH,History,2014,8
+ANTH,History,2015,2
+ANTH,History,2016,3
+ANTH,History,2017,3
+ANTH,History,2018,3
+ANTH,History,2019,5
+ANTH,History,2020,5
+ANTH,History,2021,5
+ANTH,History,2022,4
+ANTH,History,2023,4
+ANTH,History,2024,4
+ANTH,History,,2
+ANTH,Information Technology,2014,6
+ANTH,Information Technology,2015,2
+ANTH,Information Technology,2016,2
+ANTH,Information Technology,2017,3
+ANTH,Information Technology,2018,3
+ANTH,Information Technology,2019,4
+ANTH,Information Technology,2020,4
+ANTH,Information Technology,2021,4
+ANTH,Information Technology,2022,4
+ANTH,Information Technology,2023,3
+ANTH,Information Technology,2024,4
+ANTH,Information Technology,,2
+ANTH,International Issues,2014,1
+ANTH,International Issues,2017,4
+ANTH,International Issues,2018,4
+ANTH,International Issues,2019,4
+ANTH,International Issues,2020,4
+ANTH,International Issues,2021,4
+ANTH,International Issues,2022,4
+ANTH,International Issues,2023,4
+ANTH,International Issues,2024,4
+ANTH,Languages,2014,2
+ANTH,Languages,2019,1
+ANTH,Languages,2020,1
+ANTH,Languages,2021,1
+ANTH,Languages,2022,1
+ANTH,Languages,2023,1
+ANTH,Languages,2024,1
+ANTH,Management,2014,2
+ANTH,Management,,1
+ANTH,Media,2014,2
+ANTH,Media,2015,1
+ANTH,Media,2016,1
+ANTH,Media,2017,2
+ANTH,Media,2018,2
+ANTH,Media,2019,2
+ANTH,Media,2020,2
+ANTH,Media,2021,2
+ANTH,Media,2022,2
+ANTH,Media,2023,2
+ANTH,Media,2024,2
+ANTH,Media,,1
+ANTH,Psychology,2014,1
+ANTH,Psychology,2019,1
+ANTH,Psychology,2020,1
+ANTH,Psychology,2021,1
+ANTH,Psychology,2022,1
+ANTH,Psychology,2023,1
+ANTH,Psychology,2024,1
+ANTH,Repeatable Topics,2014,13
+ANTH,Repeatable Topics,2015,5
+ANTH,Repeatable Topics,2016,5
+ANTH,Repeatable Topics,2017,6
+ANTH,Repeatable Topics,,5
+ANTH,Research,2014,6
+ANTH,Research,2015,3
+ANTH,Research,2016,3
+ANTH,Research,2017,6
+ANTH,Research,2018,6
+ANTH,Research,2019,6
+ANTH,Research,2020,6
+ANTH,Research,2021,6
+ANTH,Research,2022,5
+ANTH,Research,2023,5
+ANTH,Research,2024,5
+ANTH,Research,,3
+ANTH,Social Issues,2014,18
+ANTH,Social Issues,2015,6
+ANTH,Social Issues,2016,8
+ANTH,Social Issues,2017,9
+ANTH,Social Issues,2018,10
+ANTH,Social Issues,2019,10
+ANTH,Social Issues,2020,10
+ANTH,Social Issues,2021,10
+ANTH,Social Issues,2022,9
+ANTH,Social Issues,2023,9
+ANTH,Social Issues,2024,9
+ANTH,Social Issues,,7
+ANTH,Washington,2014,4
+ANTH,Washington,2015,1
+ANTH,Washington,2016,2
+ANTH,Washington,2017,3
+ANTH,Washington,2018,3
+ANTH,Washington,2019,3
+ANTH,Washington,2020,3
+ANTH,Washington,2021,3
+ANTH,Washington,2022,4
+ANTH,Washington,2023,4
+ANTH,Washington,2024,4
+ANTH,Washington,,2
+ANTH,,2018,7
+ANTH,,2019,8
+ANTH,,2020,8
+ANTH,,2021,8
+ANTH,,2022,8
+ANTH,,2023,7
+ANTH,,2024,8
+APDS,Arts,2022,3
+APDS,Arts,2023,3
+APDS,Arts,2024,3
+APDS,Capstone,2022,2
+APDS,Capstone,2023,4
+APDS,Capstone,2024,4
+APDS,Education,2022,2
+APDS,History,2022,5
+APDS,History,2023,5
+APDS,History,2024,5
+APDS,Repeatable Topics,2022,2
+APDS,Repeatable Topics,2023,2
+APDS,Repeatable Topics,2024,2
+APDS,,2022,5
+APDS,,2023,5
+APDS,,2024,5
+APM,Management,2017,6
+APM,Management,2018,6
+APM,Management,2019,6
+APM,Management,2020,6
+APM,Management,2021,6
+APM,Management,2022,6
+APM,Management,2023,6
+APM,Management,2024,6
+ARAB,Capstone,2014,3
+ARAB,Capstone,2015,2
+ARAB,Capstone,2016,2
+ARAB,Capstone,2017,2
+ARAB,Capstone,2018,2
+ARAB,Capstone,2019,2
+ARAB,Capstone,2020,2
+ARAB,Capstone,2021,3
+ARAB,Capstone,2022,3
+ARAB,Capstone,2023,4
+ARAB,Capstone,2024,4
+ARAB,Community Health,2015,1
+ARAB,Community Health,2016,1
+ARAB,Community Health,2017,1
+ARAB,Community Health,2018,1
+ARAB,Community Health,2019,1
+ARAB,Community Health,2020,1
+ARAB,Community Health,2021,1
+ARAB,Community Health,2022,2
+ARAB,Community Health,2023,2
+ARAB,Community Health,2024,2
+ARAB,Education,2014,1
+ARAB,Education,2015,1
+ARAB,Education,2016,2
+ARAB,Education,2017,1
+ARAB,Education,2018,1
+ARAB,Education,2019,1
+ARAB,Education,2020,1
+ARAB,Education,2021,1
+ARAB,Education,2022,1
+ARAB,Languages,2014,20
+ARAB,Languages,2015,20
+ARAB,Languages,2016,21
+ARAB,Languages,2017,21
+ARAB,Languages,2018,21
+ARAB,Languages,2019,21
+ARAB,Languages,2020,21
+ARAB,Languages,2021,13
+ARAB,Languages,2022,13
+ARAB,Languages,2023,12
+ARAB,Languages,2024,12
+ARAB,Politics and Policy,2014,1
+ARAB,Politics and Policy,2015,1
+ARAB,Politics and Policy,2016,1
+ARAB,Politics and Policy,2017,1
+ARAB,Politics and Policy,2018,1
+ARAB,Politics and Policy,2019,1
+ARAB,Politics and Policy,2020,1
+ARAB,Politics and Policy,2021,1
+ARAB,Politics and Policy,2022,1
+ARAB,Politics and Policy,2023,1
+ARAB,Politics and Policy,2024,1
+ARAB,Repeatable Topics,2014,2
+ARAB,Repeatable Topics,2015,2
+ARAB,Repeatable Topics,2016,2
+ARAB,Repeatable Topics,2017,4
+ARAB,,2018,4
+ARAB,,2019,4
+ARAB,,2020,4
+ARAB,,2021,4
+ARAB,,2022,4
+ARAB,,2023,3
+ARAB,,2024,4
+ARTH,Arts,2014,78
+ARTH,Arts,2015,39
+ARTH,Arts,2016,39
+ARTH,Arts,2017,39
+ARTH,Arts,2018,39
+ARTH,Arts,2019,41
+ARTH,Arts,2020,43
+ARTH,Arts,2021,46
+ARTH,Arts,2022,46
+ARTH,Arts,2023,47
+ARTH,Arts,2024,47
+ARTH,Arts,,39
+ARTH,Capstone,2014,4
+ARTH,Capstone,2015,2
+ARTH,Capstone,2016,2
+ARTH,Capstone,2017,2
+ARTH,Capstone,2018,2
+ARTH,Capstone,2019,2
+ARTH,Capstone,2020,3
+ARTH,Capstone,2021,3
+ARTH,Capstone,2022,3
+ARTH,Capstone,2023,4
+ARTH,Capstone,2024,4
+ARTH,Capstone,,2
+ARTH,Education,2014,2
+ARTH,Education,2015,1
+ARTH,Education,2016,2
+ARTH,Education,2017,2
+ARTH,Education,2018,2
+ARTH,Education,2019,2
+ARTH,Education,2020,2
+ARTH,Education,2021,3
+ARTH,Education,2022,3
+ARTH,Education,2023,1
+ARTH,Education,2024,1
+ARTH,Education,,1
+ARTH,Repeatable Topics,2014,14
+ARTH,Repeatable Topics,2015,6
+ARTH,Repeatable Topics,2016,6
+ARTH,Repeatable Topics,2017,6
+ARTH,Repeatable Topics,,7
+ARTH,Research,2014,8
+ARTH,Research,2015,5
+ARTH,Research,2016,4
+ARTH,Research,2017,4
+ARTH,Research,2018,4
+ARTH,Research,2019,4
+ARTH,Research,2020,3
+ARTH,Research,2021,3
+ARTH,Research,2022,3
+ARTH,Research,2023,3
+ARTH,Research,2024,3
+ARTH,Research,,4
+ARTH,Social Issues,2014,4
+ARTH,Social Issues,2015,4
+ARTH,Social Issues,2016,4
+ARTH,Social Issues,2017,4
+ARTH,Social Issues,2018,4
+ARTH,Social Issues,2019,4
+ARTH,Social Issues,2020,4
+ARTH,Social Issues,2021,4
+ARTH,Social Issues,2022,4
+ARTH,Social Issues,2023,4
+ARTH,Social Issues,2024,4
+ARTH,Social Issues,,2
+ARTH,,2018,6
+ARTH,,2019,6
+ARTH,,2020,6
+ARTH,,2021,6
+ARTH,,2022,6
+ARTH,,2023,6
+ARTH,,2024,6
+ARTS,Arts,2014,11
+ARTS,Arts,2015,8
+ARTS,Arts,2016,7
+ARTS,Arts,2017,7
+ARTS,Arts,2018,8
+ARTS,Arts,2019,9
+ARTS,Arts,2020,9
+ARTS,Arts,2021,9
+ARTS,Arts,2022,9
+ARTS,Arts,2023,9
+ARTS,Arts,2024,11
+ARTS,Arts,,8
+ARTS,Capstone,2014,4
+ARTS,Capstone,2015,4
+ARTS,Capstone,2016,4
+ARTS,Capstone,2017,4
+ARTS,Capstone,2018,4
+ARTS,Capstone,2019,4
+ARTS,Capstone,2020,4
+ARTS,Capstone,2021,4
+ARTS,Capstone,2022,4
+ARTS,Capstone,2023,6
+ARTS,Capstone,2024,6
+ARTS,Capstone,,4
+ARTS,Community Health,2014,1
+ARTS,Community Health,2015,1
+ARTS,Community Health,2016,1
+ARTS,Community Health,2017,1
+ARTS,Community Health,2018,1
+ARTS,Community Health,2019,1
+ARTS,Community Health,2020,1
+ARTS,Community Health,2021,1
+ARTS,Community Health,2022,1
+ARTS,Community Health,2023,1
+ARTS,Community Health,2024,2
+ARTS,Community Health,,1
+ARTS,Education,2014,2
+ARTS,Education,2015,2
+ARTS,Education,2016,2
+ARTS,Education,2017,2
+ARTS,Education,2018,2
+ARTS,Education,2019,2
+ARTS,Education,2020,2
+ARTS,Education,2021,2
+ARTS,Education,2022,2
+ARTS,Education,,2
+ARTS,Finance,2014,13
+ARTS,Finance,2015,11
+ARTS,Finance,2016,10
+ARTS,Finance,2017,10
+ARTS,Finance,2018,10
+ARTS,Finance,2019,9
+ARTS,Finance,2020,9
+ARTS,Finance,2021,9
+ARTS,Finance,2022,9
+ARTS,Finance,2023,9
+ARTS,Finance,2024,9
+ARTS,Finance,,11
+ARTS,Gender/Race/Identity,2014,1
+ARTS,Gender/Race/Identity,2015,1
+ARTS,Gender/Race/Identity,2016,1
+ARTS,Gender/Race/Identity,2017,1
+ARTS,Gender/Race/Identity,,1
+ARTS,Information Technology,2022,1
+ARTS,Information Technology,2023,1
+ARTS,Information Technology,2024,1
+ARTS,Management,2014,4
+ARTS,Management,2015,6
+ARTS,Management,2016,6
+ARTS,Management,2017,6
+ARTS,Management,2018,6
+ARTS,Management,2019,6
+ARTS,Management,2020,6
+ARTS,Management,2021,6
+ARTS,Management,2022,6
+ARTS,Management,2023,5
+ARTS,Management,2024,3
+ARTS,Management,,4
+ARTS,Media,2016,1
+ARTS,Media,2017,1
+ARTS,Media,2018,1
+ARTS,Media,2019,1
+ARTS,Media,2020,1
+ARTS,Media,2021,1
+ARTS,Media,2022,1
+ARTS,Media,2023,1
+ARTS,Media,2024,1
+ARTS,Repeatable Topics,2014,8
+ARTS,Repeatable Topics,2015,7
+ARTS,Repeatable Topics,2016,7
+ARTS,Repeatable Topics,2017,7
+ARTS,Repeatable Topics,,7
+ARTS,Research,2014,2
+ARTS,Research,2015,2
+ARTS,Research,2016,2
+ARTS,Research,2017,2
+ARTS,Research,2018,2
+ARTS,Research,2019,2
+ARTS,Research,2020,2
+ARTS,Research,2021,2
+ARTS,Research,2022,2
+ARTS,Research,2023,2
+ARTS,Research,2024,2
+ARTS,Research,,2
+ARTS,,2018,7
+ARTS,,2019,7
+ARTS,,2020,7
+ARTS,,2021,7
+ARTS,,2022,7
+ARTS,,2023,7
+ARTS,,2024,7
+ASIA,Arts,2014,1
+ASIA,Arts,2015,1
+ASIA,Arts,2016,1
+ASIA,Arts,2017,1
+ASIA,Arts,2018,1
+ASIA,Arts,2019,2
+ASIA,Arts,2020,2
+ASIA,Arts,2021,2
+ASIA,Arts,,1
+ASIA,Capstone,2015,1
+ASIA,Capstone,2016,1
+ASIA,Capstone,2017,1
+ASIA,Capstone,2018,2
+ASIA,Capstone,2019,2
+ASIA,Capstone,2020,2
+ASIA,Capstone,2021,2
+ASIA,Education,2018,2
+ASIA,Education,2019,2
+ASIA,Education,2020,2
+ASIA,Education,2021,2
+ASIA,History,2015,1
+ASIA,History,2016,1
+ASIA,History,2017,1
+ASIA,History,2018,1
+ASIA,History,2019,1
+ASIA,History,2020,2
+ASIA,History,2021,3
+ASIA,Politics and Policy,2020,1
+ASIA,Politics and Policy,2021,1
+ASIA,Repeatable Topics,2014,4
+ASIA,Repeatable Topics,2015,4
+ASIA,Repeatable Topics,2016,5
+ASIA,Repeatable Topics,2017,5
+ASIA,Repeatable Topics,2018,1
+ASIA,Repeatable Topics,2019,1
+ASIA,Repeatable Topics,2020,1
+ASIA,Repeatable Topics,2021,1
+ASIA,Repeatable Topics,,4
+ASIA,,2018,5
+ASIA,,2019,5
+ASIA,,2020,5
+ASIA,,2021,5
+ATEC,Capstone,2023,4
+ATEC,Capstone,2024,4
+ATEC,Community Health,2014,1
+ATEC,Community Health,2015,1
+ATEC,Community Health,2016,1
+ATEC,Community Health,2017,1
+ATEC,Community Health,2018,1
+ATEC,Community Health,2019,1
+ATEC,Community Health,2020,1
+ATEC,Community Health,2021,1
+ATEC,Community Health,2022,1
+ATEC,Community Health,2023,1
+ATEC,Community Health,2024,1
+ATEC,Community Health,,1
+ATEC,Education,2014,3
+ATEC,Education,2015,3
+ATEC,Education,2016,3
+ATEC,Education,2017,3
+ATEC,Education,2018,3
+ATEC,Education,2019,3
+ATEC,Education,2020,3
+ATEC,Education,2021,3
+ATEC,Education,2022,3
+ATEC,Education,2023,1
+ATEC,Education,2024,1
+ATEC,Education,,3
+ATEC,Finance,2014,1
+ATEC,Finance,2015,2
+ATEC,Finance,2016,2
+ATEC,Finance,2017,2
+ATEC,Finance,2018,2
+ATEC,Finance,2019,2
+ATEC,Finance,,1
+ATEC,Information Technology,2014,23
+ATEC,Information Technology,2015,24
+ATEC,Information Technology,2016,24
+ATEC,Information Technology,2017,23
+ATEC,Information Technology,2018,25
+ATEC,Information Technology,2019,30
+ATEC,Information Technology,2020,35
+ATEC,Information Technology,2021,31
+ATEC,Information Technology,2022,31
+ATEC,Information Technology,2023,31
+ATEC,Information Technology,2024,31
+ATEC,Information Technology,,23
+ATEC,Media,2017,1
+ATEC,Media,2019,1
+ATEC,Media,2020,2
+ATEC,Media,2021,2
+ATEC,Media,2022,2
+ATEC,Media,2023,2
+ATEC,Media,2024,2
+ATEC,Repeatable Topics,2014,7
+ATEC,Repeatable Topics,2015,7
+ATEC,Repeatable Topics,2016,7
+ATEC,Repeatable Topics,2017,7
+ATEC,Repeatable Topics,,7
+ATEC,Research,2014,1
+ATEC,Research,2015,1
+ATEC,Research,2016,1
+ATEC,Research,2017,1
+ATEC,Research,2018,1
+ATEC,Research,2019,1
+ATEC,Research,2020,1
+ATEC,Research,2021,2
+ATEC,Research,2022,2
+ATEC,Research,2023,2
+ATEC,Research,2024,2
+ATEC,Research,,1
+ATEC,,2018,7
+ATEC,,2019,7
+ATEC,,2020,7
+ATEC,,2021,7
+ATEC,,2022,7
+ATEC,,2023,6
+ATEC,,2024,7
+AWST,Arts,2020,1
+AWST,Arts,2021,1
+AWST,Arts,2022,2
+AWST,Arts,2023,2
+AWST,Arts,2024,2
+AWST,Capstone,2015,1
+AWST,Capstone,2016,1
+AWST,Capstone,2017,1
+AWST,Capstone,2018,1
+AWST,Capstone,2019,1
+AWST,Capstone,2020,1
+AWST,Capstone,2021,1
+AWST,Capstone,2022,1
+AWST,Capstone,2023,3
+AWST,Capstone,2024,3
+AWST,Community Health,2024,1
+AWST,Education,2015,1
+AWST,Education,2016,1
+AWST,Education,2017,1
+AWST,Education,2018,1
+AWST,Education,2019,1
+AWST,Education,2020,1
+AWST,Education,2021,1
+AWST,Education,2022,1
+AWST,Gender/Race/Identity,2023,1
+AWST,Gender/Race/Identity,2024,1
+AWST,History,2018,1
+AWST,History,2019,1
+AWST,History,2020,1
+AWST,History,2021,2
+AWST,History,2022,2
+AWST,History,2023,3
+AWST,History,2024,3
+AWST,International Issues,2014,1
+AWST,International Issues,2015,1
+AWST,International Issues,2016,1
+AWST,International Issues,2017,1
+AWST,International Issues,2018,1
+AWST,International Issues,2019,1
+AWST,International Issues,2020,1
+AWST,International Issues,2021,1
+AWST,International Issues,2022,1
+AWST,International Issues,2023,1
+AWST,International Issues,2024,1
+AWST,International Issues,,1
+AWST,Media,2018,1
+AWST,Media,2019,1
+AWST,Media,2020,1
+AWST,Media,2021,1
+AWST,Media,2022,1
+AWST,Media,2023,1
+AWST,Media,2024,1
+AWST,Politics and Policy,2016,1
+AWST,Politics and Policy,2017,1
+AWST,Politics and Policy,2018,1
+AWST,Politics and Policy,2019,1
+AWST,Psychology,2018,1
+AWST,Psychology,2019,1
+AWST,Psychology,2020,1
+AWST,Psychology,2021,1
+AWST,Psychology,2022,1
+AWST,Psychology,2023,1
+AWST,Psychology,2024,1
+AWST,Repeatable Topics,2014,4
+AWST,Repeatable Topics,2015,4
+AWST,Repeatable Topics,2016,5
+AWST,Repeatable Topics,2017,5
+AWST,Repeatable Topics,2021,1
+AWST,Repeatable Topics,,4
+AWST,,2018,5
+AWST,,2019,5
+AWST,,2020,5
+AWST,,2021,5
+AWST,,2022,5
+AWST,,2023,5
+AWST,,2024,5
+BEHS,Capstone,2024,3
+BEHS,Community Health,2024,1
+BEHS,Education,2024,2
+BEHS,Finance,2024,1
+BEHS,Politics and Policy,2024,1
+BEHS,Repeatable Topics,2024,1
+BEHS,Research,2024,1
+BEHS,Washington,2024,1
+BEHS,,2024,1
+BIO,Capstone,2014,7
+BIO,Capstone,2015,7
+BIO,Capstone,2016,7
+BIO,Capstone,2017,7
+BIO,Capstone,2018,6
+BIO,Capstone,2019,6
+BIO,Capstone,2020,7
+BIO,Capstone,2021,8
+BIO,Capstone,2022,8
+BIO,Capstone,2023,11
+BIO,Capstone,2024,11
+BIO,Capstone,,1
+BIO,Community Health,2014,5
+BIO,Community Health,2015,5
+BIO,Community Health,2016,5
+BIO,Community Health,2017,6
+BIO,Community Health,2018,6
+BIO,Community Health,2019,8
+BIO,Community Health,2020,8
+BIO,Community Health,2021,11
+BIO,Community Health,2022,13
+BIO,Community Health,2023,13
+BIO,Community Health,2024,13
+BIO,Community Health,,4
+BIO,Education,2014,4
+BIO,Education,2015,4
+BIO,Education,2016,4
+BIO,Education,2017,4
+BIO,Education,2018,4
+BIO,Education,2019,6
+BIO,Education,2020,6
+BIO,Education,2021,6
+BIO,Education,2022,6
+BIO,Education,2023,3
+BIO,Education,2024,3
+BIO,Education,,2
+BIO,Finance,2016,1
+BIO,Finance,2017,1
+BIO,Finance,2018,1
+BIO,Finance,2019,1
+BIO,Finance,2020,3
+BIO,Finance,2021,2
+BIO,Finance,2022,2
+BIO,Finance,2023,2
+BIO,Finance,2024,2
+BIO,Gender/Race/Identity,2014,3
+BIO,Gender/Race/Identity,2015,3
+BIO,Gender/Race/Identity,2016,3
+BIO,Gender/Race/Identity,2017,3
+BIO,Gender/Race/Identity,2018,4
+BIO,Gender/Race/Identity,2019,3
+BIO,Gender/Race/Identity,2020,4
+BIO,Gender/Race/Identity,2021,5
+BIO,Gender/Race/Identity,2022,4
+BIO,Gender/Race/Identity,2023,4
+BIO,Gender/Race/Identity,2024,4
+BIO,Gender/Race/Identity,,1
+BIO,Information Technology,2014,2
+BIO,Information Technology,2015,4
+BIO,Information Technology,2016,4
+BIO,Information Technology,2017,4
+BIO,Information Technology,2018,4
+BIO,Information Technology,2019,6
+BIO,Information Technology,2020,6
+BIO,Information Technology,2021,7
+BIO,Information Technology,2022,7
+BIO,Information Technology,2023,7
+BIO,Information Technology,2024,7
+BIO,Politics and Policy,2014,1
+BIO,Politics and Policy,2015,1
+BIO,Politics and Policy,2016,1
+BIO,Politics and Policy,2017,1
+BIO,Politics and Policy,2018,1
+BIO,Politics and Policy,2019,1
+BIO,Politics and Policy,2020,1
+BIO,Politics and Policy,2021,1
+BIO,Politics and Policy,2022,1
+BIO,Politics and Policy,2023,1
+BIO,Politics and Policy,2024,1
+BIO,Politics and Policy,,1
+BIO,Psychology,2014,6
+BIO,Psychology,2015,6
+BIO,Psychology,2016,6
+BIO,Psychology,2017,6
+BIO,Psychology,2018,9
+BIO,Psychology,2019,9
+BIO,Psychology,2020,9
+BIO,Psychology,2021,9
+BIO,Psychology,2022,9
+BIO,Psychology,2023,11
+BIO,Psychology,2024,13
+BIO,Psychology,,3
+BIO,Quantitative Analysis,2014,1
+BIO,Quantitative Analysis,2015,1
+BIO,Quantitative Analysis,2016,1
+BIO,Quantitative Analysis,2017,1
+BIO,Quantitative Analysis,2018,1
+BIO,Quantitative Analysis,2019,1
+BIO,Quantitative Analysis,2020,1
+BIO,Quantitative Analysis,2021,1
+BIO,Quantitative Analysis,2022,1
+BIO,Quantitative Analysis,2023,1
+BIO,Quantitative Analysis,2024,3
+BIO,Repeatable Topics,2014,21
+BIO,Repeatable Topics,2015,22
+BIO,Repeatable Topics,2016,22
+BIO,Repeatable Topics,2017,22
+BIO,Repeatable Topics,2018,15
+BIO,Repeatable Topics,2019,15
+BIO,Repeatable Topics,2020,16
+BIO,Repeatable Topics,2021,16
+BIO,Repeatable Topics,2022,16
+BIO,Repeatable Topics,2023,16
+BIO,Repeatable Topics,2024,16
+BIO,Repeatable Topics,,8
+BIO,Research,2014,4
+BIO,Research,2015,5
+BIO,Research,2016,5
+BIO,Research,2017,5
+BIO,Research,2018,6
+BIO,Research,2019,6
+BIO,Research,2020,5
+BIO,Research,2021,5
+BIO,Research,2022,5
+BIO,Research,2023,4
+BIO,Research,2024,4
+BIO,Social Issues,2014,1
+BIO,Social Issues,2015,1
+BIO,Social Issues,2016,1
+BIO,Social Issues,2017,1
+BIO,Social Issues,2018,1
+BIO,Social Issues,2019,1
+BIO,Social Issues,2020,2
+BIO,Social Issues,2021,2
+BIO,Social Issues,2022,2
+BIO,Social Issues,2023,2
+BIO,Social Issues,2024,2
+BIO,,2018,7
+BIO,,2019,7
+BIO,,2020,7
+BIO,,2021,7
+BIO,,2022,7
+BIO,,2023,6
+BIO,,2024,7
+CAS,Capstone,2017,2
+CAS,Capstone,2018,2
+CAS,Capstone,2019,2
+CAS,Capstone,2020,2
+CAS,Capstone,2021,4
+CAS,Capstone,2022,4
+CAS,Capstone,2023,7
+CAS,Capstone,2024,7
+CAS,Community Health,2017,1
+CAS,Community Health,2018,1
+CAS,Community Health,2019,1
+CAS,Community Health,2020,1
+CAS,Community Health,2021,1
+CAS,Community Health,2022,5
+CAS,Community Health,2023,5
+CAS,Community Health,2024,5
+CAS,Education,2016,3
+CAS,Education,2017,3
+CAS,Education,2018,3
+CAS,Education,2019,3
+CAS,Education,2020,4
+CAS,Education,2021,5
+CAS,Education,2022,5
+CAS,Education,2023,2
+CAS,Education,2024,3
+CAS,Gender/Race/Identity,2016,1
+CAS,Gender/Race/Identity,2017,1
+CAS,Gender/Race/Identity,2018,1
+CAS,Gender/Race/Identity,2019,1
+CAS,Gender/Race/Identity,2020,1
+CAS,Gender/Race/Identity,2021,1
+CAS,Gender/Race/Identity,2022,2
+CAS,Gender/Race/Identity,2023,2
+CAS,Gender/Race/Identity,2024,2
+CAS,Research,2016,6
+CAS,Research,2017,6
+CAS,Research,2018,6
+CAS,Research,2019,8
+CAS,Research,2020,8
+CAS,Research,2021,9
+CAS,Research,2022,9
+CAS,Research,2023,9
+CAS,Research,2024,9
+CAS,Social Issues,2017,1
+CAS,Social Issues,2018,1
+CAS,Washington,2017,1
+CAS,Washington,2018,1
+CAS,Washington,2019,1
+CAS,Washington,2020,2
+CAS,Washington,2021,2
+CAS,Washington,2022,2
+CAS,Washington,2024,2
+CAS,,2020,1
+CAS,,2021,6
+CAS,,2022,6
+CAS,,2023,4
+CAS,,2024,5
+CHEM,Capstone,2014,9
+CHEM,Capstone,2015,9
+CHEM,Capstone,2016,9
+CHEM,Capstone,2017,9
+CHEM,Capstone,2018,9
+CHEM,Capstone,2019,9
+CHEM,Capstone,2020,9
+CHEM,Capstone,2021,9
+CHEM,Capstone,2022,9
+CHEM,Capstone,2023,11
+CHEM,Capstone,2024,12
+CHEM,Education,2014,2
+CHEM,Education,2015,2
+CHEM,Education,2016,2
+CHEM,Education,2017,2
+CHEM,Education,2018,2
+CHEM,Education,2019,2
+CHEM,Education,2020,2
+CHEM,Education,2021,2
+CHEM,Education,2022,2
+CHEM,Gender/Race/Identity,2014,1
+CHEM,Gender/Race/Identity,2015,1
+CHEM,Gender/Race/Identity,2016,1
+CHEM,Gender/Race/Identity,2017,1
+CHEM,Gender/Race/Identity,2018,1
+CHEM,Gender/Race/Identity,2019,1
+CHEM,Gender/Race/Identity,2020,1
+CHEM,Gender/Race/Identity,2021,1
+CHEM,Gender/Race/Identity,2022,1
+CHEM,Gender/Race/Identity,2023,1
+CHEM,Gender/Race/Identity,2024,1
+CHEM,International Issues,2014,2
+CHEM,International Issues,2015,2
+CHEM,International Issues,2016,2
+CHEM,International Issues,2017,4
+CHEM,International Issues,2018,4
+CHEM,International Issues,2019,4
+CHEM,International Issues,2020,4
+CHEM,International Issues,2021,4
+CHEM,International Issues,2022,4
+CHEM,International Issues,2023,4
+CHEM,International Issues,2024,4
+CHEM,Quantitative Analysis,2014,7
+CHEM,Quantitative Analysis,2015,8
+CHEM,Quantitative Analysis,2016,8
+CHEM,Quantitative Analysis,2017,13
+CHEM,Quantitative Analysis,2018,13
+CHEM,Quantitative Analysis,2019,13
+CHEM,Quantitative Analysis,2020,15
+CHEM,Quantitative Analysis,2021,15
+CHEM,Quantitative Analysis,2022,15
+CHEM,Quantitative Analysis,2023,17
+CHEM,Quantitative Analysis,2024,17
+CHEM,Repeatable Topics,2014,27
+CHEM,Repeatable Topics,2015,33
+CHEM,Repeatable Topics,2016,33
+CHEM,Repeatable Topics,2017,36
+CHEM,Repeatable Topics,2018,30
+CHEM,Repeatable Topics,2019,29
+CHEM,Repeatable Topics,2020,31
+CHEM,Repeatable Topics,2021,31
+CHEM,Repeatable Topics,2022,32
+CHEM,Repeatable Topics,2023,33
+CHEM,Repeatable Topics,2024,32
+CHEM,Research,2014,6
+CHEM,Research,2015,10
+CHEM,Research,2016,10
+CHEM,Research,2017,10
+CHEM,Research,2018,10
+CHEM,Research,2019,11
+CHEM,Research,2020,12
+CHEM,Research,2021,12
+CHEM,Research,2022,11
+CHEM,Research,2023,11
+CHEM,Research,2024,11
+CHEM,,2018,6
+CHEM,,2019,6
+CHEM,,2020,6
+CHEM,,2021,6
+CHEM,,2022,6
+CHEM,,2023,6
+CHEM,,2024,6
+CHIN,Arts,2023,1
+CHIN,Arts,2024,1
+CHIN,Capstone,2014,2
+CHIN,Capstone,2015,2
+CHIN,Capstone,2016,2
+CHIN,Capstone,2017,2
+CHIN,Capstone,2018,2
+CHIN,Capstone,2019,2
+CHIN,Capstone,2020,2
+CHIN,Capstone,2021,3
+CHIN,Capstone,2022,3
+CHIN,Capstone,2023,3
+CHIN,Capstone,2024,3
+CHIN,Community Health,2016,1
+CHIN,Community Health,2017,1
+CHIN,Community Health,2018,1
+CHIN,Community Health,2019,1
+CHIN,Community Health,2020,1
+CHIN,Community Health,2021,1
+CHIN,Community Health,2022,1
+CHIN,Community Health,2023,1
+CHIN,Community Health,2024,1
+CHIN,Education,2014,1
+CHIN,Education,2015,1
+CHIN,Education,2016,1
+CHIN,Languages,2014,29
+CHIN,Languages,2015,30
+CHIN,Languages,2016,30
+CHIN,Languages,2017,30
+CHIN,Languages,2018,30
+CHIN,Languages,2019,30
+CHIN,Languages,2020,30
+CHIN,Languages,2021,9
+CHIN,Languages,2022,9
+CHIN,Languages,2023,9
+CHIN,Languages,2024,12
+CHIN,Repeatable Topics,2014,4
+CHIN,Repeatable Topics,2015,4
+CHIN,Repeatable Topics,2016,4
+CHIN,Repeatable Topics,2017,4
+CHIN,,2018,4
+CHIN,,2019,4
+CHIN,,2020,4
+CHIN,,2021,4
+CHIN,,2022,4
+CHIN,,2023,4
+CHIN,,2024,4
+COMM,Arts,2014,2
+COMM,Arts,2015,4
+COMM,Arts,2016,4
+COMM,Arts,2017,8
+COMM,Arts,2018,8
+COMM,Arts,2019,8
+COMM,Arts,2020,8
+COMM,Arts,2021,8
+COMM,Arts,2022,8
+COMM,Arts,2023,9
+COMM,Arts,2024,9
+COMM,Business,2014,2
+COMM,Business,2015,2
+COMM,Business,2016,2
+COMM,Business,2017,2
+COMM,Business,2018,2
+COMM,Business,2019,2
+COMM,Business,2020,4
+COMM,Business,2021,5
+COMM,Business,2022,5
+COMM,Business,2023,4
+COMM,Business,2024,6
+COMM,Capstone,2014,7
+COMM,Capstone,2015,6
+COMM,Capstone,2016,6
+COMM,Capstone,2017,7
+COMM,Capstone,2018,7
+COMM,Capstone,2019,7
+COMM,Capstone,2020,8
+COMM,Capstone,2021,8
+COMM,Capstone,2022,8
+COMM,Capstone,2023,9
+COMM,Capstone,2024,9
+COMM,Community Health,2014,1
+COMM,Community Health,2015,1
+COMM,Community Health,2020,1
+COMM,Community Health,2021,1
+COMM,Community Health,2022,2
+COMM,Community Health,2023,2
+COMM,Community Health,2024,4
+COMM,Education,2014,9
+COMM,Education,2015,10
+COMM,Education,2016,8
+COMM,Education,2017,7
+COMM,Education,2018,5
+COMM,Education,2019,5
+COMM,Education,2020,5
+COMM,Education,2021,5
+COMM,Education,2022,5
+COMM,Education,2023,5
+COMM,Education,2024,5
+COMM,Finance,2014,19
+COMM,Finance,2015,26
+COMM,Finance,2016,25
+COMM,Finance,2017,25
+COMM,Finance,2018,27
+COMM,Finance,2019,29
+COMM,Finance,2020,29
+COMM,Finance,2021,28
+COMM,Finance,2022,27
+COMM,Finance,2023,26
+COMM,Finance,2024,26
+COMM,History,2014,2
+COMM,History,2015,2
+COMM,History,2016,2
+COMM,History,2017,2
+COMM,History,2018,3
+COMM,History,2019,3
+COMM,History,2020,3
+COMM,History,2021,3
+COMM,History,2022,3
+COMM,History,2023,3
+COMM,History,2024,3
+COMM,Information Technology,2014,4
+COMM,Information Technology,2015,5
+COMM,Information Technology,2016,6
+COMM,Information Technology,2017,6
+COMM,Information Technology,2018,5
+COMM,Information Technology,2019,5
+COMM,Information Technology,2020,4
+COMM,Information Technology,2021,5
+COMM,Information Technology,2022,5
+COMM,Information Technology,2023,2
+COMM,Information Technology,2024,2
+COMM,International Issues,2014,2
+COMM,International Issues,2015,4
+COMM,International Issues,2016,4
+COMM,International Issues,2017,4
+COMM,International Issues,2018,4
+COMM,International Issues,2019,4
+COMM,International Issues,2020,4
+COMM,International Issues,2021,4
+COMM,International Issues,2022,4
+COMM,International Issues,2023,2
+COMM,International Issues,2024,2
+COMM,Languages,2023,1
+COMM,Languages,2024,1
+COMM,Management,2014,5
+COMM,Management,2015,4
+COMM,Management,2016,6
+COMM,Management,2017,6
+COMM,Management,2018,6
+COMM,Management,2019,6
+COMM,Management,2020,7
+COMM,Management,2021,7
+COMM,Management,2022,7
+COMM,Management,2023,7
+COMM,Management,2024,7
+COMM,Media,2014,117
+COMM,Media,2015,133
+COMM,Media,2016,142
+COMM,Media,2017,147
+COMM,Media,2018,150
+COMM,Media,2019,155
+COMM,Media,2020,147
+COMM,Media,2021,150
+COMM,Media,2022,147
+COMM,Media,2023,130
+COMM,Media,2024,130
+COMM,Politics and Policy,2014,5
+COMM,Politics and Policy,2015,7
+COMM,Politics and Policy,2016,7
+COMM,Politics and Policy,2017,8
+COMM,Politics and Policy,2018,9
+COMM,Politics and Policy,2019,9
+COMM,Politics and Policy,2020,12
+COMM,Politics and Policy,2021,12
+COMM,Politics and Policy,2022,12
+COMM,Politics and Policy,2023,11
+COMM,Politics and Policy,2024,9
+COMM,Quantitative Analysis,2016,1
+COMM,Quantitative Analysis,2017,1
+COMM,Quantitative Analysis,2018,1
+COMM,Quantitative Analysis,2019,1
+COMM,Quantitative Analysis,2020,1
+COMM,Quantitative Analysis,2021,1
+COMM,Quantitative Analysis,2022,1
+COMM,Quantitative Analysis,2023,1
+COMM,Quantitative Analysis,2024,1
+COMM,Repeatable Topics,2014,8
+COMM,Repeatable Topics,2015,8
+COMM,Repeatable Topics,2016,5
+COMM,Repeatable Topics,2017,5
+COMM,Repeatable Topics,2023,1
+COMM,Repeatable Topics,2024,1
+COMM,Research,2014,9
+COMM,Research,2015,10
+COMM,Research,2016,9
+COMM,Research,2017,10
+COMM,Research,2018,12
+COMM,Research,2019,13
+COMM,Research,2020,13
+COMM,Research,2021,10
+COMM,Research,2022,10
+COMM,Research,2023,11
+COMM,Research,2024,13
+COMM,Social Issues,2014,1
+COMM,Social Issues,2015,2
+COMM,Social Issues,2016,3
+COMM,Social Issues,2017,2
+COMM,Social Issues,2018,2
+COMM,Social Issues,2019,2
+COMM,Social Issues,2020,4
+COMM,Social Issues,2021,4
+COMM,Social Issues,2022,4
+COMM,Social Issues,2023,4
+COMM,Social Issues,2024,4
+COMM,Washington,2014,4
+COMM,Washington,2015,4
+COMM,Washington,2016,4
+COMM,Washington,2017,4
+COMM,Washington,2018,2
+COMM,Washington,2019,2
+COMM,Washington,2020,2
+COMM,Washington,2021,2
+COMM,Washington,2022,2
+COMM,Washington,2023,2
+COMM,Washington,2024,2
+COMM,,2018,5
+COMM,,2019,5
+COMM,,2020,5
+COMM,,2021,5
+COMM,,2022,5
+COMM,,2023,7
+COMM,,2024,8
+CORE,Arts,2019,10
+CORE,Arts,2020,15
+CORE,Arts,2021,15
+CORE,Arts,2022,15
+CORE,Arts,2023,15
+CORE,Arts,2024,15
+CORE,Community Health,2019,1
+CORE,Community Health,2020,1
+CORE,Community Health,2021,1
+CORE,Community Health,2022,1
+CORE,Community Health,2023,1
+CORE,Community Health,2024,1
+CORE,Education,2018,2
+CORE,Education,2019,2
+CORE,Education,2020,2
+CORE,Education,2021,2
+CORE,Education,2022,2
+CORE,Education,2023,2
+CORE,Education,2024,2
+CORE,Gender/Race/Identity,2018,2
+CORE,Gender/Race/Identity,2019,2
+CORE,Gender/Race/Identity,2020,4
+CORE,Gender/Race/Identity,2021,4
+CORE,Gender/Race/Identity,2022,4
+CORE,Gender/Race/Identity,2023,4
+CORE,Gender/Race/Identity,2024,4
+CORE,Washington,2018,3
+CORE,Washington,2019,3
+CORE,Washington,2020,3
+CORE,Washington,2021,3
+CORE,Washington,2022,3
+CORE,Washington,2023,3
+CORE,Washington,2024,3
+CORE,,2020,1
+CORE,,2021,2
+CORE,,2022,2
+CORE,,2023,2
+CORE,,2024,2
+CRGC,Capstone,2019,2
+CRGC,Capstone,2020,3
+CRGC,Capstone,2021,3
+CRGC,Capstone,2022,3
+CRGC,Capstone,2023,3
+CRGC,Capstone,2024,3
+CRGC,Gender/Race/Identity,2019,1
+CRGC,Gender/Race/Identity,2020,1
+CRGC,Gender/Race/Identity,2021,2
+CRGC,Gender/Race/Identity,2022,2
+CRGC,Gender/Race/Identity,2023,2
+CRGC,Gender/Race/Identity,2024,2
+CRGC,Research,2020,1
+CRGC,Research,2021,1
+CRGC,Research,2022,1
+CRGC,Research,2023,1
+CRGC,Research,2024,1
+CRGC,,2019,4
+CRGC,,2020,4
+CRGC,,2021,4
+CRGC,,2022,4
+CRGC,,2023,4
+CRGC,,2024,4
+CSC,Business,2018,2
+CSC,Business,2019,2
+CSC,Business,2020,2
+CSC,Business,2021,2
+CSC,Business,2022,2
+CSC,Business,2023,2
+CSC,Business,2024,2
+CSC,Capstone,2014,5
+CSC,Capstone,2015,5
+CSC,Capstone,2016,5
+CSC,Capstone,2017,5
+CSC,Capstone,2018,5
+CSC,Capstone,2019,6
+CSC,Capstone,2020,8
+CSC,Capstone,2021,6
+CSC,Capstone,2022,6
+CSC,Capstone,2023,8
+CSC,Capstone,2024,8
+CSC,Community Health,2014,1
+CSC,Community Health,2015,1
+CSC,Community Health,2016,2
+CSC,Community Health,2017,2
+CSC,Community Health,2018,2
+CSC,Community Health,2019,2
+CSC,Community Health,2020,3
+CSC,Community Health,2021,3
+CSC,Community Health,2022,3
+CSC,Community Health,2023,3
+CSC,Community Health,2024,4
+CSC,Education,2014,3
+CSC,Education,2015,3
+CSC,Education,2016,3
+CSC,Education,2017,3
+CSC,Education,2018,3
+CSC,Education,2019,3
+CSC,Education,2020,3
+CSC,Education,2021,3
+CSC,Education,2022,3
+CSC,Education,2023,1
+CSC,Education,2024,1
+CSC,Finance,2014,1
+CSC,Finance,2015,1
+CSC,Finance,2016,1
+CSC,Finance,2017,1
+CSC,Finance,2018,4
+CSC,Finance,2019,4
+CSC,Finance,2020,4
+CSC,Finance,2021,4
+CSC,Finance,2022,4
+CSC,Finance,2023,4
+CSC,Finance,2024,4
+CSC,Information Technology,2014,18
+CSC,Information Technology,2015,18
+CSC,Information Technology,2016,18
+CSC,Information Technology,2017,19
+CSC,Information Technology,2018,31
+CSC,Information Technology,2019,39
+CSC,Information Technology,2020,39
+CSC,Information Technology,2021,39
+CSC,Information Technology,2022,40
+CSC,Information Technology,2023,43
+CSC,Information Technology,2024,46
+CSC,Management,2014,1
+CSC,Management,2015,1
+CSC,Management,2016,1
+CSC,Management,2017,1
+CSC,Management,2018,2
+CSC,Management,2019,2
+CSC,Management,2020,2
+CSC,Management,2021,2
+CSC,Management,2022,2
+CSC,Management,2023,2
+CSC,Management,2024,2
+CSC,Quantitative Analysis,2014,4
+CSC,Quantitative Analysis,2015,4
+CSC,Quantitative Analysis,2016,4
+CSC,Quantitative Analysis,2017,4
+CSC,Quantitative Analysis,2018,8
+CSC,Quantitative Analysis,2019,5
+CSC,Quantitative Analysis,2020,5
+CSC,Quantitative Analysis,2021,5
+CSC,Quantitative Analysis,2022,5
+CSC,Quantitative Analysis,2023,5
+CSC,Quantitative Analysis,2024,5
+CSC,Repeatable Topics,2014,4
+CSC,Repeatable Topics,2015,4
+CSC,Repeatable Topics,2016,4
+CSC,Repeatable Topics,2017,5
+CSC,Research,2018,1
+CSC,Research,2019,1
+CSC,Social Issues,2014,2
+CSC,Social Issues,2015,2
+CSC,Social Issues,2016,2
+CSC,Social Issues,2017,2
+CSC,Social Issues,2018,2
+CSC,Social Issues,2019,2
+CSC,Social Issues,2020,3
+CSC,Social Issues,2021,3
+CSC,Social Issues,2022,3
+CSC,Social Issues,2023,3
+CSC,Social Issues,2024,3
+CSC,,2018,5
+CSC,,2019,5
+CSC,,2020,6
+CSC,,2021,6
+CSC,,2022,6
+CSC,,2023,6
+CSC,,2024,6
+DATA,Capstone,2019,1
+DATA,Capstone,2020,1
+DATA,Capstone,2021,3
+DATA,Capstone,2022,3
+DATA,Capstone,2023,5
+DATA,Capstone,2024,5
+DATA,Education,2021,2
+DATA,Education,2022,2
+DATA,Quantitative Analysis,2021,11
+DATA,Quantitative Analysis,2022,11
+DATA,Quantitative Analysis,2023,13
+DATA,Quantitative Analysis,2024,13
+DATA,Research,2021,1
+DATA,Research,2022,1
+DATA,Research,2023,1
+DATA,Research,2024,1
+DATA,,2021,5
+DATA,,2022,5
+DATA,,2023,5
+DATA,,2024,5
+DNCE,Arts,2020,21
+DNCE,Arts,2021,22
+DNCE,Arts,2022,22
+DNCE,Arts,2023,22
+DNCE,Arts,2024,22
+DNCE,Business,2020,5
+DNCE,Business,2021,4
+DNCE,Business,2022,4
+DNCE,Business,2023,2
+DNCE,Business,2024,4
+DNCE,Capstone,2020,4
+DNCE,Capstone,2021,5
+DNCE,Capstone,2022,5
+DNCE,Capstone,2023,6
+DNCE,Capstone,2024,6
+DNCE,Community Health,2024,1
+DNCE,Education,2020,1
+DNCE,Education,2021,1
+DNCE,Education,2022,1
+DNCE,Education,2024,4
+DNCE,Gender/Race/Identity,2020,1
+DNCE,Gender/Race/Identity,2021,1
+DNCE,Gender/Race/Identity,2022,1
+DNCE,Gender/Race/Identity,2023,1
+DNCE,Gender/Race/Identity,2024,1
+DNCE,Psychology,2020,3
+DNCE,Psychology,2021,3
+DNCE,Psychology,2022,3
+DNCE,Psychology,2023,3
+DNCE,Psychology,2024,3
+DNCE,Research,2020,1
+DNCE,,2020,4
+DNCE,,2021,4
+DNCE,,2022,4
+DNCE,,2023,4
+DNCE,,2024,4
+ECON,Business,2014,1
+ECON,Business,2015,1
+ECON,Business,2016,1
+ECON,Business,2017,1
+ECON,Business,2018,1
+ECON,Business,2019,1
+ECON,Business,2020,1
+ECON,Business,2021,1
+ECON,Business,2022,1
+ECON,Business,2023,1
+ECON,Business,2024,1
+ECON,Capstone,2014,5
+ECON,Capstone,2015,4
+ECON,Capstone,2016,4
+ECON,Capstone,2017,4
+ECON,Capstone,2018,4
+ECON,Capstone,2019,5
+ECON,Capstone,2020,8
+ECON,Capstone,2021,9
+ECON,Capstone,2022,9
+ECON,Capstone,2023,11
+ECON,Capstone,2024,11
+ECON,Community Health,2014,3
+ECON,Community Health,2015,3
+ECON,Community Health,2016,3
+ECON,Community Health,2017,4
+ECON,Community Health,2018,4
+ECON,Community Health,2019,4
+ECON,Community Health,2020,4
+ECON,Community Health,2021,4
+ECON,Community Health,2022,5
+ECON,Community Health,2023,5
+ECON,Community Health,2024,5
+ECON,Education,2014,5
+ECON,Education,2015,5
+ECON,Education,2016,5
+ECON,Education,2017,6
+ECON,Education,2018,7
+ECON,Education,2019,7
+ECON,Education,2020,7
+ECON,Education,2021,7
+ECON,Education,2022,7
+ECON,Education,2023,5
+ECON,Education,2024,5
+ECON,Finance,2014,5
+ECON,Finance,2015,5
+ECON,Finance,2016,6
+ECON,Finance,2017,6
+ECON,Finance,2018,6
+ECON,Finance,2019,6
+ECON,Finance,2020,6
+ECON,Finance,2021,6
+ECON,Finance,2022,6
+ECON,Finance,2023,6
+ECON,Finance,2024,6
+ECON,Gender/Race/Identity,2014,6
+ECON,Gender/Race/Identity,2015,6
+ECON,Gender/Race/Identity,2016,6
+ECON,Gender/Race/Identity,2017,6
+ECON,Gender/Race/Identity,2018,6
+ECON,Gender/Race/Identity,2019,6
+ECON,Gender/Race/Identity,2020,5
+ECON,Gender/Race/Identity,2021,6
+ECON,Gender/Race/Identity,2022,6
+ECON,Gender/Race/Identity,2023,6
+ECON,Gender/Race/Identity,2024,7
+ECON,History,2014,2
+ECON,History,2015,1
+ECON,History,2016,1
+ECON,History,2017,2
+ECON,History,2018,3
+ECON,History,2019,3
+ECON,History,2020,3
+ECON,History,2021,3
+ECON,History,2022,3
+ECON,History,2023,3
+ECON,History,2024,3
+ECON,International Issues,2014,15
+ECON,International Issues,2015,16
+ECON,International Issues,2016,16
+ECON,International Issues,2017,15
+ECON,International Issues,2018,15
+ECON,International Issues,2019,16
+ECON,International Issues,2020,16
+ECON,International Issues,2021,14
+ECON,International Issues,2022,14
+ECON,International Issues,2023,14
+ECON,International Issues,2024,14
+ECON,Media,2018,1
+ECON,Media,2019,1
+ECON,Media,2020,1
+ECON,Media,2021,1
+ECON,Media,2022,1
+ECON,Media,2023,1
+ECON,Media,2024,1
+ECON,Politics and Policy,2014,18
+ECON,Politics and Policy,2015,17
+ECON,Politics and Policy,2016,17
+ECON,Politics and Policy,2017,15
+ECON,Politics and Policy,2018,13
+ECON,Politics and Policy,2019,12
+ECON,Politics and Policy,2020,11
+ECON,Politics and Policy,2021,12
+ECON,Politics and Policy,2022,12
+ECON,Politics and Policy,2023,11
+ECON,Politics and Policy,2024,11
+ECON,Psychology,2014,13
+ECON,Psychology,2015,14
+ECON,Psychology,2016,14
+ECON,Psychology,2017,14
+ECON,Psychology,2018,13
+ECON,Psychology,2019,13
+ECON,Psychology,2020,13
+ECON,Psychology,2021,13
+ECON,Psychology,2022,13
+ECON,Psychology,2023,13
+ECON,Psychology,2024,13
+ECON,Quantitative Analysis,2014,16
+ECON,Quantitative Analysis,2015,17
+ECON,Quantitative Analysis,2016,17
+ECON,Quantitative Analysis,2017,17
+ECON,Quantitative Analysis,2018,18
+ECON,Quantitative Analysis,2019,18
+ECON,Quantitative Analysis,2020,19
+ECON,Quantitative Analysis,2021,22
+ECON,Quantitative Analysis,2022,22
+ECON,Quantitative Analysis,2023,21
+ECON,Quantitative Analysis,2024,21
+ECON,Repeatable Topics,2014,9
+ECON,Repeatable Topics,2015,9
+ECON,Repeatable Topics,2016,9
+ECON,Repeatable Topics,2017,8
+ECON,Research,2014,6
+ECON,Research,2015,6
+ECON,Research,2016,6
+ECON,Research,2017,5
+ECON,Research,2018,6
+ECON,Research,2019,6
+ECON,Research,2020,5
+ECON,Research,2021,5
+ECON,Research,2022,5
+ECON,Research,2023,4
+ECON,Research,2024,4
+ECON,Social Issues,2014,2
+ECON,Social Issues,2015,2
+ECON,Social Issues,2016,2
+ECON,Social Issues,2017,2
+ECON,Social Issues,2018,3
+ECON,Social Issues,2019,4
+ECON,Social Issues,2020,4
+ECON,Social Issues,2021,4
+ECON,Social Issues,2022,4
+ECON,Social Issues,2023,4
+ECON,Social Issues,2024,4
+ECON,Washington,2014,2
+ECON,Washington,2015,2
+ECON,Washington,2016,2
+ECON,Washington,2017,3
+ECON,Washington,2018,1
+ECON,Washington,2019,1
+ECON,Washington,2020,1
+ECON,Washington,2021,1
+ECON,Washington,2022,1
+ECON,Washington,2023,1
+ECON,Washington,2024,1
+ECON,,2018,8
+ECON,,2019,8
+ECON,,2020,8
+ECON,,2021,8
+ECON,,2022,8
+ECON,,2023,7
+ECON,,2024,8
+EDU,Business,2014,7
+EDU,Business,2015,7
+EDU,Business,2016,7
+EDU,Business,2017,8
+EDU,Business,2018,11
+EDU,Business,2019,17
+EDU,Business,2020,16
+EDU,Business,2021,16
+EDU,Business,2022,15
+EDU,Business,2023,15
+EDU,Business,2024,15
+EDU,Capstone,2014,26
+EDU,Capstone,2015,28
+EDU,Capstone,2016,28
+EDU,Capstone,2017,29
+EDU,Capstone,2018,29
+EDU,Capstone,2019,30
+EDU,Capstone,2020,30
+EDU,Capstone,2021,68
+EDU,Capstone,2022,67
+EDU,Capstone,2023,68
+EDU,Capstone,2024,71
+EDU,Community Health,2017,3
+EDU,Community Health,2018,3
+EDU,Community Health,2019,4
+EDU,Community Health,2020,4
+EDU,Community Health,2021,4
+EDU,Community Health,2022,4
+EDU,Community Health,2023,4
+EDU,Community Health,2024,4
+EDU,Education,2014,21
+EDU,Education,2015,25
+EDU,Education,2016,25
+EDU,Education,2017,28
+EDU,Education,2018,25
+EDU,Education,2019,30
+EDU,Education,2020,30
+EDU,Education,2021,30
+EDU,Education,2022,23
+EDU,Education,2023,23
+EDU,Education,2024,22
+EDU,Finance,2014,1
+EDU,Finance,2015,1
+EDU,Finance,2016,1
+EDU,Finance,2017,1
+EDU,Finance,2018,2
+EDU,Finance,2019,2
+EDU,Finance,2020,2
+EDU,Finance,2021,2
+EDU,Finance,2022,2
+EDU,Finance,2023,2
+EDU,Finance,2024,2
+EDU,Gender/Race/Identity,2014,3
+EDU,Gender/Race/Identity,2015,4
+EDU,Gender/Race/Identity,2016,6
+EDU,Gender/Race/Identity,2017,6
+EDU,Gender/Race/Identity,2018,6
+EDU,Gender/Race/Identity,2019,6
+EDU,Gender/Race/Identity,2020,6
+EDU,Gender/Race/Identity,2021,5
+EDU,Gender/Race/Identity,2022,6
+EDU,Gender/Race/Identity,2023,6
+EDU,Gender/Race/Identity,2024,5
+EDU,Information Technology,2014,4
+EDU,Information Technology,2015,5
+EDU,Information Technology,2016,3
+EDU,Information Technology,2017,3
+EDU,Information Technology,2018,3
+EDU,Information Technology,2019,3
+EDU,Information Technology,2020,3
+EDU,Information Technology,2021,3
+EDU,International Issues,2014,3
+EDU,International Issues,2015,2
+EDU,International Issues,2016,2
+EDU,International Issues,2017,2
+EDU,International Issues,2018,1
+EDU,International Issues,2019,2
+EDU,International Issues,2020,2
+EDU,International Issues,2021,2
+EDU,International Issues,2022,2
+EDU,International Issues,2023,2
+EDU,International Issues,2024,3
+EDU,Languages,2014,1
+EDU,Languages,2015,1
+EDU,Languages,2016,1
+EDU,Languages,2017,2
+EDU,Languages,2018,2
+EDU,Languages,2019,2
+EDU,Languages,2020,2
+EDU,Languages,2021,2
+EDU,Languages,2022,1
+EDU,Languages,2024,1
+EDU,Management,2014,2
+EDU,Management,2015,1
+EDU,Management,2016,1
+EDU,Management,2017,1
+EDU,Management,2018,1
+EDU,Management,2019,1
+EDU,Management,2020,2
+EDU,Management,2021,2
+EDU,Management,2022,1
+EDU,Management,2023,1
+EDU,Media,2020,1
+EDU,Media,2021,1
+EDU,Media,2022,1
+EDU,Media,2023,1
+EDU,Media,2024,1
+EDU,Politics and Policy,2014,3
+EDU,Politics and Policy,2015,5
+EDU,Politics and Policy,2016,5
+EDU,Politics and Policy,2017,3
+EDU,Politics and Policy,2018,3
+EDU,Politics and Policy,2019,4
+EDU,Politics and Policy,2020,4
+EDU,Politics and Policy,2021,4
+EDU,Politics and Policy,2022,5
+EDU,Politics and Policy,2023,5
+EDU,Politics and Policy,2024,6
+EDU,Psychology,2014,15
+EDU,Psychology,2015,19
+EDU,Psychology,2016,19
+EDU,Psychology,2017,19
+EDU,Psychology,2018,20
+EDU,Psychology,2019,19
+EDU,Psychology,2020,20
+EDU,Psychology,2021,29
+EDU,Psychology,2022,26
+EDU,Psychology,2023,21
+EDU,Psychology,2024,24
+EDU,Quantitative Analysis,2014,2
+EDU,Quantitative Analysis,2015,3
+EDU,Quantitative Analysis,2016,3
+EDU,Quantitative Analysis,2017,3
+EDU,Quantitative Analysis,2018,3
+EDU,Quantitative Analysis,2019,3
+EDU,Quantitative Analysis,2020,3
+EDU,Quantitative Analysis,2021,3
+EDU,Quantitative Analysis,2022,2
+EDU,Quantitative Analysis,2023,2
+EDU,Quantitative Analysis,2024,2
+EDU,Repeatable Topics,2014,8
+EDU,Repeatable Topics,2015,8
+EDU,Repeatable Topics,2016,8
+EDU,Repeatable Topics,2017,8
+EDU,Repeatable Topics,2020,1
+EDU,Repeatable Topics,2021,2
+EDU,Repeatable Topics,2022,2
+EDU,Repeatable Topics,2023,2
+EDU,Repeatable Topics,2024,2
+EDU,Research,2014,9
+EDU,Research,2015,9
+EDU,Research,2016,8
+EDU,Research,2017,9
+EDU,Research,2018,10
+EDU,Research,2019,11
+EDU,Research,2020,12
+EDU,Research,2021,12
+EDU,Research,2022,11
+EDU,Research,2023,11
+EDU,Research,2024,13
+EDU,Social Issues,2014,5
+EDU,Social Issues,2015,6
+EDU,Social Issues,2016,7
+EDU,Social Issues,2017,6
+EDU,Social Issues,2018,6
+EDU,Social Issues,2019,6
+EDU,Social Issues,2020,7
+EDU,Social Issues,2021,7
+EDU,Social Issues,2022,8
+EDU,Social Issues,2023,7
+EDU,Social Issues,2024,8
+EDU,,2018,8
+EDU,,2019,8
+EDU,,2020,8
+EDU,,2021,8
+EDU,,2022,8
+EDU,,2023,7
+EDU,,2024,8
+ELTA,Capstone,2020,1
+ELTA,Capstone,2021,1
+ELTA,Capstone,2022,1
+ELTA,Capstone,2024,1
+ELTA,Education,2016,1
+ELTA,Education,2017,4
+ELTA,Education,2018,3
+ELTA,Education,2019,3
+ELTA,Education,2020,3
+ELTA,Education,2021,3
+ELTA,Education,2022,3
+ELTA,Education,2023,1
+ELTA,Education,2024,5
+ELTA,History,2016,1
+ELTA,History,2017,2
+ELTA,History,2018,3
+ELTA,History,2019,3
+ELTA,History,2020,3
+ELTA,History,2021,3
+ELTA,History,2022,3
+ELTA,History,2024,3
+ELTA,Languages,2017,3
+ELTA,Languages,2018,2
+ELTA,Languages,2019,2
+ELTA,Languages,2020,2
+ELTA,Languages,2021,2
+ELTA,Languages,2022,2
+ELTA,Media,2016,1
+ELTA,Media,2017,1
+ELTA,Media,2018,1
+ELTA,Media,2019,1
+ELTA,Media,2020,1
+ELTA,Media,2021,1
+ELTA,Media,2022,1
+ELTA,Media,2023,1
+ELTA,Media,2024,1
+ELTA,Repeatable Topics,2016,2
+ELTA,Repeatable Topics,2017,2
+ELTA,Research,2016,3
+ELTA,Research,2017,10
+ELTA,Research,2018,11
+ELTA,Research,2019,11
+ELTA,Research,2020,12
+ELTA,Research,2021,12
+ELTA,Research,2022,12
+ELTA,Research,2023,1
+ELTA,Research,2024,13
+ELTA,Washington,2017,1
+ELTA,Washington,2018,1
+ELTA,Washington,2019,1
+ELTA,Washington,2020,1
+ELTA,Washington,2021,1
+ELTA,Washington,2022,1
+ELTA,Washington,2024,1
+ELTA,,2018,2
+ELTA,,2019,2
+ELTA,,2020,2
+ELTA,,2021,2
+ELTA,,2022,2
+ELTA,,2023,1
+ELTA,,2024,2
+ENVS,Capstone,2014,4
+ENVS,Capstone,2015,4
+ENVS,Capstone,2016,4
+ENVS,Capstone,2017,4
+ENVS,Capstone,2018,4
+ENVS,Capstone,2019,4
+ENVS,Capstone,2020,4
+ENVS,Capstone,2021,5
+ENVS,Capstone,2022,5
+ENVS,Capstone,2023,8
+ENVS,Capstone,2024,8
+ENVS,Community Health,2014,6
+ENVS,Community Health,2015,7
+ENVS,Community Health,2016,7
+ENVS,Community Health,2017,7
+ENVS,Community Health,2018,8
+ENVS,Community Health,2019,9
+ENVS,Community Health,2020,11
+ENVS,Community Health,2021,11
+ENVS,Community Health,2022,11
+ENVS,Community Health,2023,11
+ENVS,Community Health,2024,11
+ENVS,Education,2016,1
+ENVS,Education,2017,1
+ENVS,Education,2018,1
+ENVS,Education,2019,1
+ENVS,Education,2020,1
+ENVS,Education,2021,1
+ENVS,Education,2022,1
+ENVS,Education,2023,1
+ENVS,Education,2024,1
+ENVS,Finance,2018,2
+ENVS,Finance,2019,2
+ENVS,Finance,2020,2
+ENVS,Finance,2021,2
+ENVS,Finance,2022,2
+ENVS,Finance,2023,2
+ENVS,Finance,2024,2
+ENVS,Gender/Race/Identity,2022,1
+ENVS,Gender/Race/Identity,2023,1
+ENVS,Gender/Race/Identity,2024,1
+ENVS,Information Technology,2014,1
+ENVS,Information Technology,2015,1
+ENVS,Information Technology,2016,1
+ENVS,Information Technology,2017,1
+ENVS,Information Technology,2018,3
+ENVS,Information Technology,2019,3
+ENVS,Information Technology,2020,3
+ENVS,Information Technology,2021,5
+ENVS,Information Technology,2022,5
+ENVS,Information Technology,2023,5
+ENVS,Information Technology,2024,5
+ENVS,International Issues,2014,12
+ENVS,International Issues,2015,13
+ENVS,International Issues,2016,15
+ENVS,International Issues,2017,15
+ENVS,International Issues,2018,14
+ENVS,International Issues,2019,14
+ENVS,International Issues,2020,13
+ENVS,International Issues,2021,13
+ENVS,International Issues,2022,13
+ENVS,International Issues,2023,13
+ENVS,International Issues,2024,13
+ENVS,Management,2014,1
+ENVS,Management,2015,2
+ENVS,Management,2016,2
+ENVS,Management,2017,2
+ENVS,Management,2018,2
+ENVS,Management,2019,2
+ENVS,Management,2020,2
+ENVS,Management,2021,2
+ENVS,Management,2022,4
+ENVS,Management,2023,2
+ENVS,Management,2024,2
+ENVS,Politics and Policy,2014,3
+ENVS,Politics and Policy,2015,2
+ENVS,Politics and Policy,2016,2
+ENVS,Politics and Policy,2017,2
+ENVS,Politics and Policy,2018,3
+ENVS,Politics and Policy,2019,3
+ENVS,Politics and Policy,2020,3
+ENVS,Politics and Policy,2021,3
+ENVS,Politics and Policy,2022,3
+ENVS,Politics and Policy,2023,3
+ENVS,Politics and Policy,2024,3
+ENVS,Quantitative Analysis,2023,1
+ENVS,Quantitative Analysis,2024,3
+ENVS,Repeatable Topics,2014,8
+ENVS,Repeatable Topics,2015,8
+ENVS,Repeatable Topics,2016,8
+ENVS,Repeatable Topics,2017,8
+ENVS,Repeatable Topics,2018,1
+ENVS,Repeatable Topics,2019,1
+ENVS,Repeatable Topics,2020,1
+ENVS,Repeatable Topics,2021,1
+ENVS,Repeatable Topics,2022,1
+ENVS,Repeatable Topics,2023,1
+ENVS,Repeatable Topics,2024,1
+ENVS,Research,2014,5
+ENVS,Research,2015,6
+ENVS,Research,2016,6
+ENVS,Research,2017,6
+ENVS,Research,2018,6
+ENVS,Research,2019,6
+ENVS,Research,2020,7
+ENVS,Research,2021,7
+ENVS,Research,2022,9
+ENVS,Research,2023,10
+ENVS,Research,2024,11
+ENVS,Washington,2014,2
+ENVS,Washington,2015,2
+ENVS,Washington,2016,2
+ENVS,Washington,2017,2
+ENVS,Washington,2018,2
+ENVS,Washington,2019,2
+ENVS,Washington,2020,2
+ENVS,Washington,2021,2
+ENVS,Washington,2022,2
+ENVS,Washington,2023,2
+ENVS,Washington,2024,2
+ENVS,,2018,7
+ENVS,,2019,7
+ENVS,,2020,7
+ENVS,,2021,7
+ENVS,,2022,7
+ENVS,,2023,6
+ENVS,,2024,7
+FIN,Capstone,2014,3
+FIN,Capstone,2015,3
+FIN,Capstone,2016,3
+FIN,Capstone,2017,3
+FIN,Capstone,2018,3
+FIN,Capstone,2019,3
+FIN,Capstone,2020,3
+FIN,Capstone,2021,3
+FIN,Capstone,2022,3
+FIN,Capstone,2023,4
+FIN,Capstone,2024,5
+FIN,Community Health,2018,1
+FIN,Community Health,2019,1
+FIN,Community Health,2020,1
+FIN,Community Health,2021,1
+FIN,Community Health,2022,1
+FIN,Community Health,2023,1
+FIN,Community Health,2024,2
+FIN,Education,2014,2
+FIN,Education,2015,2
+FIN,Education,2016,2
+FIN,Education,2017,2
+FIN,Education,2018,2
+FIN,Education,2019,2
+FIN,Education,2020,2
+FIN,Education,2021,2
+FIN,Education,2022,2
+FIN,Education,2023,1
+FIN,Education,2024,1
+FIN,Finance,2014,21
+FIN,Finance,2015,21
+FIN,Finance,2016,21
+FIN,Finance,2017,21
+FIN,Finance,2018,23
+FIN,Finance,2019,23
+FIN,Finance,2020,25
+FIN,Finance,2021,25
+FIN,Finance,2022,26
+FIN,Finance,2023,27
+FIN,Finance,2024,35
+FIN,International Issues,2014,2
+FIN,International Issues,2015,2
+FIN,International Issues,2016,2
+FIN,International Issues,2017,2
+FIN,International Issues,2018,2
+FIN,International Issues,2019,2
+FIN,International Issues,2020,2
+FIN,International Issues,2021,2
+FIN,International Issues,2022,2
+FIN,International Issues,2023,2
+FIN,International Issues,2024,1
+FIN,Management,2014,8
+FIN,Management,2015,8
+FIN,Management,2016,9
+FIN,Management,2017,9
+FIN,Management,2018,9
+FIN,Management,2019,9
+FIN,Management,2020,9
+FIN,Management,2021,9
+FIN,Management,2022,8
+FIN,Management,2023,9
+FIN,Management,2024,6
+FIN,Quantitative Analysis,2014,8
+FIN,Quantitative Analysis,2015,8
+FIN,Quantitative Analysis,2016,10
+FIN,Quantitative Analysis,2017,10
+FIN,Quantitative Analysis,2018,12
+FIN,Quantitative Analysis,2019,12
+FIN,Quantitative Analysis,2020,12
+FIN,Quantitative Analysis,2021,12
+FIN,Quantitative Analysis,2022,11
+FIN,Quantitative Analysis,2023,10
+FIN,Quantitative Analysis,2024,11
+FIN,Repeatable Topics,2014,8
+FIN,Repeatable Topics,2015,8
+FIN,Repeatable Topics,2016,8
+FIN,Repeatable Topics,2017,9
+FIN,Repeatable Topics,2018,1
+FIN,Repeatable Topics,2019,1
+FIN,Repeatable Topics,2020,1
+FIN,Repeatable Topics,2021,3
+FIN,Repeatable Topics,2022,2
+FIN,Repeatable Topics,2023,2
+FIN,Repeatable Topics,2024,2
+FIN,,2018,8
+FIN,,2019,8
+FIN,,2020,8
+FIN,,2021,8
+FIN,,2022,8
+FIN,,2023,7
+FIN,,2024,7
+FREN,Arts,2014,1
+FREN,Arts,2015,1
+FREN,Arts,2016,1
+FREN,Arts,2017,1
+FREN,Arts,2018,1
+FREN,Arts,2019,1
+FREN,Arts,2020,1
+FREN,Arts,2024,1
+FREN,Capstone,2014,2
+FREN,Capstone,2015,2
+FREN,Capstone,2016,2
+FREN,Capstone,2017,2
+FREN,Capstone,2018,2
+FREN,Capstone,2019,2
+FREN,Capstone,2020,3
+FREN,Capstone,2021,4
+FREN,Capstone,2022,4
+FREN,Capstone,2023,4
+FREN,Capstone,2024,4
+FREN,Community Health,2014,2
+FREN,Community Health,2015,2
+FREN,Community Health,2016,2
+FREN,Community Health,2017,2
+FREN,Community Health,2018,2
+FREN,Community Health,2019,2
+FREN,Community Health,2020,2
+FREN,Community Health,2021,2
+FREN,Community Health,2022,2
+FREN,Community Health,2023,2
+FREN,Community Health,2024,2
+FREN,Education,2014,4
+FREN,Education,2015,4
+FREN,Education,2016,4
+FREN,Education,2017,3
+FREN,Education,2018,3
+FREN,Education,2019,3
+FREN,Education,2020,3
+FREN,Education,2021,3
+FREN,Education,2022,3
+FREN,Education,2023,2
+FREN,Education,2024,3
+FREN,Gender/Race/Identity,2023,1
+FREN,Gender/Race/Identity,2024,1
+FREN,History,2014,6
+FREN,History,2015,6
+FREN,History,2016,6
+FREN,History,2017,6
+FREN,History,2018,6
+FREN,History,2019,6
+FREN,History,2020,6
+FREN,History,2021,6
+FREN,History,2022,6
+FREN,History,2023,6
+FREN,History,2024,6
+FREN,Languages,2014,21
+FREN,Languages,2015,20
+FREN,Languages,2016,20
+FREN,Languages,2017,20
+FREN,Languages,2018,20
+FREN,Languages,2019,20
+FREN,Languages,2020,20
+FREN,Languages,2021,17
+FREN,Languages,2022,17
+FREN,Languages,2023,15
+FREN,Languages,2024,17
+FREN,Repeatable Topics,2014,6
+FREN,Repeatable Topics,2015,6
+FREN,Repeatable Topics,2016,6
+FREN,Repeatable Topics,2017,6
+FREN,,2018,6
+FREN,,2019,6
+FREN,,2020,6
+FREN,,2021,6
+FREN,,2022,6
+FREN,,2023,6
+FREN,,2024,6
+GAME,Capstone,2014,1
+GAME,Capstone,2015,1
+GAME,Capstone,2016,1
+GAME,Capstone,2017,1
+GAME,Capstone,2018,1
+GAME,Capstone,2019,1
+GAME,Capstone,2020,1
+GAME,Capstone,2021,1
+GAME,Capstone,2022,1
+GAME,Capstone,2023,2
+GAME,Capstone,2024,2
+GAME,Education,2014,1
+GAME,Education,2015,1
+GAME,Education,2016,1
+GAME,Education,2017,1
+GAME,Education,2018,1
+GAME,Education,2019,1
+GAME,Education,2020,1
+GAME,Education,2021,1
+GAME,Education,2022,1
+GAME,Finance,2014,1
+GAME,Finance,2015,1
+GAME,Finance,2016,2
+GAME,Finance,2017,2
+GAME,Finance,2018,2
+GAME,Finance,2019,2
+GAME,Finance,2020,2
+GAME,Finance,2021,2
+GAME,Finance,2022,2
+GAME,Finance,2023,2
+GAME,Finance,2024,2
+GAME,Information Technology,2014,1
+GAME,Information Technology,2015,1
+GAME,Information Technology,2016,2
+GAME,Information Technology,2017,2
+GAME,Information Technology,2018,2
+GAME,Information Technology,2019,2
+GAME,Information Technology,2020,2
+GAME,Information Technology,2021,2
+GAME,Information Technology,2022,2
+GAME,Information Technology,2023,2
+GAME,Information Technology,2024,2
+GAME,Media,2014,3
+GAME,Media,2015,3
+GAME,Media,2016,4
+GAME,Media,2017,4
+GAME,Media,2018,4
+GAME,Media,2019,4
+GAME,Media,2020,4
+GAME,Media,2021,4
+GAME,Media,2022,6
+GAME,Media,2023,6
+GAME,Media,2024,6
+GAME,Repeatable Topics,2014,1
+GAME,Repeatable Topics,2015,2
+GAME,Repeatable Topics,2016,2
+GAME,Repeatable Topics,2017,2
+GAME,Research,2014,1
+GAME,Research,2015,1
+GAME,Research,2016,1
+GAME,Research,2017,2
+GAME,Research,2018,2
+GAME,Research,2019,2
+GAME,Research,2020,2
+GAME,Research,2021,2
+GAME,Research,2022,2
+GAME,Research,2023,2
+GAME,Research,2024,2
+GAME,,2018,2
+GAME,,2019,2
+GAME,,2020,2
+GAME,,2021,2
+GAME,,2022,2
+GAME,,2023,2
+GAME,,2024,2
+GDES,Capstone,2014,2
+GDES,Capstone,2015,2
+GDES,Capstone,2016,2
+GDES,Capstone,2017,2
+GDES,Capstone,2018,2
+GDES,Capstone,2019,2
+GDES,Capstone,2020,2
+GDES,Capstone,2021,2
+GDES,Capstone,2022,2
+GDES,Capstone,2023,3
+GDES,Capstone,2024,3
+GDES,Education,2014,1
+GDES,Education,2015,1
+GDES,Education,2016,1
+GDES,Education,2017,1
+GDES,Education,2018,1
+GDES,Education,2019,1
+GDES,Education,2020,1
+GDES,Education,2021,1
+GDES,Education,2022,1
+GDES,Finance,2014,12
+GDES,Finance,2015,12
+GDES,Finance,2016,12
+GDES,Finance,2017,12
+GDES,Finance,2018,12
+GDES,Finance,2019,13
+GDES,Finance,2020,13
+GDES,Finance,2021,13
+GDES,Finance,2022,13
+GDES,Finance,2023,13
+GDES,Finance,2024,13
+GDES,Information Technology,2014,3
+GDES,Information Technology,2015,3
+GDES,Information Technology,2016,3
+GDES,Information Technology,2017,3
+GDES,Information Technology,2018,3
+GDES,Information Technology,2019,3
+GDES,Information Technology,2020,4
+GDES,Information Technology,2021,4
+GDES,Information Technology,2022,4
+GDES,Information Technology,2023,4
+GDES,Information Technology,2024,4
+GDES,Repeatable Topics,2014,4
+GDES,Repeatable Topics,2015,4
+GDES,Repeatable Topics,2016,4
+GDES,Repeatable Topics,2017,4
+GDES,,2018,4
+GDES,,2019,4
+GDES,,2020,4
+GDES,,2021,4
+GDES,,2022,4
+GDES,,2023,4
+GDES,,2024,4
+GERM,Arts,2014,3
+GERM,Arts,2015,3
+GERM,Arts,2016,3
+GERM,Arts,2017,2
+GERM,Arts,2018,3
+GERM,Arts,2019,3
+GERM,Arts,2020,2
+GERM,Arts,2021,2
+GERM,Arts,2022,2
+GERM,Arts,2023,2
+GERM,Arts,2024,2
+GERM,Capstone,2014,2
+GERM,Capstone,2015,2
+GERM,Capstone,2016,2
+GERM,Capstone,2017,2
+GERM,Capstone,2018,2
+GERM,Capstone,2019,2
+GERM,Capstone,2020,2
+GERM,Capstone,2021,4
+GERM,Capstone,2022,4
+GERM,Capstone,2023,5
+GERM,Capstone,2024,5
+GERM,Community Health,2022,2
+GERM,Community Health,2023,2
+GERM,Community Health,2024,2
+GERM,Education,2014,2
+GERM,Education,2015,2
+GERM,Education,2016,2
+GERM,Education,2017,1
+GERM,Education,2018,1
+GERM,Education,2019,1
+GERM,Education,2020,1
+GERM,Education,2021,1
+GERM,Education,2022,1
+GERM,Gender/Race/Identity,2014,1
+GERM,Gender/Race/Identity,2015,1
+GERM,Gender/Race/Identity,2016,1
+GERM,Gender/Race/Identity,2017,1
+GERM,Gender/Race/Identity,2018,1
+GERM,Gender/Race/Identity,2019,1
+GERM,Gender/Race/Identity,2020,1
+GERM,Gender/Race/Identity,2021,1
+GERM,Gender/Race/Identity,2022,1
+GERM,Gender/Race/Identity,2023,1
+GERM,Gender/Race/Identity,2024,1
+GERM,History,2014,2
+GERM,History,2015,2
+GERM,History,2016,2
+GERM,History,2017,3
+GERM,History,2018,2
+GERM,History,2019,3
+GERM,History,2020,4
+GERM,History,2021,4
+GERM,History,2022,4
+GERM,History,2023,4
+GERM,History,2024,4
+GERM,Languages,2014,17
+GERM,Languages,2015,16
+GERM,Languages,2016,16
+GERM,Languages,2017,16
+GERM,Languages,2018,16
+GERM,Languages,2019,16
+GERM,Languages,2020,16
+GERM,Languages,2021,8
+GERM,Languages,2022,8
+GERM,Languages,2023,8
+GERM,Languages,2024,8
+GERM,Repeatable Topics,2014,2
+GERM,Repeatable Topics,2015,2
+GERM,Repeatable Topics,2016,2
+GERM,Repeatable Topics,2017,2
+GERM,,2018,3
+GERM,,2019,3
+GERM,,2020,3
+GERM,,2021,3
+GERM,,2022,3
+GERM,,2023,3
+GERM,,2024,3
+GNED,Capstone,2014,4
+GNED,Capstone,2015,4
+GNED,Capstone,2016,4
+GNED,Capstone,2017,4
+GNED,Capstone,2018,4
+GNED,Education,2014,10
+GNED,Education,2015,10
+GNED,Education,2016,10
+GNED,Education,2017,10
+GNED,Education,2018,10
+GOVT,Arts,2014,6
+GOVT,Arts,2015,6
+GOVT,Arts,2016,6
+GOVT,Arts,2017,6
+GOVT,Arts,2018,7
+GOVT,Arts,2019,9
+GOVT,Arts,2020,9
+GOVT,Arts,2021,9
+GOVT,Arts,2022,9
+GOVT,Arts,2023,9
+GOVT,Arts,2024,9
+GOVT,Business,2014,1
+GOVT,Business,2015,1
+GOVT,Business,2016,1
+GOVT,Business,2017,2
+GOVT,Business,2018,3
+GOVT,Business,2019,3
+GOVT,Business,2020,3
+GOVT,Business,2021,3
+GOVT,Business,2022,3
+GOVT,Business,2023,3
+GOVT,Business,2024,3
+GOVT,Capstone,2014,8
+GOVT,Capstone,2015,7
+GOVT,Capstone,2016,7
+GOVT,Capstone,2017,7
+GOVT,Capstone,2018,7
+GOVT,Capstone,2019,9
+GOVT,Capstone,2020,10
+GOVT,Capstone,2021,10
+GOVT,Capstone,2022,10
+GOVT,Capstone,2023,10
+GOVT,Capstone,2024,11
+GOVT,Community Health,2014,1
+GOVT,Community Health,2015,1
+GOVT,Community Health,2016,1
+GOVT,Community Health,2017,4
+GOVT,Community Health,2018,4
+GOVT,Community Health,2019,4
+GOVT,Community Health,2020,5
+GOVT,Community Health,2021,5
+GOVT,Community Health,2022,5
+GOVT,Community Health,2023,4
+GOVT,Community Health,2024,4
+GOVT,Education,2014,5
+GOVT,Education,2015,4
+GOVT,Education,2016,4
+GOVT,Education,2017,4
+GOVT,Education,2018,4
+GOVT,Education,2019,5
+GOVT,Education,2020,5
+GOVT,Education,2021,5
+GOVT,Education,2022,5
+GOVT,Education,2023,2
+GOVT,Education,2024,2
+GOVT,Finance,2014,1
+GOVT,Finance,2015,1
+GOVT,Finance,2016,1
+GOVT,Finance,2017,1
+GOVT,Finance,2019,1
+GOVT,Finance,2020,1
+GOVT,Finance,2021,1
+GOVT,Finance,2022,1
+GOVT,Finance,2023,1
+GOVT,Finance,2024,1
+GOVT,Gender/Race/Identity,2014,5
+GOVT,Gender/Race/Identity,2015,5
+GOVT,Gender/Race/Identity,2016,7
+GOVT,Gender/Race/Identity,2017,6
+GOVT,Gender/Race/Identity,2018,7
+GOVT,Gender/Race/Identity,2019,7
+GOVT,Gender/Race/Identity,2020,7
+GOVT,Gender/Race/Identity,2021,7
+GOVT,Gender/Race/Identity,2022,8
+GOVT,Gender/Race/Identity,2023,8
+GOVT,Gender/Race/Identity,2024,8
+GOVT,History,2014,10
+GOVT,History,2015,11
+GOVT,History,2016,11
+GOVT,History,2017,10
+GOVT,History,2018,10
+GOVT,History,2019,10
+GOVT,History,2020,12
+GOVT,History,2021,12
+GOVT,History,2022,12
+GOVT,History,2023,14
+GOVT,History,2024,14
+GOVT,Information Technology,2014,1
+GOVT,Information Technology,2015,2
+GOVT,Information Technology,2016,2
+GOVT,Information Technology,2017,2
+GOVT,Information Technology,2018,2
+GOVT,Information Technology,2019,3
+GOVT,Information Technology,2020,3
+GOVT,Information Technology,2021,3
+GOVT,Information Technology,2022,3
+GOVT,Information Technology,2023,3
+GOVT,Information Technology,2024,3
+GOVT,International Issues,2014,1
+GOVT,International Issues,2015,1
+GOVT,International Issues,2016,3
+GOVT,International Issues,2017,3
+GOVT,International Issues,2018,3
+GOVT,International Issues,2019,2
+GOVT,International Issues,2020,2
+GOVT,International Issues,2021,2
+GOVT,International Issues,2022,3
+GOVT,International Issues,2023,5
+GOVT,International Issues,2024,6
+GOVT,Languages,2017,1
+GOVT,Media,2014,4
+GOVT,Media,2015,5
+GOVT,Media,2016,8
+GOVT,Media,2017,7
+GOVT,Media,2018,7
+GOVT,Media,2019,7
+GOVT,Media,2020,7
+GOVT,Media,2021,7
+GOVT,Media,2022,7
+GOVT,Media,2023,4
+GOVT,Media,2024,4
+GOVT,Politics and Policy,2014,61
+GOVT,Politics and Policy,2015,65
+GOVT,Politics and Policy,2016,68
+GOVT,Politics and Policy,2017,71
+GOVT,Politics and Policy,2018,70
+GOVT,Politics and Policy,2019,72
+GOVT,Politics and Policy,2020,73
+GOVT,Politics and Policy,2021,72
+GOVT,Politics and Policy,2022,76
+GOVT,Politics and Policy,2023,72
+GOVT,Politics and Policy,2024,78
+GOVT,Quantitative Analysis,2014,5
+GOVT,Quantitative Analysis,2015,5
+GOVT,Quantitative Analysis,2016,3
+GOVT,Quantitative Analysis,2017,3
+GOVT,Quantitative Analysis,2018,3
+GOVT,Quantitative Analysis,2019,5
+GOVT,Quantitative Analysis,2020,5
+GOVT,Quantitative Analysis,2021,5
+GOVT,Quantitative Analysis,2022,5
+GOVT,Quantitative Analysis,2023,5
+GOVT,Quantitative Analysis,2024,5
+GOVT,Repeatable Topics,2014,12
+GOVT,Repeatable Topics,2015,11
+GOVT,Repeatable Topics,2016,8
+GOVT,Repeatable Topics,2017,8
+GOVT,Repeatable Topics,2018,3
+GOVT,Repeatable Topics,2019,3
+GOVT,Repeatable Topics,2020,2
+GOVT,Repeatable Topics,2021,2
+GOVT,Repeatable Topics,2022,2
+GOVT,Repeatable Topics,2023,2
+GOVT,Repeatable Topics,2024,2
+GOVT,Research,2014,3
+GOVT,Research,2015,5
+GOVT,Research,2016,4
+GOVT,Research,2017,4
+GOVT,Research,2018,4
+GOVT,Research,2019,4
+GOVT,Research,2020,5
+GOVT,Research,2021,5
+GOVT,Research,2022,5
+GOVT,Research,2023,5
+GOVT,Research,2024,8
+GOVT,Social Issues,2014,3
+GOVT,Social Issues,2015,3
+GOVT,Social Issues,2016,2
+GOVT,Social Issues,2017,3
+GOVT,Social Issues,2018,3
+GOVT,Social Issues,2019,3
+GOVT,Social Issues,2020,3
+GOVT,Social Issues,2021,3
+GOVT,Social Issues,2022,4
+GOVT,Social Issues,2023,2
+GOVT,Social Issues,2024,3
+GOVT,Washington,2014,13
+GOVT,Washington,2015,13
+GOVT,Washington,2016,13
+GOVT,Washington,2017,14
+GOVT,Washington,2018,7
+GOVT,Washington,2019,10
+GOVT,Washington,2020,10
+GOVT,Washington,2021,9
+GOVT,Washington,2022,7
+GOVT,Washington,2023,3
+GOVT,Washington,2024,4
+GOVT,,2018,5
+GOVT,,2019,5
+GOVT,,2020,5
+GOVT,,2021,5
+GOVT,,2022,5
+GOVT,,2023,7
+GOVT,,2024,8
+HCS,Business,2019,2
+HCS,Business,2020,4
+HCS,Business,2021,4
+HCS,Business,2022,4
+HCS,Business,2023,4
+HCS,Business,2024,4
+HCS,Community Health,2016,3
+HCS,Community Health,2017,3
+HCS,Community Health,2018,3
+HCS,Community Health,2019,1
+HCS,Community Health,2020,1
+HCS,Community Health,2021,1
+HCS,Community Health,2022,1
+HCS,Community Health,2023,1
+HCS,Community Health,2024,1
+HCS,Management,2016,2
+HCS,Management,2017,2
+HCS,Management,2018,3
+HCS,Management,2019,3
+HCS,Management,2020,6
+HCS,Management,2021,6
+HCS,Management,2022,6
+HCS,Management,2023,6
+HCS,Management,2024,6
+HCS,Politics and Policy,2020,1
+HCS,Politics and Policy,2021,1
+HCS,Politics and Policy,2022,1
+HCS,Politics and Policy,2023,1
+HCS,Politics and Policy,2024,1
+HCS,Research,2016,1
+HCS,Research,2017,1
+HEBR,Community Health,2022,2
+HEBR,Community Health,2023,2
+HEBR,Community Health,2024,2
+HEBR,Education,2014,1
+HEBR,Education,2015,1
+HEBR,Education,2016,1
+HEBR,Languages,2014,6
+HEBR,Languages,2015,6
+HEBR,Languages,2016,6
+HEBR,Languages,2017,6
+HEBR,Languages,2018,6
+HEBR,Languages,2019,6
+HEBR,Languages,2020,6
+HEBR,Languages,2021,6
+HEBR,Languages,2022,6
+HEBR,Languages,2023,6
+HEBR,Languages,2024,6
+HEBR,Repeatable Topics,2014,3
+HEBR,Repeatable Topics,2015,3
+HEBR,Repeatable Topics,2016,3
+HEBR,Repeatable Topics,2017,3
+HEBR,,2018,3
+HEBR,,2019,3
+HEBR,,2020,3
+HEBR,,2021,3
+HEBR,,2022,3
+HEBR,,2023,3
+HEBR,,2024,3
+HFIT,Business,2014,3
+HFIT,Capstone,2014,5
+HFIT,Capstone,2015,1
+HFIT,Capstone,2016,1
+HFIT,Capstone,2017,1
+HFIT,Capstone,2018,1
+HFIT,Capstone,2019,1
+HFIT,Capstone,2020,1
+HFIT,Capstone,2021,1
+HFIT,Capstone,2022,1
+HFIT,Capstone,2023,1
+HFIT,Capstone,2024,1
+HFIT,Community Health,2014,15
+HFIT,Community Health,2015,1
+HFIT,Community Health,2016,1
+HFIT,Community Health,2017,1
+HFIT,Community Health,2018,1
+HFIT,Community Health,2019,1
+HFIT,Community Health,2020,1
+HFIT,Community Health,2021,1
+HFIT,Community Health,2022,1
+HFIT,Community Health,2023,1
+HFIT,Community Health,2024,1
+HFIT,Education,2014,3
+HFIT,Education,2015,2
+HFIT,Education,2016,2
+HFIT,Education,2017,2
+HFIT,Education,2018,2
+HFIT,Education,2019,2
+HFIT,Education,2020,2
+HFIT,Education,2021,2
+HFIT,Education,2022,2
+HFIT,Education,2023,2
+HFIT,Education,2024,2
+HFIT,Finance,2014,1
+HFIT,Gender/Race/Identity,2014,2
+HFIT,Languages,2014,2
+HFIT,Languages,2015,2
+HFIT,Languages,2016,2
+HFIT,Languages,2017,2
+HFIT,Languages,2018,2
+HFIT,Languages,2019,2
+HFIT,Languages,2020,2
+HFIT,Languages,2021,2
+HFIT,Languages,2022,2
+HFIT,Languages,2023,2
+HFIT,Languages,2024,2
+HFIT,Management,2014,1
+HFIT,Politics and Policy,2014,1
+HFIT,Psychology,2014,27
+HFIT,Psychology,2015,9
+HFIT,Psychology,2016,9
+HFIT,Psychology,2017,9
+HFIT,Psychology,2018,9
+HFIT,Psychology,2019,9
+HFIT,Psychology,2020,9
+HFIT,Psychology,2021,9
+HFIT,Psychology,2022,9
+HFIT,Psychology,2023,9
+HFIT,Psychology,2024,9
+HFIT,Quantitative Analysis,2014,2
+HFIT,Repeatable Topics,2014,7
+HFIT,Repeatable Topics,2015,2
+HFIT,Repeatable Topics,2016,2
+HFIT,Repeatable Topics,2017,2
+HFIT,Research,2014,6
+HFIT,Research,2015,4
+HFIT,Research,2016,4
+HFIT,Research,2017,4
+HFIT,Research,2018,4
+HFIT,Research,2019,4
+HFIT,Research,2020,4
+HFIT,Research,2021,4
+HFIT,Research,2022,4
+HFIT,Research,2023,4
+HFIT,Research,2024,4
+HFIT,,2018,2
+HFIT,,2019,2
+HFIT,,2020,2
+HFIT,,2021,2
+HFIT,,2022,2
+HFIT,,2023,2
+HFIT,,2024,2
+HIST,Arts,2014,12
+HIST,Arts,2015,12
+HIST,Arts,2016,12
+HIST,Arts,2017,12
+HIST,Arts,2018,14
+HIST,Arts,2019,14
+HIST,Arts,2020,17
+HIST,Arts,2021,17
+HIST,Arts,2022,20
+HIST,Arts,2023,20
+HIST,Arts,2024,22
+HIST,Business,2023,1
+HIST,Business,2024,1
+HIST,Capstone,2014,5
+HIST,Capstone,2015,5
+HIST,Capstone,2016,5
+HIST,Capstone,2017,5
+HIST,Capstone,2018,5
+HIST,Capstone,2019,5
+HIST,Capstone,2020,5
+HIST,Capstone,2021,5
+HIST,Capstone,2022,5
+HIST,Capstone,2023,8
+HIST,Capstone,2024,8
+HIST,Community Health,2014,5
+HIST,Community Health,2015,5
+HIST,Community Health,2016,5
+HIST,Community Health,2017,6
+HIST,Community Health,2018,6
+HIST,Community Health,2019,6
+HIST,Community Health,2020,6
+HIST,Community Health,2021,6
+HIST,Community Health,2022,6
+HIST,Community Health,2023,6
+HIST,Community Health,2024,6
+HIST,Education,2014,6
+HIST,Education,2015,6
+HIST,Education,2016,6
+HIST,Education,2017,5
+HIST,Education,2018,5
+HIST,Education,2019,5
+HIST,Education,2020,5
+HIST,Education,2021,5
+HIST,Education,2022,5
+HIST,Education,2023,2
+HIST,Education,2024,2
+HIST,Finance,2021,1
+HIST,Finance,2022,1
+HIST,Finance,2023,1
+HIST,Finance,2024,1
+HIST,Gender/Race/Identity,2014,6
+HIST,Gender/Race/Identity,2015,6
+HIST,Gender/Race/Identity,2016,6
+HIST,Gender/Race/Identity,2017,6
+HIST,Gender/Race/Identity,2018,6
+HIST,Gender/Race/Identity,2019,6
+HIST,Gender/Race/Identity,2020,6
+HIST,Gender/Race/Identity,2021,6
+HIST,Gender/Race/Identity,2022,7
+HIST,Gender/Race/Identity,2023,7
+HIST,Gender/Race/Identity,2024,8
+HIST,History,2014,82
+HIST,History,2015,82
+HIST,History,2016,85
+HIST,History,2017,85
+HIST,History,2018,83
+HIST,History,2019,84
+HIST,History,2020,83
+HIST,History,2021,85
+HIST,History,2022,84
+HIST,History,2023,84
+HIST,History,2024,88
+HIST,Politics and Policy,2014,4
+HIST,Politics and Policy,2015,4
+HIST,Politics and Policy,2016,4
+HIST,Politics and Policy,2017,4
+HIST,Politics and Policy,2018,4
+HIST,Politics and Policy,2019,4
+HIST,Politics and Policy,2020,4
+HIST,Politics and Policy,2021,4
+HIST,Politics and Policy,2022,4
+HIST,Politics and Policy,2023,4
+HIST,Politics and Policy,2024,4
+HIST,Psychology,2021,1
+HIST,Psychology,2022,1
+HIST,Psychology,2023,1
+HIST,Psychology,2024,1
+HIST,Quantitative Analysis,2014,3
+HIST,Quantitative Analysis,2015,3
+HIST,Quantitative Analysis,2016,3
+HIST,Quantitative Analysis,2017,3
+HIST,Quantitative Analysis,2018,3
+HIST,Quantitative Analysis,2019,3
+HIST,Quantitative Analysis,2020,3
+HIST,Quantitative Analysis,2021,3
+HIST,Quantitative Analysis,2022,3
+HIST,Quantitative Analysis,2023,2
+HIST,Quantitative Analysis,2024,3
+HIST,Repeatable Topics,2014,17
+HIST,Repeatable Topics,2015,17
+HIST,Repeatable Topics,2016,17
+HIST,Repeatable Topics,2017,18
+HIST,Repeatable Topics,2018,10
+HIST,Repeatable Topics,2019,10
+HIST,Repeatable Topics,2020,11
+HIST,Repeatable Topics,2021,11
+HIST,Repeatable Topics,2022,11
+HIST,Repeatable Topics,2023,11
+HIST,Repeatable Topics,2024,12
+HIST,Research,2014,6
+HIST,Research,2015,6
+HIST,Research,2016,6
+HIST,Research,2017,7
+HIST,Research,2018,7
+HIST,Research,2019,7
+HIST,Research,2020,7
+HIST,Research,2021,7
+HIST,Research,2022,7
+HIST,Research,2023,8
+HIST,Research,2024,8
+HIST,Social Issues,2023,1
+HIST,Social Issues,2024,2
+HIST,Washington,2014,7
+HIST,Washington,2015,7
+HIST,Washington,2016,7
+HIST,Washington,2017,7
+HIST,Washington,2018,7
+HIST,Washington,2019,8
+HIST,Washington,2020,9
+HIST,Washington,2021,9
+HIST,Washington,2022,9
+HIST,Washington,2023,8
+HIST,Washington,2024,6
+HIST,,2018,8
+HIST,,2019,8
+HIST,,2020,8
+HIST,,2021,8
+HIST,,2022,8
+HIST,,2023,7
+HIST,,2024,8
+HLTH,Business,2018,4
+HLTH,Business,2019,5
+HLTH,Business,2020,6
+HLTH,Business,2021,8
+HLTH,Business,2022,8
+HLTH,Business,2023,8
+HLTH,Business,2024,8
+HLTH,Capstone,2018,4
+HLTH,Capstone,2019,4
+HLTH,Capstone,2020,5
+HLTH,Capstone,2021,5
+HLTH,Capstone,2022,5
+HLTH,Capstone,2023,6
+HLTH,Capstone,2024,6
+HLTH,Community Health,2018,20
+HLTH,Community Health,2019,21
+HLTH,Community Health,2020,19
+HLTH,Community Health,2021,21
+HLTH,Community Health,2022,20
+HLTH,Community Health,2023,20
+HLTH,Community Health,2024,21
+HLTH,Education,2018,2
+HLTH,Education,2019,2
+HLTH,Education,2020,2
+HLTH,Education,2021,2
+HLTH,Education,2022,2
+HLTH,Education,2023,1
+HLTH,Education,2024,1
+HLTH,Finance,2018,1
+HLTH,Finance,2019,1
+HLTH,Finance,2020,1
+HLTH,Finance,2021,2
+HLTH,Finance,2022,2
+HLTH,Finance,2023,2
+HLTH,Finance,2024,2
+HLTH,Gender/Race/Identity,2018,2
+HLTH,Gender/Race/Identity,2019,2
+HLTH,Gender/Race/Identity,2020,3
+HLTH,Gender/Race/Identity,2021,3
+HLTH,Gender/Race/Identity,2022,3
+HLTH,Gender/Race/Identity,2023,3
+HLTH,Gender/Race/Identity,2024,3
+HLTH,International Issues,2018,1
+HLTH,International Issues,2019,1
+HLTH,International Issues,2020,2
+HLTH,International Issues,2021,2
+HLTH,International Issues,2022,2
+HLTH,International Issues,2023,2
+HLTH,International Issues,2024,2
+HLTH,Management,2018,1
+HLTH,Management,2019,1
+HLTH,Management,2020,1
+HLTH,Management,2021,1
+HLTH,Management,2022,1
+HLTH,Management,2023,1
+HLTH,Management,2024,1
+HLTH,Media,2022,2
+HLTH,Media,2023,2
+HLTH,Media,2024,2
+HLTH,Politics and Policy,2018,1
+HLTH,Politics and Policy,2019,2
+HLTH,Politics and Policy,2020,2
+HLTH,Politics and Policy,2021,3
+HLTH,Politics and Policy,2022,3
+HLTH,Politics and Policy,2023,5
+HLTH,Politics and Policy,2024,5
+HLTH,Psychology,2018,19
+HLTH,Psychology,2019,19
+HLTH,Psychology,2020,20
+HLTH,Psychology,2021,21
+HLTH,Psychology,2022,21
+HLTH,Psychology,2023,19
+HLTH,Psychology,2024,19
+HLTH,Quantitative Analysis,2018,3
+HLTH,Quantitative Analysis,2019,3
+HLTH,Quantitative Analysis,2020,3
+HLTH,Quantitative Analysis,2021,4
+HLTH,Quantitative Analysis,2022,4
+HLTH,Quantitative Analysis,2023,4
+HLTH,Quantitative Analysis,2024,4
+HLTH,Research,2018,3
+HLTH,Research,2019,3
+HLTH,Research,2020,3
+HLTH,Research,2021,3
+HLTH,Research,2022,3
+HLTH,Research,2023,3
+HLTH,Research,2024,3
+HLTH,Social Issues,2018,2
+HLTH,Social Issues,2019,3
+HLTH,Social Issues,2020,3
+HLTH,Social Issues,2021,6
+HLTH,Social Issues,2022,6
+HLTH,Social Issues,2023,6
+HLTH,Social Issues,2024,6
+HLTH,,2018,6
+HLTH,,2019,6
+HLTH,,2020,6
+HLTH,,2021,6
+HLTH,,2022,6
+HLTH,,2023,6
+HLTH,,2024,6
+HNRS,Capstone,2014,11
+HNRS,Capstone,2015,12
+HNRS,Capstone,2016,15
+HNRS,Capstone,2017,15
+HNRS,Capstone,2018,15
+HNRS,Capstone,2019,15
+HNRS,Capstone,2020,18
+HNRS,Capstone,2021,18
+HNRS,Capstone,2022,11
+HNRS,Capstone,2023,7
+HNRS,Capstone,2024,11
+HNRS,Community Health,2017,1
+HNRS,Community Health,2018,1
+HNRS,Community Health,2019,1
+HNRS,Community Health,2020,1
+HNRS,Community Health,2021,1
+HNRS,Community Health,2022,3
+HNRS,Community Health,2023,3
+HNRS,Community Health,2024,3
+HNRS,Repeatable Topics,2014,1
+HNRS,Repeatable Topics,2015,2
+HNRS,Repeatable Topics,2016,3
+HNRS,Repeatable Topics,2017,3
+HNRS,Research,2020,1
+HNRS,Research,2021,1
+HNRS,Research,2022,1
+HNRS,Research,2023,1
+HNRS,Research,2024,1
+HNRS,Washington,2020,1
+HNRS,Washington,2021,1
+HNRS,Washington,2022,1
+HNRS,Washington,2023,1
+HNRS,Washington,2024,1
+HNRS,,2018,3
+HNRS,,2019,3
+HNRS,,2020,3
+HNRS,,2021,3
+HNRS,,2022,3
+HNRS,,2023,2
+HNRS,,2024,3
+HPRM,Business,2015,3
+HPRM,Business,2016,4
+HPRM,Business,2017,4
+HPRM,Capstone,2015,3
+HPRM,Capstone,2016,3
+HPRM,Capstone,2017,3
+HPRM,Community Health,2015,15
+HPRM,Community Health,2016,15
+HPRM,Community Health,2017,14
+HPRM,Education,2015,1
+HPRM,Education,2016,1
+HPRM,Education,2017,1
+HPRM,Finance,2015,1
+HPRM,Finance,2016,1
+HPRM,Finance,2017,1
+HPRM,Gender/Race/Identity,2015,2
+HPRM,Gender/Race/Identity,2016,2
+HPRM,Gender/Race/Identity,2017,2
+HPRM,Management,2015,1
+HPRM,Management,2016,1
+HPRM,Management,2017,1
+HPRM,Politics and Policy,2015,1
+HPRM,Politics and Policy,2016,1
+HPRM,Politics and Policy,2017,1
+HPRM,Psychology,2015,19
+HPRM,Psychology,2016,20
+HPRM,Psychology,2017,20
+HPRM,Quantitative Analysis,2015,2
+HPRM,Quantitative Analysis,2016,2
+HPRM,Quantitative Analysis,2017,2
+HPRM,Repeatable Topics,2015,6
+HPRM,Repeatable Topics,2016,6
+HPRM,Repeatable Topics,2017,6
+HPRM,Research,2015,2
+HPRM,Research,2016,2
+HPRM,Research,2017,3
+HRAM,Business,2017,3
+HRAM,Business,2018,3
+HRAM,Business,2019,3
+HRAM,Business,2020,3
+HRAM,Business,2021,3
+HRAM,Business,2022,3
+HRAM,Business,2023,4
+HRAM,Business,2024,4
+HRAM,Management,2017,3
+HRAM,Management,2018,3
+HRAM,Management,2019,3
+HRAM,Management,2020,3
+HRAM,Management,2021,3
+HRAM,Management,2022,3
+HRAM,Management,2023,3
+HRAM,Management,2024,3
+IBUS,Business,2014,11
+IBUS,Business,2015,10
+IBUS,Business,2016,11
+IBUS,Business,2017,11
+IBUS,Business,2018,10
+IBUS,Business,2019,10
+IBUS,Business,2020,10
+IBUS,Business,2021,10
+IBUS,Business,2022,9
+IBUS,Business,2023,9
+IBUS,Business,2024,9
+IBUS,Capstone,2014,3
+IBUS,Capstone,2015,3
+IBUS,Capstone,2016,3
+IBUS,Capstone,2017,3
+IBUS,Capstone,2018,3
+IBUS,Capstone,2019,3
+IBUS,Capstone,2020,3
+IBUS,Capstone,2021,3
+IBUS,Capstone,2022,3
+IBUS,Capstone,2023,4
+IBUS,Capstone,2024,4
+IBUS,Community Health,2018,1
+IBUS,Community Health,2019,1
+IBUS,Community Health,2020,1
+IBUS,Community Health,2021,1
+IBUS,Community Health,2022,1
+IBUS,Community Health,2023,1
+IBUS,Community Health,2024,1
+IBUS,Education,2014,4
+IBUS,Education,2015,4
+IBUS,Education,2016,4
+IBUS,Education,2017,4
+IBUS,Education,2018,4
+IBUS,Education,2019,3
+IBUS,Education,2020,3
+IBUS,Education,2021,3
+IBUS,Education,2022,3
+IBUS,Education,2023,2
+IBUS,Education,2024,2
+IBUS,Finance,2014,3
+IBUS,Finance,2015,6
+IBUS,Finance,2016,6
+IBUS,Finance,2017,5
+IBUS,Finance,2018,5
+IBUS,Finance,2019,5
+IBUS,Finance,2020,5
+IBUS,Finance,2021,7
+IBUS,Finance,2022,7
+IBUS,Finance,2023,7
+IBUS,Finance,2024,8
+IBUS,History,2014,1
+IBUS,History,2015,1
+IBUS,History,2016,1
+IBUS,History,2017,1
+IBUS,History,2018,1
+IBUS,History,2019,1
+IBUS,History,2020,1
+IBUS,Information Technology,2014,1
+IBUS,Information Technology,2015,1
+IBUS,Information Technology,2016,1
+IBUS,Information Technology,2017,1
+IBUS,Information Technology,2018,1
+IBUS,Information Technology,2019,1
+IBUS,Information Technology,2020,1
+IBUS,Information Technology,2021,1
+IBUS,Information Technology,2022,1
+IBUS,Information Technology,2023,1
+IBUS,Information Technology,2024,1
+IBUS,International Issues,2014,10
+IBUS,International Issues,2015,9
+IBUS,International Issues,2016,9
+IBUS,International Issues,2017,10
+IBUS,International Issues,2018,10
+IBUS,International Issues,2019,10
+IBUS,International Issues,2020,10
+IBUS,International Issues,2021,9
+IBUS,International Issues,2022,10
+IBUS,International Issues,2023,10
+IBUS,International Issues,2024,9
+IBUS,Languages,2015,1
+IBUS,Languages,2016,1
+IBUS,Languages,2017,1
+IBUS,Languages,2018,1
+IBUS,Languages,2019,1
+IBUS,Languages,2020,1
+IBUS,Languages,2021,1
+IBUS,Languages,2022,2
+IBUS,Languages,2023,2
+IBUS,Languages,2024,2
+IBUS,Management,2014,2
+IBUS,Management,2015,1
+IBUS,Management,2016,1
+IBUS,Management,2017,1
+IBUS,Management,2018,1
+IBUS,Management,2019,1
+IBUS,Management,2020,1
+IBUS,Management,2021,1
+IBUS,Management,2022,1
+IBUS,Management,2023,1
+IBUS,Management,2024,1
+IBUS,Repeatable Topics,2014,8
+IBUS,Repeatable Topics,2015,8
+IBUS,Repeatable Topics,2016,8
+IBUS,Repeatable Topics,2017,8
+IBUS,Repeatable Topics,2018,2
+IBUS,Repeatable Topics,2019,2
+IBUS,Repeatable Topics,2020,2
+IBUS,Research,2014,1
+IBUS,Research,2015,1
+IBUS,Research,2016,1
+IBUS,Research,2017,1
+IBUS,Washington,2014,2
+IBUS,Washington,2015,2
+IBUS,Washington,2016,2
+IBUS,Washington,2017,2
+IBUS,Washington,2018,1
+IBUS,Washington,2019,1
+IBUS,Washington,2020,1
+IBUS,Washington,2021,1
+IBUS,Washington,2022,1
+IBUS,Washington,2023,1
+IBUS,Washington,2024,1
+IBUS,,2018,8
+IBUS,,2019,8
+IBUS,,2020,8
+IBUS,,2021,8
+IBUS,,2022,8
+IBUS,,2023,7
+IBUS,,2024,8
+IDIS,Community Health,2015,1
+IDIS,Community Health,2016,1
+IDIS,Community Health,2017,1
+IDIS,Community Health,2018,1
+IDIS,Community Health,2019,1
+IDIS,Community Health,2020,1
+IDIS,Community Health,2021,1
+IDIS,Community Health,2022,2
+IDIS,Community Health,2023,2
+IDIS,Community Health,2024,1
+IDIS,Repeatable Topics,2015,1
+IDIS,Repeatable Topics,2016,1
+IDIS,Repeatable Topics,2017,3
+IDIS,Research,2018,1
+IDIS,Research,2019,1
+IDIS,Research,2024,4
+IDIS,Social Issues,2014,1
+IDIS,Social Issues,2015,1
+IDIS,Social Issues,2016,1
+IDIS,Washington,2014,1
+IDIS,Washington,2015,1
+IDIS,Washington,2016,1
+IDIS,Washington,2018,1
+IDIS,Washington,2019,1
+IDIS,,2018,3
+IDIS,,2019,3
+IDIS,,2020,3
+IDIS,,2021,3
+IDIS,,2022,3
+IDIS,,2023,2
+IDIS,,2024,3
+IDLA,Business,2017,3
+IDLA,Business,2018,3
+IDLA,Business,2019,4
+IDLA,Business,2020,4
+IDLA,Business,2021,4
+IDLA,Business,2022,4
+IDLA,Business,2023,4
+IDLA,Business,2024,4
+IDLA,Information Technology,2017,1
+IDLA,Information Technology,2018,1
+IDLA,Management,2017,1
+IDLA,Management,2018,1
+IDLA,Management,2019,1
+IDLA,Management,2020,1
+IDLA,Management,2021,1
+IDLA,Management,2022,1
+IDLA,Management,2023,1
+IDLA,Management,2024,1
+IDLA,Psychology,2017,1
+IDLA,Psychology,2018,1
+IDLA,Psychology,2019,1
+IDLA,Psychology,2020,1
+IDLA,Psychology,2021,1
+IDLA,Psychology,2022,1
+IDLA,Psychology,2023,1
+IDLA,Psychology,2024,1
+IGP,Education,2015,1
+IGP,History,2015,1
+IGP,Media,2015,1
+IGP,Repeatable Topics,2015,2
+IGP,Research,2014,1
+IGP,Research,2015,3
+ISCI,Business,2019,2
+ISCI,Business,2020,2
+ISCI,Business,2021,2
+ISCI,Business,2022,3
+ISCI,Business,2023,3
+ISCI,Business,2024,3
+ISCI,Capstone,2019,5
+ISCI,Capstone,2020,5
+ISCI,Capstone,2021,6
+ISCI,Capstone,2022,6
+ISCI,Capstone,2023,6
+ISCI,Capstone,2024,6
+ISCI,Community Health,2022,2
+ISCI,Community Health,2023,2
+ISCI,Community Health,2024,2
+ISCI,Information Technology,2019,2
+ISCI,Information Technology,2020,2
+ISCI,Information Technology,2021,2
+ISCI,Information Technology,2022,2
+ISCI,Information Technology,2023,2
+ISCI,Information Technology,2024,2
+ISCI,Media,2019,1
+ISCI,Media,2020,2
+ISCI,Media,2021,2
+ISCI,Media,2022,2
+ISCI,Media,2023,2
+ISCI,Media,2024,2
+ISCI,Politics and Policy,2024,1
+ISCI,Repeatable Topics,2019,1
+ISCI,Repeatable Topics,2020,1
+ISCI,Repeatable Topics,2021,1
+ISCI,Repeatable Topics,2022,1
+ISCI,Repeatable Topics,2023,1
+ISCI,Repeatable Topics,2024,1
+ISCI,Research,2024,1
+ISCI,,2019,5
+ISCI,,2020,6
+ISCI,,2021,6
+ISCI,,2022,6
+ISCI,,2023,5
+ISCI,,2024,6
+ISR,Capstone,2016,2
+ISR,Capstone,2017,2
+ISR,Capstone,2018,2
+ISR,Capstone,2019,2
+ISR,Capstone,2020,2
+ISR,Capstone,2021,2
+ISR,Capstone,2022,2
+ISR,Capstone,2023,3
+ISR,Capstone,2024,3
+ISR,Education,2016,1
+ISR,Education,2017,1
+ISR,Education,2018,1
+ISR,Education,2019,1
+ISR,Education,2020,1
+ISR,Education,2021,1
+ISR,Education,2022,1
+ISR,History,2019,1
+ISR,History,2020,3
+ISR,History,2021,3
+ISR,History,2022,3
+ISR,History,2023,3
+ISR,History,2024,3
+ISR,Politics and Policy,2020,2
+ISR,Politics and Policy,2021,2
+ISR,Politics and Policy,2022,2
+ISR,Politics and Policy,2023,2
+ISR,Politics and Policy,2024,2
+ISR,Repeatable Topics,2014,4
+ISR,Repeatable Topics,2015,4
+ISR,Repeatable Topics,2016,4
+ISR,Repeatable Topics,2017,4
+ISR,,2018,4
+ISR,,2019,4
+ISR,,2020,4
+ISR,,2021,4
+ISR,,2022,4
+ISR,,2023,4
+ISR,,2024,4
+ITAL,Arts,2019,1
+ITAL,Arts,2020,2
+ITAL,Arts,2021,2
+ITAL,Arts,2022,2
+ITAL,Arts,2023,2
+ITAL,Arts,2024,2
+ITAL,Capstone,2014,2
+ITAL,Capstone,2015,2
+ITAL,Capstone,2016,2
+ITAL,Capstone,2017,2
+ITAL,Capstone,2018,2
+ITAL,Capstone,2019,2
+ITAL,Capstone,2020,2
+ITAL,Capstone,2021,2
+ITAL,Capstone,2022,2
+ITAL,Capstone,2023,3
+ITAL,Capstone,2024,3
+ITAL,Community Health,2022,2
+ITAL,Community Health,2023,2
+ITAL,Community Health,2024,2
+ITAL,Education,2014,2
+ITAL,Education,2015,2
+ITAL,Education,2016,2
+ITAL,Education,2017,1
+ITAL,Education,2018,1
+ITAL,Education,2019,1
+ITAL,Education,2020,1
+ITAL,Education,2021,1
+ITAL,Education,2022,1
+ITAL,Languages,2014,6
+ITAL,Languages,2015,6
+ITAL,Languages,2016,6
+ITAL,Languages,2017,6
+ITAL,Languages,2018,6
+ITAL,Languages,2019,6
+ITAL,Languages,2020,6
+ITAL,Languages,2021,6
+ITAL,Languages,2022,6
+ITAL,Languages,2023,6
+ITAL,Languages,2024,6
+ITAL,Repeatable Topics,2014,3
+ITAL,Repeatable Topics,2015,3
+ITAL,Repeatable Topics,2016,3
+ITAL,Repeatable Topics,2017,3
+ITAL,,2018,3
+ITAL,,2019,3
+ITAL,,2020,3
+ITAL,,2021,3
+ITAL,,2022,3
+ITAL,,2023,3
+ITAL,,2024,3
+ITEC,Business,2014,5
+ITEC,Business,2015,5
+ITEC,Business,2016,5
+ITEC,Business,2017,5
+ITEC,Business,2018,5
+ITEC,Business,2019,5
+ITEC,Business,2020,5
+ITEC,Business,2021,5
+ITEC,Business,2022,3
+ITEC,Business,2023,3
+ITEC,Business,2024,3
+ITEC,Capstone,2014,3
+ITEC,Capstone,2015,3
+ITEC,Capstone,2016,3
+ITEC,Capstone,2017,3
+ITEC,Capstone,2018,3
+ITEC,Capstone,2019,3
+ITEC,Capstone,2020,3
+ITEC,Capstone,2021,3
+ITEC,Capstone,2022,3
+ITEC,Capstone,2023,5
+ITEC,Capstone,2024,5
+ITEC,Education,2014,2
+ITEC,Education,2015,2
+ITEC,Education,2016,2
+ITEC,Education,2017,1
+ITEC,Education,2018,1
+ITEC,Education,2019,1
+ITEC,Education,2020,1
+ITEC,Education,2021,1
+ITEC,Education,2022,1
+ITEC,Education,2023,1
+ITEC,Education,2024,1
+ITEC,Finance,2014,3
+ITEC,Finance,2015,3
+ITEC,Finance,2016,3
+ITEC,Finance,2017,3
+ITEC,Finance,2018,3
+ITEC,Finance,2019,3
+ITEC,Finance,2020,3
+ITEC,Finance,2021,3
+ITEC,Finance,2022,2
+ITEC,Finance,2023,2
+ITEC,Finance,2024,2
+ITEC,Information Technology,2014,9
+ITEC,Information Technology,2015,9
+ITEC,Information Technology,2016,9
+ITEC,Information Technology,2017,10
+ITEC,Information Technology,2018,10
+ITEC,Information Technology,2019,10
+ITEC,Information Technology,2020,13
+ITEC,Information Technology,2021,13
+ITEC,Information Technology,2022,8
+ITEC,Information Technology,2023,6
+ITEC,Information Technology,2024,6
+ITEC,Management,2014,23
+ITEC,Management,2015,23
+ITEC,Management,2016,23
+ITEC,Management,2017,25
+ITEC,Management,2018,25
+ITEC,Management,2019,25
+ITEC,Management,2020,27
+ITEC,Management,2021,27
+ITEC,Management,2022,13
+ITEC,Management,2023,13
+ITEC,Management,2024,13
+ITEC,Media,2019,1
+ITEC,Media,2020,1
+ITEC,Media,2021,1
+ITEC,Media,2022,1
+ITEC,Media,2023,1
+ITEC,Politics and Policy,2014,1
+ITEC,Politics and Policy,2015,1
+ITEC,Politics and Policy,2016,1
+ITEC,Politics and Policy,2017,1
+ITEC,Politics and Policy,2018,1
+ITEC,Politics and Policy,2019,1
+ITEC,Politics and Policy,2020,1
+ITEC,Politics and Policy,2021,1
+ITEC,Psychology,2021,2
+ITEC,Psychology,2022,2
+ITEC,Psychology,2023,2
+ITEC,Psychology,2024,2
+ITEC,Quantitative Analysis,2014,2
+ITEC,Quantitative Analysis,2015,3
+ITEC,Quantitative Analysis,2016,3
+ITEC,Quantitative Analysis,2017,3
+ITEC,Quantitative Analysis,2018,3
+ITEC,Quantitative Analysis,2019,3
+ITEC,Quantitative Analysis,2020,4
+ITEC,Quantitative Analysis,2021,4
+ITEC,Quantitative Analysis,2022,3
+ITEC,Quantitative Analysis,2023,3
+ITEC,Quantitative Analysis,2024,4
+ITEC,Repeatable Topics,2014,3
+ITEC,Repeatable Topics,2015,3
+ITEC,Repeatable Topics,2016,3
+ITEC,Repeatable Topics,2017,3
+ITEC,Social Issues,2014,1
+ITEC,Social Issues,2015,1
+ITEC,Social Issues,2016,1
+ITEC,Social Issues,2017,1
+ITEC,Social Issues,2018,1
+ITEC,Social Issues,2019,1
+ITEC,Social Issues,2020,1
+ITEC,Social Issues,2021,1
+ITEC,Social Issues,2022,1
+ITEC,Social Issues,2023,1
+ITEC,Social Issues,2024,1
+ITEC,Washington,2014,5
+ITEC,Washington,2015,7
+ITEC,Washington,2016,7
+ITEC,Washington,2017,7
+ITEC,Washington,2018,7
+ITEC,Washington,2019,7
+ITEC,Washington,2020,8
+ITEC,Washington,2021,8
+ITEC,Washington,2022,7
+ITEC,Washington,2023,7
+ITEC,Washington,2024,7
+ITEC,,2018,3
+ITEC,,2019,3
+ITEC,,2020,3
+ITEC,,2021,3
+ITEC,,2022,3
+ITEC,,2023,3
+ITEC,,2024,3
+JAPN,Arts,2022,1
+JAPN,Arts,2023,1
+JAPN,Arts,2024,1
+JAPN,Capstone,2014,2
+JAPN,Capstone,2015,2
+JAPN,Capstone,2016,2
+JAPN,Capstone,2017,2
+JAPN,Capstone,2018,2
+JAPN,Capstone,2019,2
+JAPN,Capstone,2020,2
+JAPN,Capstone,2021,2
+JAPN,Capstone,2022,3
+JAPN,Capstone,2023,4
+JAPN,Capstone,2024,4
+JAPN,Community Health,2022,2
+JAPN,Community Health,2023,2
+JAPN,Community Health,2024,2
+JAPN,Education,2014,1
+JAPN,Education,2015,1
+JAPN,Education,2016,1
+JAPN,Education,2022,1
+JAPN,History,2022,2
+JAPN,History,2023,2
+JAPN,History,2024,2
+JAPN,Languages,2014,6
+JAPN,Languages,2015,6
+JAPN,Languages,2016,6
+JAPN,Languages,2017,6
+JAPN,Languages,2018,7
+JAPN,Languages,2019,7
+JAPN,Languages,2020,7
+JAPN,Languages,2021,7
+JAPN,Languages,2022,7
+JAPN,Languages,2023,7
+JAPN,Languages,2024,7
+JAPN,Repeatable Topics,2014,3
+JAPN,Repeatable Topics,2015,3
+JAPN,Repeatable Topics,2016,3
+JAPN,Repeatable Topics,2017,3
+JAPN,,2018,3
+JAPN,,2019,3
+JAPN,,2020,3
+JAPN,,2021,3
+JAPN,,2022,4
+JAPN,,2023,4
+JAPN,,2024,4
+JLC,Arts,2014,1
+JLC,Business,2014,1
+JLC,Business,2015,1
+JLC,Business,2016,1
+JLC,Business,2017,2
+JLC,Business,2018,1
+JLC,Business,2019,1
+JLC,Business,2020,3
+JLC,Business,2021,3
+JLC,Business,2022,3
+JLC,Business,2023,4
+JLC,Business,2024,4
+JLC,Capstone,2014,5
+JLC,Capstone,2015,5
+JLC,Capstone,2016,5
+JLC,Capstone,2017,4
+JLC,Capstone,2018,4
+JLC,Capstone,2019,5
+JLC,Capstone,2020,5
+JLC,Capstone,2021,5
+JLC,Capstone,2022,6
+JLC,Capstone,2023,7
+JLC,Capstone,2024,7
+JLC,Community Health,2016,1
+JLC,Community Health,2017,1
+JLC,Community Health,2018,2
+JLC,Community Health,2019,2
+JLC,Community Health,2020,3
+JLC,Community Health,2021,3
+JLC,Community Health,2022,3
+JLC,Community Health,2023,4
+JLC,Community Health,2024,4
+JLC,Education,2014,4
+JLC,Education,2015,3
+JLC,Education,2016,3
+JLC,Education,2017,2
+JLC,Education,2018,3
+JLC,Education,2019,3
+JLC,Education,2020,3
+JLC,Education,2021,3
+JLC,Education,2022,3
+JLC,Education,2023,4
+JLC,Education,2024,4
+JLC,Finance,2014,2
+JLC,Finance,2015,3
+JLC,Finance,2016,3
+JLC,Finance,2017,3
+JLC,Finance,2018,3
+JLC,Finance,2019,3
+JLC,Finance,2020,3
+JLC,Finance,2021,3
+JLC,Finance,2022,3
+JLC,Finance,2023,3
+JLC,Finance,2024,3
+JLC,Gender/Race/Identity,2014,6
+JLC,Gender/Race/Identity,2015,7
+JLC,Gender/Race/Identity,2016,7
+JLC,Gender/Race/Identity,2017,6
+JLC,Gender/Race/Identity,2018,5
+JLC,Gender/Race/Identity,2019,5
+JLC,Gender/Race/Identity,2020,7
+JLC,Gender/Race/Identity,2021,7
+JLC,Gender/Race/Identity,2022,7
+JLC,Gender/Race/Identity,2023,5
+JLC,Gender/Race/Identity,2024,5
+JLC,History,2014,4
+JLC,History,2015,4
+JLC,History,2016,4
+JLC,History,2017,4
+JLC,History,2018,4
+JLC,History,2019,3
+JLC,History,2020,3
+JLC,History,2021,3
+JLC,History,2022,3
+JLC,History,2023,4
+JLC,History,2024,4
+JLC,Information Technology,2014,2
+JLC,Information Technology,2015,2
+JLC,Information Technology,2016,2
+JLC,Information Technology,2017,2
+JLC,Information Technology,2018,2
+JLC,Information Technology,2019,2
+JLC,Information Technology,2020,2
+JLC,Information Technology,2021,2
+JLC,Information Technology,2022,2
+JLC,Information Technology,2023,2
+JLC,Information Technology,2024,2
+JLC,International Issues,2014,8
+JLC,International Issues,2015,7
+JLC,International Issues,2016,7
+JLC,International Issues,2017,6
+JLC,International Issues,2018,6
+JLC,International Issues,2019,6
+JLC,International Issues,2020,6
+JLC,International Issues,2021,6
+JLC,International Issues,2022,6
+JLC,International Issues,2023,8
+JLC,International Issues,2024,8
+JLC,Languages,2014,1
+JLC,Languages,2015,1
+JLC,Languages,2016,1
+JLC,Languages,2017,1
+JLC,Languages,2018,1
+JLC,Languages,2019,1
+JLC,Languages,2020,1
+JLC,Languages,2021,1
+JLC,Languages,2022,1
+JLC,Languages,2023,1
+JLC,Languages,2024,1
+JLC,Management,2020,4
+JLC,Management,2021,4
+JLC,Management,2022,4
+JLC,Management,2023,5
+JLC,Management,2024,5
+JLC,Politics and Policy,2014,25
+JLC,Politics and Policy,2015,27
+JLC,Politics and Policy,2016,29
+JLC,Politics and Policy,2017,31
+JLC,Politics and Policy,2018,30
+JLC,Politics and Policy,2019,32
+JLC,Politics and Policy,2020,32
+JLC,Politics and Policy,2021,33
+JLC,Politics and Policy,2022,36
+JLC,Politics and Policy,2023,40
+JLC,Politics and Policy,2024,41
+JLC,Psychology,2014,6
+JLC,Psychology,2015,6
+JLC,Psychology,2016,6
+JLC,Psychology,2017,6
+JLC,Psychology,2018,6
+JLC,Psychology,2019,6
+JLC,Psychology,2020,6
+JLC,Psychology,2021,6
+JLC,Psychology,2022,6
+JLC,Psychology,2023,6
+JLC,Psychology,2024,6
+JLC,Quantitative Analysis,2014,2
+JLC,Quantitative Analysis,2015,2
+JLC,Quantitative Analysis,2016,2
+JLC,Quantitative Analysis,2017,2
+JLC,Quantitative Analysis,2018,2
+JLC,Quantitative Analysis,2019,4
+JLC,Quantitative Analysis,2020,4
+JLC,Quantitative Analysis,2021,4
+JLC,Quantitative Analysis,2022,4
+JLC,Quantitative Analysis,2023,4
+JLC,Quantitative Analysis,2024,4
+JLC,Repeatable Topics,2014,8
+JLC,Repeatable Topics,2015,7
+JLC,Repeatable Topics,2016,7
+JLC,Repeatable Topics,2017,7
+JLC,Research,2014,3
+JLC,Research,2015,4
+JLC,Research,2016,4
+JLC,Research,2017,5
+JLC,Research,2018,5
+JLC,Research,2019,4
+JLC,Research,2020,4
+JLC,Research,2021,4
+JLC,Research,2022,4
+JLC,Research,2023,4
+JLC,Research,2024,4
+JLC,Social Issues,2014,38
+JLC,Social Issues,2015,40
+JLC,Social Issues,2016,39
+JLC,Social Issues,2017,41
+JLC,Social Issues,2018,42
+JLC,Social Issues,2019,43
+JLC,Social Issues,2020,42
+JLC,Social Issues,2021,43
+JLC,Social Issues,2022,43
+JLC,Social Issues,2023,40
+JLC,Social Issues,2024,40
+JLC,Washington,2014,5
+JLC,Washington,2015,5
+JLC,Washington,2016,6
+JLC,Washington,2017,6
+JLC,Washington,2018,1
+JLC,Washington,2019,1
+JLC,Washington,2020,1
+JLC,Washington,2021,1
+JLC,Washington,2022,1
+JLC,Washington,2023,1
+JLC,Washington,2024,1
+JLC,,2018,7
+JLC,,2019,7
+JLC,,2020,7
+JLC,,2021,7
+JLC,,2022,7
+JLC,,2023,6
+JLC,,2024,7
+JWST,Arts,2014,2
+JWST,Arts,2015,2
+JWST,Arts,2016,2
+JWST,Arts,2017,2
+JWST,Arts,2018,1
+JWST,Arts,2019,1
+JWST,Arts,2020,2
+JWST,Arts,2021,3
+JWST,Arts,2022,3
+JWST,Arts,2023,3
+JWST,Arts,2024,3
+JWST,Capstone,2014,6
+JWST,Capstone,2015,6
+JWST,Capstone,2016,6
+JWST,Capstone,2017,6
+JWST,Capstone,2018,6
+JWST,Capstone,2019,6
+JWST,Capstone,2020,6
+JWST,Capstone,2021,6
+JWST,Capstone,2022,6
+JWST,Capstone,2023,6
+JWST,Capstone,2024,6
+JWST,Community Health,2023,1
+JWST,Community Health,2024,1
+JWST,Education,2014,1
+JWST,Education,2015,1
+JWST,Education,2016,1
+JWST,Education,2017,1
+JWST,Education,2018,1
+JWST,Education,2019,1
+JWST,Education,2020,1
+JWST,Education,2021,1
+JWST,Education,2022,1
+JWST,Education,2023,1
+JWST,Education,2024,1
+JWST,History,2014,1
+JWST,History,2015,1
+JWST,History,2016,1
+JWST,History,2017,1
+JWST,History,2018,2
+JWST,History,2019,2
+JWST,History,2020,1
+JWST,Repeatable Topics,2014,6
+JWST,Repeatable Topics,2015,6
+JWST,Repeatable Topics,2016,6
+JWST,Repeatable Topics,2017,6
+JWST,,2018,6
+JWST,,2019,6
+JWST,,2020,6
+JWST,,2021,6
+JWST,,2022,6
+JWST,,2023,6
+JWST,,2024,6
+KOR,Arts,2023,1
+KOR,Arts,2024,1
+KOR,Community Health,2022,2
+KOR,Community Health,2023,2
+KOR,Community Health,2024,2
+KOR,Education,2014,1
+KOR,Education,2015,1
+KOR,Education,2016,1
+KOR,Gender/Race/Identity,2022,2
+KOR,Gender/Race/Identity,2023,2
+KOR,Gender/Race/Identity,2024,2
+KOR,Languages,2014,2
+KOR,Languages,2015,4
+KOR,Languages,2016,4
+KOR,Languages,2017,4
+KOR,Languages,2018,4
+KOR,Languages,2019,4
+KOR,Languages,2020,5
+KOR,Languages,2021,5
+KOR,Languages,2022,7
+KOR,Languages,2023,7
+KOR,Languages,2024,7
+KOR,Repeatable Topics,2014,2
+KOR,Repeatable Topics,2015,2
+KOR,Repeatable Topics,2016,2
+KOR,Repeatable Topics,2017,2
+KOR,,2018,2
+KOR,,2019,3
+KOR,,2020,3
+KOR,,2021,3
+KOR,,2022,3
+KOR,,2023,3
+KOR,,2024,3
+KSB,Business,2014,17
+KSB,Business,2015,20
+KSB,Business,2016,14
+KSB,Business,2017,14
+KSB,Business,2018,14
+KSB,Business,2019,14
+KSB,Business,2020,14
+KSB,Business,2021,14
+KSB,Business,2022,9
+KSB,Business,2023,9
+KSB,Business,2024,14
+KSB,Capstone,2014,4
+KSB,Capstone,2015,5
+KSB,Capstone,2016,5
+KSB,Capstone,2017,6
+KSB,Capstone,2018,6
+KSB,Capstone,2019,6
+KSB,Capstone,2020,6
+KSB,Capstone,2021,6
+KSB,Capstone,2022,5
+KSB,Capstone,2023,7
+KSB,Capstone,2024,8
+KSB,Education,2014,4
+KSB,Education,2015,4
+KSB,Education,2016,3
+KSB,Education,2017,3
+KSB,Education,2018,3
+KSB,Education,2019,4
+KSB,Education,2020,4
+KSB,Education,2021,4
+KSB,Education,2022,5
+KSB,Education,2023,4
+KSB,Education,2024,5
+KSB,Finance,2015,1
+KSB,Finance,2016,1
+KSB,Finance,2017,1
+KSB,Finance,2024,1
+KSB,Gender/Race/Identity,2024,1
+KSB,International Issues,2020,1
+KSB,International Issues,2021,1
+KSB,International Issues,2022,1
+KSB,International Issues,2023,1
+KSB,International Issues,2024,1
+KSB,Languages,2014,11
+KSB,Languages,2015,11
+KSB,Languages,2016,11
+KSB,Languages,2017,11
+KSB,Languages,2018,11
+KSB,Languages,2019,11
+KSB,Languages,2020,11
+KSB,Languages,2021,11
+KSB,Languages,2022,6
+KSB,Languages,2023,4
+KSB,Languages,2024,10
+KSB,Management,2015,1
+KSB,Management,2016,1
+KSB,Management,2017,1
+KSB,Management,2018,1
+KSB,Management,2019,1
+KSB,Management,2020,1
+KSB,Management,2021,1
+KSB,Management,2022,1
+KSB,Management,2023,2
+KSB,Management,2024,6
+KSB,Media,2016,1
+KSB,Media,2017,1
+KSB,Media,2018,1
+KSB,Media,2019,1
+KSB,Media,2020,1
+KSB,Media,2021,1
+KSB,Media,2022,1
+KSB,Media,2023,1
+KSB,Media,2024,1
+KSB,Quantitative Analysis,2014,1
+KSB,Quantitative Analysis,2015,1
+KSB,Quantitative Analysis,2024,2
+KSB,Repeatable Topics,2014,6
+KSB,Repeatable Topics,2015,6
+KSB,Repeatable Topics,2016,6
+KSB,Repeatable Topics,2017,7
+KSB,Research,2014,5
+KSB,Research,2015,5
+KSB,Research,2016,5
+KSB,Research,2017,5
+KSB,Research,2018,6
+KSB,Research,2019,6
+KSB,Research,2020,6
+KSB,Research,2021,6
+KSB,Research,2022,3
+KSB,Research,2023,3
+KSB,Research,2024,3
+KSB,Washington,2015,2
+KSB,Washington,2016,2
+KSB,Washington,2017,2
+KSB,Washington,2018,2
+KSB,Washington,2019,2
+KSB,Washington,2020,2
+KSB,Washington,2021,2
+KSB,Washington,2022,2
+KSB,Washington,2023,2
+KSB,Washington,2024,3
+KSB,,2018,7
+KSB,,2019,7
+KSB,,2020,7
+KSB,,2021,7
+KSB,,2022,7
+KSB,,2023,6
+KSB,,2024,7
+LING,Business,2024,2
+LING,Capstone,2024,3
+LING,Community Health,2024,1
+LING,Education,2024,1
+LING,Gender/Race/Identity,2023,2
+LING,Gender/Race/Identity,2024,2
+LING,Information Technology,2023,4
+LING,Information Technology,2024,4
+LING,Languages,2023,4
+LING,Languages,2024,5
+LING,Research,2023,2
+LING,Research,2024,2
+LING,,2024,5
+LIT,Arts,2014,61
+LIT,Arts,2015,61
+LIT,Arts,2016,61
+LIT,Arts,2017,60
+LIT,Arts,2018,61
+LIT,Arts,2019,61
+LIT,Arts,2020,63
+LIT,Arts,2021,61
+LIT,Arts,2022,57
+LIT,Arts,2023,57
+LIT,Arts,2024,54
+LIT,Capstone,2014,6
+LIT,Capstone,2015,6
+LIT,Capstone,2016,7
+LIT,Capstone,2017,6
+LIT,Capstone,2018,6
+LIT,Capstone,2019,7
+LIT,Capstone,2020,7
+LIT,Capstone,2021,7
+LIT,Capstone,2022,7
+LIT,Capstone,2023,8
+LIT,Capstone,2024,8
+LIT,Community Health,2014,2
+LIT,Community Health,2015,2
+LIT,Community Health,2016,2
+LIT,Community Health,2017,2
+LIT,Community Health,2018,2
+LIT,Community Health,2019,2
+LIT,Community Health,2020,3
+LIT,Community Health,2021,3
+LIT,Community Health,2022,4
+LIT,Community Health,2023,4
+LIT,Community Health,2024,4
+LIT,Education,2014,4
+LIT,Education,2015,4
+LIT,Education,2016,5
+LIT,Education,2017,4
+LIT,Education,2018,4
+LIT,Education,2019,4
+LIT,Education,2020,4
+LIT,Education,2021,4
+LIT,Education,2022,4
+LIT,Education,2023,2
+LIT,Education,2024,3
+LIT,Finance,2014,8
+LIT,Finance,2015,8
+LIT,Finance,2016,8
+LIT,Finance,2017,8
+LIT,Finance,2018,8
+LIT,Finance,2019,8
+LIT,Finance,2020,8
+LIT,Finance,2021,8
+LIT,Finance,2022,5
+LIT,Finance,2023,5
+LIT,Finance,2024,5
+LIT,Gender/Race/Identity,2014,1
+LIT,Gender/Race/Identity,2015,1
+LIT,Gender/Race/Identity,2016,1
+LIT,Gender/Race/Identity,2017,1
+LIT,Gender/Race/Identity,2018,1
+LIT,Gender/Race/Identity,2019,2
+LIT,Gender/Race/Identity,2020,2
+LIT,Gender/Race/Identity,2021,3
+LIT,Gender/Race/Identity,2022,3
+LIT,Gender/Race/Identity,2023,3
+LIT,Gender/Race/Identity,2024,3
+LIT,History,2014,11
+LIT,History,2015,11
+LIT,History,2016,13
+LIT,History,2017,13
+LIT,History,2018,12
+LIT,History,2019,10
+LIT,History,2020,10
+LIT,History,2021,10
+LIT,History,2022,9
+LIT,History,2023,9
+LIT,History,2024,9
+LIT,International Issues,2024,3
+LIT,Languages,2014,4
+LIT,Languages,2015,4
+LIT,Languages,2016,3
+LIT,Languages,2017,3
+LIT,Languages,2018,3
+LIT,Languages,2019,3
+LIT,Languages,2020,3
+LIT,Languages,2021,3
+LIT,Languages,2022,1
+LIT,Languages,2023,1
+LIT,Languages,2024,1
+LIT,Management,2014,1
+LIT,Management,2015,1
+LIT,Management,2016,1
+LIT,Management,2017,1
+LIT,Management,2018,1
+LIT,Management,2019,1
+LIT,Management,2020,2
+LIT,Management,2021,2
+LIT,Management,2022,1
+LIT,Management,2023,1
+LIT,Management,2024,1
+LIT,Media,2014,2
+LIT,Media,2015,2
+LIT,Media,2016,2
+LIT,Media,2017,2
+LIT,Media,2018,2
+LIT,Media,2019,2
+LIT,Media,2020,7
+LIT,Media,2021,7
+LIT,Media,2022,6
+LIT,Media,2023,6
+LIT,Media,2024,6
+LIT,Politics and Policy,2022,1
+LIT,Politics and Policy,2023,1
+LIT,Politics and Policy,2024,1
+LIT,Psychology,2014,1
+LIT,Psychology,2015,1
+LIT,Psychology,2016,1
+LIT,Psychology,2017,1
+LIT,Psychology,2018,1
+LIT,Psychology,2019,1
+LIT,Quantitative Analysis,2019,1
+LIT,Quantitative Analysis,2020,1
+LIT,Quantitative Analysis,2021,1
+LIT,Quantitative Analysis,2022,1
+LIT,Quantitative Analysis,2023,1
+LIT,Quantitative Analysis,2024,1
+LIT,Repeatable Topics,2014,8
+LIT,Repeatable Topics,2015,8
+LIT,Repeatable Topics,2016,8
+LIT,Repeatable Topics,2017,8
+LIT,Research,2014,11
+LIT,Research,2015,8
+LIT,Research,2016,7
+LIT,Research,2017,8
+LIT,Research,2018,8
+LIT,Research,2019,8
+LIT,Research,2020,7
+LIT,Research,2021,7
+LIT,Research,2022,7
+LIT,Research,2023,7
+LIT,Research,2024,7
+LIT,Washington,2020,1
+LIT,Washington,2021,1
+LIT,Washington,2022,1
+LIT,Washington,2023,2
+LIT,Washington,2024,2
+LIT,,2018,8
+LIT,,2019,8
+LIT,,2020,8
+LIT,,2021,8
+LIT,,2022,8
+LIT,,2023,7
+LIT,,2024,8
+LTST,Capstone,2021,1
+LTST,Capstone,2022,1
+LTST,Capstone,2023,2
+LTST,Capstone,2024,2
+LTST,Community Health,2022,4
+LTST,Community Health,2023,4
+LTST,Community Health,2024,4
+LTST,Education,2021,3
+LTST,Education,2022,3
+LTST,Education,2023,2
+LTST,Education,2024,2
+LTST,Gender/Race/Identity,2021,1
+LTST,Gender/Race/Identity,2022,4
+LTST,Gender/Race/Identity,2023,4
+LTST,Gender/Race/Identity,2024,5
+LTST,,2021,5
+LTST,,2022,5
+LTST,,2023,5
+LTST,,2024,5
+MATH,Capstone,2014,6
+MATH,Capstone,2015,5
+MATH,Capstone,2016,5
+MATH,Capstone,2017,3
+MATH,Capstone,2018,5
+MATH,Capstone,2019,6
+MATH,Capstone,2020,8
+MATH,Capstone,2021,8
+MATH,Capstone,2022,8
+MATH,Capstone,2023,10
+MATH,Capstone,2024,10
+MATH,Community Health,2014,2
+MATH,Community Health,2015,2
+MATH,Community Health,2016,3
+MATH,Community Health,2017,3
+MATH,Community Health,2018,3
+MATH,Community Health,2019,3
+MATH,Community Health,2020,3
+MATH,Community Health,2021,3
+MATH,Community Health,2022,6
+MATH,Community Health,2023,6
+MATH,Community Health,2024,6
+MATH,Education,2014,4
+MATH,Education,2015,4
+MATH,Education,2016,4
+MATH,Education,2017,3
+MATH,Education,2018,3
+MATH,Education,2019,3
+MATH,Education,2020,3
+MATH,Education,2021,3
+MATH,Education,2022,3
+MATH,Education,2023,1
+MATH,Education,2024,1
+MATH,Gender/Race/Identity,2014,8
+MATH,Gender/Race/Identity,2015,15
+MATH,Gender/Race/Identity,2016,15
+MATH,Gender/Race/Identity,2017,15
+MATH,Gender/Race/Identity,2018,15
+MATH,Gender/Race/Identity,2019,15
+MATH,Gender/Race/Identity,2020,13
+MATH,Gender/Race/Identity,2021,13
+MATH,Gender/Race/Identity,2022,13
+MATH,Gender/Race/Identity,2023,13
+MATH,Gender/Race/Identity,2024,13
+MATH,Information Technology,2017,1
+MATH,Information Technology,2018,1
+MATH,Information Technology,2019,1
+MATH,Information Technology,2020,2
+MATH,Information Technology,2021,2
+MATH,Information Technology,2022,2
+MATH,Information Technology,2023,2
+MATH,Information Technology,2024,2
+MATH,Management,2017,1
+MATH,Management,2018,1
+MATH,Management,2019,1
+MATH,Management,2020,1
+MATH,Management,2021,2
+MATH,Management,2022,2
+MATH,Management,2023,2
+MATH,Management,2024,2
+MATH,Psychology,2014,2
+MATH,Psychology,2015,3
+MATH,Psychology,2016,3
+MATH,Psychology,2017,3
+MATH,Psychology,2018,3
+MATH,Psychology,2019,3
+MATH,Psychology,2020,3
+MATH,Psychology,2021,3
+MATH,Psychology,2022,3
+MATH,Psychology,2023,3
+MATH,Psychology,2024,3
+MATH,Quantitative Analysis,2014,21
+MATH,Quantitative Analysis,2015,26
+MATH,Quantitative Analysis,2016,25
+MATH,Quantitative Analysis,2017,27
+MATH,Quantitative Analysis,2018,25
+MATH,Quantitative Analysis,2019,26
+MATH,Quantitative Analysis,2020,26
+MATH,Quantitative Analysis,2021,27
+MATH,Quantitative Analysis,2022,27
+MATH,Quantitative Analysis,2023,27
+MATH,Quantitative Analysis,2024,27
+MATH,Repeatable Topics,2014,9
+MATH,Repeatable Topics,2015,9
+MATH,Repeatable Topics,2016,9
+MATH,Repeatable Topics,2017,9
+MATH,Repeatable Topics,2018,3
+MATH,Repeatable Topics,2019,3
+MATH,Repeatable Topics,2020,3
+MATH,Repeatable Topics,2021,4
+MATH,Repeatable Topics,2022,4
+MATH,Repeatable Topics,2023,4
+MATH,Repeatable Topics,2024,4
+MATH,Research,2017,1
+MATH,Research,2018,1
+MATH,Research,2019,1
+MATH,Research,2020,1
+MATH,Research,2021,1
+MATH,Research,2022,1
+MATH,Research,2023,1
+MATH,Research,2024,1
+MATH,,2018,6
+MATH,,2019,6
+MATH,,2020,6
+MATH,,2021,6
+MATH,,2022,6
+MATH,,2023,5
+MATH,,2024,6
+MGMT,Business,2014,29
+MGMT,Business,2015,29
+MGMT,Business,2016,35
+MGMT,Business,2017,35
+MGMT,Business,2018,35
+MGMT,Business,2019,35
+MGMT,Business,2020,34
+MGMT,Business,2021,36
+MGMT,Business,2022,36
+MGMT,Business,2023,36
+MGMT,Business,2024,37
+MGMT,Capstone,2014,3
+MGMT,Capstone,2015,3
+MGMT,Capstone,2016,3
+MGMT,Capstone,2017,3
+MGMT,Capstone,2018,3
+MGMT,Capstone,2019,3
+MGMT,Capstone,2020,4
+MGMT,Capstone,2021,4
+MGMT,Capstone,2022,4
+MGMT,Capstone,2023,5
+MGMT,Capstone,2024,5
+MGMT,Community Health,2014,3
+MGMT,Community Health,2015,3
+MGMT,Community Health,2016,3
+MGMT,Community Health,2017,3
+MGMT,Community Health,2018,3
+MGMT,Community Health,2019,3
+MGMT,Community Health,2020,3
+MGMT,Community Health,2021,3
+MGMT,Community Health,2022,3
+MGMT,Community Health,2023,3
+MGMT,Community Health,2024,3
+MGMT,Education,2014,2
+MGMT,Education,2015,2
+MGMT,Education,2016,2
+MGMT,Education,2017,2
+MGMT,Education,2018,2
+MGMT,Education,2019,2
+MGMT,Education,2020,2
+MGMT,Education,2021,2
+MGMT,Education,2022,2
+MGMT,Education,2023,1
+MGMT,Education,2024,1
+MGMT,Finance,2014,1
+MGMT,Finance,2015,1
+MGMT,Finance,2016,1
+MGMT,Finance,2017,1
+MGMT,Finance,2018,1
+MGMT,Finance,2019,1
+MGMT,Finance,2020,1
+MGMT,Finance,2021,1
+MGMT,Finance,2022,1
+MGMT,Finance,2023,1
+MGMT,Finance,2024,2
+MGMT,Information Technology,2014,1
+MGMT,Information Technology,2015,1
+MGMT,Information Technology,2016,1
+MGMT,Information Technology,2017,1
+MGMT,Information Technology,2018,1
+MGMT,Information Technology,2019,1
+MGMT,Information Technology,2020,1
+MGMT,Information Technology,2021,1
+MGMT,Information Technology,2022,1
+MGMT,Information Technology,2023,1
+MGMT,Information Technology,2024,1
+MGMT,International Issues,2014,4
+MGMT,International Issues,2015,5
+MGMT,International Issues,2016,5
+MGMT,International Issues,2017,5
+MGMT,International Issues,2018,5
+MGMT,International Issues,2019,5
+MGMT,International Issues,2020,5
+MGMT,International Issues,2021,5
+MGMT,International Issues,2022,5
+MGMT,International Issues,2023,5
+MGMT,International Issues,2024,5
+MGMT,Management,2014,4
+MGMT,Management,2015,4
+MGMT,Management,2016,4
+MGMT,Management,2017,4
+MGMT,Management,2018,4
+MGMT,Management,2019,4
+MGMT,Management,2020,4
+MGMT,Management,2021,4
+MGMT,Management,2022,4
+MGMT,Management,2023,4
+MGMT,Management,2024,4
+MGMT,Media,2014,2
+MGMT,Media,2015,2
+MGMT,Media,2016,2
+MGMT,Media,2017,2
+MGMT,Media,2018,3
+MGMT,Media,2019,3
+MGMT,Media,2020,3
+MGMT,Media,2021,3
+MGMT,Media,2022,3
+MGMT,Media,2023,3
+MGMT,Media,2024,3
+MGMT,Politics and Policy,2014,2
+MGMT,Politics and Policy,2015,3
+MGMT,Politics and Policy,2016,3
+MGMT,Politics and Policy,2017,3
+MGMT,Politics and Policy,2018,3
+MGMT,Politics and Policy,2019,3
+MGMT,Politics and Policy,2020,3
+MGMT,Politics and Policy,2021,3
+MGMT,Politics and Policy,2022,3
+MGMT,Politics and Policy,2023,3
+MGMT,Politics and Policy,2024,4
+MGMT,Psychology,2020,2
+MGMT,Psychology,2021,2
+MGMT,Psychology,2022,2
+MGMT,Psychology,2023,2
+MGMT,Psychology,2024,2
+MGMT,Repeatable Topics,2014,8
+MGMT,Repeatable Topics,2015,8
+MGMT,Repeatable Topics,2016,8
+MGMT,Repeatable Topics,2017,8
+MGMT,Repeatable Topics,2018,1
+MGMT,Repeatable Topics,2019,1
+MGMT,Repeatable Topics,2020,1
+MGMT,Repeatable Topics,2021,1
+MGMT,Repeatable Topics,2022,1
+MGMT,Repeatable Topics,2023,1
+MGMT,Repeatable Topics,2024,1
+MGMT,Social Issues,2014,1
+MGMT,Social Issues,2015,1
+MGMT,Social Issues,2016,1
+MGMT,Social Issues,2017,1
+MGMT,Social Issues,2018,1
+MGMT,Social Issues,2019,2
+MGMT,Social Issues,2020,2
+MGMT,Social Issues,2021,2
+MGMT,Social Issues,2022,2
+MGMT,Social Issues,2023,2
+MGMT,Social Issues,2024,2
+MGMT,Washington,2015,1
+MGMT,Washington,2016,1
+MGMT,Washington,2017,1
+MGMT,Washington,2018,1
+MGMT,Washington,2019,1
+MGMT,Washington,2020,1
+MGMT,Washington,2021,1
+MGMT,Washington,2022,1
+MGMT,Washington,2023,1
+MGMT,Washington,2024,1
+MGMT,,2018,7
+MGMT,,2019,7
+MGMT,,2020,7
+MGMT,,2021,7
+MGMT,,2022,7
+MGMT,,2023,7
+MGMT,,2024,7
+MKTG,Business,2014,18
+MKTG,Business,2015,18
+MKTG,Business,2016,19
+MKTG,Business,2017,20
+MKTG,Business,2018,20
+MKTG,Business,2019,19
+MKTG,Business,2020,19
+MKTG,Business,2021,20
+MKTG,Business,2022,18
+MKTG,Business,2023,18
+MKTG,Business,2024,18
+MKTG,Capstone,2014,3
+MKTG,Capstone,2015,3
+MKTG,Capstone,2016,3
+MKTG,Capstone,2017,3
+MKTG,Capstone,2018,3
+MKTG,Capstone,2019,3
+MKTG,Capstone,2020,3
+MKTG,Capstone,2021,3
+MKTG,Capstone,2022,3
+MKTG,Capstone,2023,4
+MKTG,Capstone,2024,4
+MKTG,Community Health,2014,1
+MKTG,Community Health,2015,1
+MKTG,Community Health,2016,1
+MKTG,Community Health,2017,1
+MKTG,Community Health,2018,1
+MKTG,Community Health,2019,1
+MKTG,Community Health,2020,1
+MKTG,Community Health,2021,1
+MKTG,Community Health,2022,1
+MKTG,Community Health,2023,1
+MKTG,Community Health,2024,2
+MKTG,Education,2014,2
+MKTG,Education,2015,2
+MKTG,Education,2016,2
+MKTG,Education,2017,2
+MKTG,Education,2018,2
+MKTG,Education,2019,2
+MKTG,Education,2020,2
+MKTG,Education,2021,2
+MKTG,Education,2022,2
+MKTG,Education,2023,1
+MKTG,Education,2024,1
+MKTG,Gender/Race/Identity,2021,1
+MKTG,Gender/Race/Identity,2022,1
+MKTG,Gender/Race/Identity,2023,1
+MKTG,Gender/Race/Identity,2024,1
+MKTG,Media,2014,6
+MKTG,Media,2015,6
+MKTG,Media,2016,8
+MKTG,Media,2017,6
+MKTG,Media,2018,8
+MKTG,Media,2019,10
+MKTG,Media,2020,10
+MKTG,Media,2021,10
+MKTG,Media,2022,9
+MKTG,Media,2023,9
+MKTG,Media,2024,9
+MKTG,Psychology,2014,2
+MKTG,Psychology,2015,2
+MKTG,Psychology,2016,2
+MKTG,Psychology,2017,2
+MKTG,Psychology,2018,2
+MKTG,Psychology,2019,2
+MKTG,Psychology,2020,2
+MKTG,Psychology,2021,2
+MKTG,Psychology,2022,1
+MKTG,Psychology,2023,1
+MKTG,Psychology,2024,1
+MKTG,Repeatable Topics,2014,6
+MKTG,Repeatable Topics,2015,6
+MKTG,Repeatable Topics,2016,6
+MKTG,Repeatable Topics,2017,6
+MKTG,Repeatable Topics,2018,1
+MKTG,Repeatable Topics,2019,1
+MKTG,Repeatable Topics,2020,1
+MKTG,Repeatable Topics,2021,1
+MKTG,Repeatable Topics,2022,1
+MKTG,Repeatable Topics,2023,1
+MKTG,Repeatable Topics,2024,1
+MKTG,Research,2014,1
+MKTG,Research,2015,1
+MKTG,Research,2016,1
+MKTG,Research,2017,2
+MKTG,Research,2018,2
+MKTG,Research,2019,2
+MKTG,Research,2020,2
+MKTG,Research,2021,2
+MKTG,Research,2022,1
+MKTG,Research,2023,1
+MKTG,Research,2024,1
+MKTG,Washington,2014,1
+MKTG,Washington,2015,1
+MKTG,Washington,2016,1
+MKTG,Washington,2017,1
+MKTG,Washington,2018,1
+MKTG,Washington,2019,1
+MKTG,Washington,2020,1
+MKTG,Washington,2021,1
+MKTG,Washington,2022,2
+MKTG,Washington,2023,2
+MKTG,Washington,2024,2
+MKTG,,2018,5
+MKTG,,2019,5
+MKTG,,2020,5
+MKTG,,2021,5
+MKTG,,2022,5
+MKTG,,2023,5
+MKTG,,2024,5
+MUS,Arts,2024,12
+MUS,Business,2024,8
+MUS,Capstone,2014,1
+MUS,Capstone,2015,1
+MUS,Capstone,2016,3
+MUS,Capstone,2017,2
+MUS,Capstone,2018,3
+MUS,Capstone,2019,3
+MUS,Capstone,2020,3
+MUS,Capstone,2021,3
+MUS,Capstone,2022,3
+MUS,Capstone,2023,3
+MUS,Capstone,2024,9
+MUS,Finance,2014,1
+MUS,Finance,2015,1
+MUS,Finance,2016,1
+MUS,Finance,2017,1
+MUS,Finance,2018,1
+MUS,Finance,2019,1
+MUS,Finance,2020,1
+MUS,Finance,2021,1
+MUS,Finance,2022,1
+MUS,Finance,2024,3
+MUS,Gender/Race/Identity,2024,1
+MUS,Management,2014,8
+MUS,Management,2015,8
+MUS,Management,2016,6
+MUS,Management,2017,7
+MUS,Management,2018,6
+MUS,Management,2019,6
+MUS,Management,2020,6
+MUS,Management,2021,6
+MUS,Management,2022,6
+MUS,Management,2023,4
+MUS,Management,2024,15
+MUS,Psychology,2024,2
+MUS,Repeatable Topics,2024,2
+MUS,Washington,2024,16
+MUS,,2024,5
+NEUR,Capstone,2014,2
+NEUR,Capstone,2015,2
+NEUR,Capstone,2016,2
+NEUR,Capstone,2017,2
+NEUR,Capstone,2018,2
+NEUR,Capstone,2019,4
+NEUR,Capstone,2020,5
+NEUR,Capstone,2021,6
+NEUR,Capstone,2022,8
+NEUR,Capstone,2023,13
+NEUR,Capstone,2024,13
+NEUR,Community Health,2021,2
+NEUR,Community Health,2022,2
+NEUR,Community Health,2023,2
+NEUR,Community Health,2024,2
+NEUR,Education,2014,1
+NEUR,Education,2015,1
+NEUR,Education,2016,1
+NEUR,Education,2017,1
+NEUR,Education,2018,1
+NEUR,Education,2019,1
+NEUR,Education,2020,5
+NEUR,Education,2021,5
+NEUR,Education,2022,6
+NEUR,Education,2023,2
+NEUR,Education,2024,2
+NEUR,Finance,2021,1
+NEUR,Finance,2022,1
+NEUR,Finance,2023,1
+NEUR,Finance,2024,1
+NEUR,Gender/Race/Identity,2018,1
+NEUR,Gender/Race/Identity,2019,1
+NEUR,Gender/Race/Identity,2020,1
+NEUR,Gender/Race/Identity,2021,1
+NEUR,Gender/Race/Identity,2022,1
+NEUR,Gender/Race/Identity,2023,1
+NEUR,Gender/Race/Identity,2024,1
+NEUR,Information Technology,2014,1
+NEUR,Psychology,2014,3
+NEUR,Psychology,2015,5
+NEUR,Psychology,2016,5
+NEUR,Psychology,2017,5
+NEUR,Psychology,2018,6
+NEUR,Psychology,2019,6
+NEUR,Psychology,2020,6
+NEUR,Psychology,2021,7
+NEUR,Psychology,2022,8
+NEUR,Psychology,2023,8
+NEUR,Psychology,2024,8
+NEUR,Quantitative Analysis,2020,1
+NEUR,Quantitative Analysis,2021,1
+NEUR,Quantitative Analysis,2022,1
+NEUR,Quantitative Analysis,2023,1
+NEUR,Quantitative Analysis,2024,1
+NEUR,Repeatable Topics,2014,6
+NEUR,Repeatable Topics,2015,5
+NEUR,Repeatable Topics,2016,5
+NEUR,Repeatable Topics,2017,5
+NEUR,Repeatable Topics,2018,1
+NEUR,Repeatable Topics,2019,1
+NEUR,Repeatable Topics,2020,1
+NEUR,Repeatable Topics,2021,1
+NEUR,Repeatable Topics,2022,1
+NEUR,Repeatable Topics,2023,1
+NEUR,Repeatable Topics,2024,1
+NEUR,Research,2015,1
+NEUR,Research,2016,1
+NEUR,Research,2017,1
+NEUR,Research,2018,1
+NEUR,Research,2019,2
+NEUR,Research,2020,4
+NEUR,Research,2021,5
+NEUR,Research,2022,5
+NEUR,Research,2023,4
+NEUR,Research,2024,4
+NEUR,,2018,4
+NEUR,,2019,4
+NEUR,,2020,5
+NEUR,,2021,5
+NEUR,,2022,5
+NEUR,,2023,5
+NEUR,,2024,5
+OGIS,Capstone,2021,3
+OGIS,Capstone,2022,3
+OGIS,Capstone,2023,5
+OGIS,Education,2021,4
+OGIS,Education,2022,4
+OGIS,Research,2021,1
+OGIS,Research,2022,1
+OGIS,Research,2023,1
+OGIS,Washington,2021,2
+OGIS,Washington,2022,2
+OGIS,Washington,2023,2
+OGIS,,2021,6
+OGIS,,2022,6
+OGIS,,2023,5
+PERF,Arts,2014,42
+PERF,Arts,2015,36
+PERF,Arts,2016,36
+PERF,Arts,2017,42
+PERF,Arts,2018,42
+PERF,Arts,2019,42
+PERF,Arts,2020,23
+PERF,Arts,2021,21
+PERF,Arts,2022,21
+PERF,Arts,2023,22
+PERF,Arts,2024,5
+PERF,Business,2014,7
+PERF,Business,2015,6
+PERF,Business,2016,7
+PERF,Business,2017,9
+PERF,Business,2018,12
+PERF,Business,2019,11
+PERF,Business,2020,6
+PERF,Business,2021,6
+PERF,Business,2022,6
+PERF,Business,2023,7
+PERF,Business,2024,1
+PERF,Capstone,2014,11
+PERF,Capstone,2015,6
+PERF,Capstone,2016,8
+PERF,Capstone,2017,9
+PERF,Capstone,2018,9
+PERF,Capstone,2019,7
+PERF,Capstone,2020,6
+PERF,Capstone,2021,6
+PERF,Capstone,2022,6
+PERF,Capstone,2023,8
+PERF,Capstone,2024,5
+PERF,Community Health,2014,1
+PERF,Community Health,2015,1
+PERF,Community Health,2016,1
+PERF,Community Health,2017,1
+PERF,Community Health,2018,1
+PERF,Community Health,2019,1
+PERF,Community Health,2020,1
+PERF,Community Health,2021,1
+PERF,Community Health,2022,1
+PERF,Community Health,2023,1
+PERF,Community Health,2024,1
+PERF,Education,2014,11
+PERF,Education,2015,10
+PERF,Education,2016,11
+PERF,Education,2017,10
+PERF,Education,2018,10
+PERF,Education,2019,9
+PERF,Education,2020,9
+PERF,Education,2021,9
+PERF,Education,2022,9
+PERF,Education,2023,7
+PERF,Finance,2014,7
+PERF,Finance,2015,7
+PERF,Finance,2016,8
+PERF,Finance,2017,9
+PERF,Finance,2018,8
+PERF,Finance,2019,7
+PERF,Finance,2020,6
+PERF,Finance,2021,6
+PERF,Finance,2022,6
+PERF,Finance,2023,5
+PERF,Gender/Race/Identity,2017,1
+PERF,Gender/Race/Identity,2018,1
+PERF,Gender/Race/Identity,2019,1
+PERF,Gender/Race/Identity,2020,1
+PERF,Gender/Race/Identity,2021,1
+PERF,Gender/Race/Identity,2022,1
+PERF,Gender/Race/Identity,2023,1
+PERF,Information Technology,2014,6
+PERF,Information Technology,2015,5
+PERF,Information Technology,2016,5
+PERF,Information Technology,2017,5
+PERF,Information Technology,2018,5
+PERF,Information Technology,2019,5
+PERF,Information Technology,2020,5
+PERF,Information Technology,2021,5
+PERF,Information Technology,2022,5
+PERF,Information Technology,2023,5
+PERF,Information Technology,2024,1
+PERF,Languages,2014,2
+PERF,Languages,2015,2
+PERF,Languages,2016,2
+PERF,Management,2014,16
+PERF,Management,2015,16
+PERF,Management,2016,18
+PERF,Management,2017,19
+PERF,Management,2018,18
+PERF,Management,2019,14
+PERF,Management,2020,14
+PERF,Management,2021,14
+PERF,Management,2022,14
+PERF,Management,2023,13
+PERF,Management,2024,1
+PERF,Media,2014,2
+PERF,Media,2015,3
+PERF,Media,2016,3
+PERF,Media,2017,3
+PERF,Media,2018,3
+PERF,Media,2019,1
+PERF,Media,2020,1
+PERF,Media,2021,1
+PERF,Media,2022,1
+PERF,Media,2023,2
+PERF,Media,2024,1
+PERF,Politics and Policy,2014,1
+PERF,Politics and Policy,2015,2
+PERF,Politics and Policy,2016,2
+PERF,Politics and Policy,2017,2
+PERF,Politics and Policy,2018,2
+PERF,Psychology,2014,12
+PERF,Psychology,2015,12
+PERF,Psychology,2016,12
+PERF,Psychology,2017,17
+PERF,Psychology,2018,18
+PERF,Psychology,2019,19
+PERF,Psychology,2020,16
+PERF,Psychology,2021,16
+PERF,Psychology,2022,16
+PERF,Psychology,2023,16
+PERF,Psychology,2024,2
+PERF,Repeatable Topics,2014,10
+PERF,Repeatable Topics,2015,12
+PERF,Repeatable Topics,2016,10
+PERF,Repeatable Topics,2017,10
+PERF,Repeatable Topics,2018,2
+PERF,Repeatable Topics,2019,2
+PERF,Repeatable Topics,2020,2
+PERF,Repeatable Topics,2021,2
+PERF,Repeatable Topics,2022,2
+PERF,Repeatable Topics,2023,2
+PERF,Research,2014,4
+PERF,Research,2015,4
+PERF,Research,2016,4
+PERF,Research,2017,5
+PERF,Research,2018,5
+PERF,Research,2019,1
+PERF,Social Issues,2014,1
+PERF,Social Issues,2015,3
+PERF,Social Issues,2016,3
+PERF,Social Issues,2017,3
+PERF,Social Issues,2018,5
+PERF,Social Issues,2019,2
+PERF,Social Issues,2020,2
+PERF,Social Issues,2021,2
+PERF,Social Issues,2022,2
+PERF,Social Issues,2023,2
+PERF,Social Issues,2024,2
+PERF,Washington,2014,11
+PERF,Washington,2015,11
+PERF,Washington,2016,18
+PERF,Washington,2017,19
+PERF,Washington,2018,18
+PERF,Washington,2019,17
+PERF,Washington,2020,17
+PERF,Washington,2021,17
+PERF,Washington,2022,17
+PERF,Washington,2023,11
+PERF,,2018,8
+PERF,,2019,8
+PERF,,2020,8
+PERF,,2021,8
+PERF,,2022,8
+PERF,,2023,7
+PERF,,2024,8
+PERS,Languages,2014,4
+PERS,Languages,2015,4
+PERS,Languages,2016,4
+PERS,Languages,2017,4
+PERS,Languages,2018,4
+PERS,Languages,2019,4
+PERS,Languages,2020,4
+PERS,Languages,2021,4
+PERS,Languages,2022,4
+PERS,Languages,2023,4
+PERS,Languages,2024,4
+PHIL,Arts,2014,4
+PHIL,Arts,2015,4
+PHIL,Arts,2016,4
+PHIL,Arts,2017,4
+PHIL,Arts,2018,4
+PHIL,Arts,2019,5
+PHIL,Arts,2020,5
+PHIL,Arts,2021,4
+PHIL,Arts,2022,5
+PHIL,Arts,2023,5
+PHIL,Arts,2024,6
+PHIL,Capstone,2014,4
+PHIL,Capstone,2015,3
+PHIL,Capstone,2016,3
+PHIL,Capstone,2017,3
+PHIL,Capstone,2018,3
+PHIL,Capstone,2019,3
+PHIL,Capstone,2020,3
+PHIL,Capstone,2021,2
+PHIL,Capstone,2022,2
+PHIL,Capstone,2023,6
+PHIL,Capstone,2024,6
+PHIL,Community Health,2014,2
+PHIL,Community Health,2015,2
+PHIL,Community Health,2016,2
+PHIL,Community Health,2017,2
+PHIL,Community Health,2018,3
+PHIL,Community Health,2019,3
+PHIL,Community Health,2020,3
+PHIL,Community Health,2021,3
+PHIL,Community Health,2022,3
+PHIL,Community Health,2023,3
+PHIL,Community Health,2024,4
+PHIL,Education,2014,1
+PHIL,Education,2015,1
+PHIL,Education,2016,1
+PHIL,Education,2017,1
+PHIL,Education,2018,1
+PHIL,Education,2019,1
+PHIL,Education,2020,1
+PHIL,Education,2021,2
+PHIL,Education,2022,2
+PHIL,Gender/Race/Identity,2014,28
+PHIL,Gender/Race/Identity,2015,28
+PHIL,Gender/Race/Identity,2016,29
+PHIL,Gender/Race/Identity,2017,27
+PHIL,Gender/Race/Identity,2018,25
+PHIL,Gender/Race/Identity,2019,26
+PHIL,Gender/Race/Identity,2020,27
+PHIL,Gender/Race/Identity,2021,31
+PHIL,Gender/Race/Identity,2022,31
+PHIL,Gender/Race/Identity,2023,29
+PHIL,Gender/Race/Identity,2024,29
+PHIL,History,2021,2
+PHIL,History,2022,2
+PHIL,History,2023,2
+PHIL,History,2024,2
+PHIL,Quantitative Analysis,2014,1
+PHIL,Quantitative Analysis,2015,1
+PHIL,Quantitative Analysis,2016,1
+PHIL,Quantitative Analysis,2017,1
+PHIL,Quantitative Analysis,2018,1
+PHIL,Quantitative Analysis,2019,1
+PHIL,Quantitative Analysis,2020,1
+PHIL,Quantitative Analysis,2021,1
+PHIL,Quantitative Analysis,2022,1
+PHIL,Quantitative Analysis,2023,1
+PHIL,Quantitative Analysis,2024,1
+PHIL,Repeatable Topics,2014,9
+PHIL,Repeatable Topics,2015,8
+PHIL,Repeatable Topics,2016,8
+PHIL,Repeatable Topics,2017,8
+PHIL,Repeatable Topics,2018,2
+PHIL,Repeatable Topics,2019,2
+PHIL,Repeatable Topics,2020,2
+PHIL,Repeatable Topics,2021,2
+PHIL,Repeatable Topics,2022,2
+PHIL,Repeatable Topics,2023,2
+PHIL,Repeatable Topics,2024,2
+PHIL,Research,2014,1
+PHIL,Research,2015,1
+PHIL,Research,2016,1
+PHIL,Research,2017,1
+PHIL,Research,2018,1
+PHIL,Research,2019,1
+PHIL,Research,2020,1
+PHIL,Research,2021,1
+PHIL,Research,2022,1
+PHIL,Research,2023,1
+PHIL,Research,2024,1
+PHIL,Social Issues,2014,6
+PHIL,Social Issues,2015,8
+PHIL,Social Issues,2016,9
+PHIL,Social Issues,2017,9
+PHIL,Social Issues,2018,9
+PHIL,Social Issues,2019,9
+PHIL,Social Issues,2020,9
+PHIL,Social Issues,2021,8
+PHIL,Social Issues,2022,7
+PHIL,Social Issues,2023,7
+PHIL,Social Issues,2024,7
+PHIL,Washington,2014,5
+PHIL,Washington,2015,5
+PHIL,Washington,2016,4
+PHIL,Washington,2017,6
+PHIL,Washington,2018,8
+PHIL,Washington,2019,8
+PHIL,Washington,2020,8
+PHIL,Washington,2021,8
+PHIL,Washington,2022,8
+PHIL,Washington,2023,8
+PHIL,Washington,2024,8
+PHIL,,2018,6
+PHIL,,2019,6
+PHIL,,2020,6
+PHIL,,2021,6
+PHIL,,2022,6
+PHIL,,2023,6
+PHIL,,2024,6
+PHYS,Arts,2019,1
+PHYS,Arts,2020,1
+PHYS,Arts,2021,1
+PHYS,Arts,2022,1
+PHYS,Arts,2023,1
+PHYS,Arts,2024,1
+PHYS,Capstone,2014,2
+PHYS,Capstone,2015,2
+PHYS,Capstone,2016,2
+PHYS,Capstone,2017,2
+PHYS,Capstone,2018,2
+PHYS,Capstone,2019,2
+PHYS,Capstone,2020,2
+PHYS,Capstone,2021,2
+PHYS,Capstone,2022,2
+PHYS,Capstone,2023,3
+PHYS,Capstone,2024,3
+PHYS,Community Health,2014,2
+PHYS,Community Health,2015,2
+PHYS,Community Health,2016,2
+PHYS,Community Health,2017,2
+PHYS,Community Health,2018,2
+PHYS,Community Health,2019,2
+PHYS,Community Health,2020,2
+PHYS,Community Health,2021,2
+PHYS,Community Health,2022,2
+PHYS,Community Health,2023,2
+PHYS,Community Health,2024,2
+PHYS,Education,2014,2
+PHYS,Education,2015,1
+PHYS,Education,2016,2
+PHYS,Education,2017,1
+PHYS,Education,2018,1
+PHYS,Education,2019,1
+PHYS,Education,2020,1
+PHYS,Education,2021,1
+PHYS,Education,2022,1
+PHYS,Information Technology,2014,2
+PHYS,Information Technology,2015,3
+PHYS,Information Technology,2016,3
+PHYS,Information Technology,2017,3
+PHYS,Information Technology,2018,3
+PHYS,Information Technology,2019,3
+PHYS,Information Technology,2020,3
+PHYS,Information Technology,2021,3
+PHYS,Information Technology,2022,3
+PHYS,Information Technology,2023,3
+PHYS,Information Technology,2024,3
+PHYS,Management,2019,1
+PHYS,Management,2020,1
+PHYS,Management,2021,1
+PHYS,Management,2022,1
+PHYS,Management,2023,1
+PHYS,Management,2024,1
+PHYS,Quantitative Analysis,2014,12
+PHYS,Quantitative Analysis,2015,12
+PHYS,Quantitative Analysis,2016,12
+PHYS,Quantitative Analysis,2017,13
+PHYS,Quantitative Analysis,2018,13
+PHYS,Quantitative Analysis,2019,14
+PHYS,Quantitative Analysis,2020,14
+PHYS,Quantitative Analysis,2021,14
+PHYS,Quantitative Analysis,2022,14
+PHYS,Quantitative Analysis,2023,14
+PHYS,Quantitative Analysis,2024,14
+PHYS,Repeatable Topics,2014,4
+PHYS,Repeatable Topics,2015,4
+PHYS,Repeatable Topics,2016,4
+PHYS,Repeatable Topics,2017,4
+PHYS,Repeatable Topics,2019,1
+PHYS,Repeatable Topics,2020,1
+PHYS,Repeatable Topics,2021,1
+PHYS,Repeatable Topics,2022,1
+PHYS,Repeatable Topics,2023,1
+PHYS,Repeatable Topics,2024,1
+PHYS,Research,2014,1
+PHYS,Research,2015,1
+PHYS,Research,2016,2
+PHYS,Research,2017,2
+PHYS,Research,2018,2
+PHYS,Research,2019,2
+PHYS,Research,2020,3
+PHYS,Research,2021,3
+PHYS,Research,2022,3
+PHYS,Research,2023,3
+PHYS,Research,2024,3
+PHYS,Social Issues,2014,1
+PHYS,Social Issues,2015,1
+PHYS,Social Issues,2016,1
+PHYS,Social Issues,2017,1
+PHYS,Social Issues,2018,1
+PHYS,Washington,2014,1
+PHYS,Washington,2015,1
+PHYS,Washington,2016,1
+PHYS,Washington,2017,1
+PHYS,Washington,2018,1
+PHYS,,2018,4
+PHYS,,2019,4
+PHYS,,2020,4
+PHYS,,2021,4
+PHYS,,2022,4
+PHYS,,2023,4
+PHYS,,2024,4
+PME,Business,2014,1
+PME,Business,2015,2
+PME,Business,2016,4
+PME,Business,2017,5
+PME,Business,2018,5
+PME,Business,2019,4
+PME,Business,2020,4
+PME,Business,2021,4
+PME,Business,2022,4
+PME,Business,2023,4
+PME,Business,2024,4
+PME,Management,2016,1
+PME,Quantitative Analysis,2015,1
+PME,Research,2014,2
+PME,Research,2015,1
+PORT,Community Health,2022,1
+PORT,Community Health,2023,1
+PORT,Community Health,2024,1
+PORT,Education,2014,1
+PORT,Education,2015,1
+PORT,Education,2016,1
+PORT,Gender/Race/Identity,2019,1
+PORT,Gender/Race/Identity,2020,1
+PORT,Gender/Race/Identity,2021,1
+PORT,Gender/Race/Identity,2022,1
+PORT,Gender/Race/Identity,2023,1
+PORT,Gender/Race/Identity,2024,1
+PORT,Languages,2014,2
+PORT,Languages,2015,6
+PORT,Languages,2016,6
+PORT,Languages,2017,6
+PORT,Languages,2018,6
+PORT,Languages,2019,6
+PORT,Languages,2020,6
+PORT,Languages,2021,6
+PORT,Languages,2022,6
+PORT,Languages,2023,6
+PORT,Languages,2024,6
+PORT,Repeatable Topics,2014,2
+PORT,Repeatable Topics,2015,2
+PORT,Repeatable Topics,2016,2
+PORT,Repeatable Topics,2017,2
+PORT,,2018,2
+PORT,,2019,2
+PORT,,2020,2
+PORT,,2021,2
+PORT,,2022,2
+PORT,,2023,2
+PORT,,2024,2
+PROF,Business,2021,8
+PROF,Business,2022,8
+PROF,Business,2023,8
+PROF,Business,2024,8
+PROF,Capstone,2021,1
+PROF,Capstone,2022,1
+PROF,Capstone,2023,1
+PROF,Capstone,2024,1
+PROF,Education,2021,1
+PROF,Education,2022,1
+PROF,Education,2023,1
+PROF,Education,2024,1
+PROF,Management,2021,2
+PROF,Management,2022,2
+PROF,Management,2023,2
+PROF,Management,2024,2
+PROF,Quantitative Analysis,2021,1
+PROF,Quantitative Analysis,2022,1
+PROF,Quantitative Analysis,2023,1
+PROF,Quantitative Analysis,2024,1
+PROF,Research,2021,1
+PROF,Research,2022,1
+PROF,Research,2023,1
+PROF,Research,2024,1
+PROF,,2021,3
+PROF,,2022,3
+PROF,,2023,2
+PROF,,2024,3
+PSM,Business,2014,1
+PSM,Business,2015,1
+PSM,Business,2016,1
+PSM,Business,2017,1
+PSM,Business,2018,1
+PSM,Business,2019,1
+PSM,Business,2020,1
+PSM,Business,2021,1
+PSM,Business,2022,1
+PSM,Business,2023,1
+PSM,Business,2024,1
+PSM,Capstone,2014,1
+PSM,Capstone,2015,1
+PSM,Capstone,2016,1
+PSM,Capstone,2017,1
+PSM,Capstone,2018,1
+PSM,Capstone,2019,1
+PSM,Capstone,2020,1
+PSM,Capstone,2021,1
+PSM,Capstone,2022,1
+PSM,Capstone,2023,2
+PSM,Capstone,2024,2
+PSM,Community Health,2014,1
+PSM,Community Health,2015,1
+PSM,Community Health,2016,1
+PSM,Community Health,2017,1
+PSM,Community Health,2018,1
+PSM,Education,2014,1
+PSM,Education,2015,1
+PSM,Education,2016,1
+PSM,Education,2017,1
+PSM,Education,2018,1
+PSM,Education,2019,1
+PSM,Education,2020,1
+PSM,Education,2021,1
+PSM,Education,2022,1
+PSM,Repeatable Topics,2017,1
+PSM,,2018,1
+PSM,,2019,1
+PSM,,2020,1
+PSM,,2021,1
+PSM,,2022,1
+PSM,,2023,1
+PSM,,2024,1
+PSYC,Arts,2023,1
+PSYC,Arts,2024,1
+PSYC,Business,2014,3
+PSYC,Business,2015,3
+PSYC,Business,2016,4
+PSYC,Business,2017,2
+PSYC,Business,2018,2
+PSYC,Business,2019,2
+PSYC,Business,2020,2
+PSYC,Business,2021,2
+PSYC,Business,2022,2
+PSYC,Business,2023,2
+PSYC,Business,2024,2
+PSYC,Capstone,2014,5
+PSYC,Capstone,2015,5
+PSYC,Capstone,2016,6
+PSYC,Capstone,2017,6
+PSYC,Capstone,2018,5
+PSYC,Capstone,2019,5
+PSYC,Capstone,2020,7
+PSYC,Capstone,2021,7
+PSYC,Capstone,2022,7
+PSYC,Capstone,2023,10
+PSYC,Capstone,2024,10
+PSYC,Community Health,2014,5
+PSYC,Community Health,2015,5
+PSYC,Community Health,2016,5
+PSYC,Community Health,2017,5
+PSYC,Community Health,2018,5
+PSYC,Community Health,2019,5
+PSYC,Community Health,2020,5
+PSYC,Community Health,2021,5
+PSYC,Community Health,2022,5
+PSYC,Community Health,2023,5
+PSYC,Community Health,2024,5
+PSYC,Education,2014,5
+PSYC,Education,2015,5
+PSYC,Education,2016,5
+PSYC,Education,2017,6
+PSYC,Education,2018,6
+PSYC,Education,2019,6
+PSYC,Education,2020,5
+PSYC,Education,2021,5
+PSYC,Education,2022,5
+PSYC,Education,2023,2
+PSYC,Education,2024,3
+PSYC,Finance,2014,1
+PSYC,Finance,2015,1
+PSYC,Finance,2016,1
+PSYC,Finance,2017,1
+PSYC,Finance,2018,1
+PSYC,Finance,2019,1
+PSYC,Finance,2020,1
+PSYC,Finance,2021,1
+PSYC,Finance,2022,1
+PSYC,Gender/Race/Identity,2014,3
+PSYC,Gender/Race/Identity,2015,3
+PSYC,Gender/Race/Identity,2016,3
+PSYC,Gender/Race/Identity,2017,4
+PSYC,Gender/Race/Identity,2018,3
+PSYC,Gender/Race/Identity,2019,5
+PSYC,Gender/Race/Identity,2020,5
+PSYC,Gender/Race/Identity,2021,5
+PSYC,Gender/Race/Identity,2022,4
+PSYC,Gender/Race/Identity,2023,4
+PSYC,Gender/Race/Identity,2024,4
+PSYC,Information Technology,2014,1
+PSYC,Information Technology,2015,1
+PSYC,Information Technology,2016,1
+PSYC,Information Technology,2017,1
+PSYC,Information Technology,2018,1
+PSYC,Information Technology,2019,1
+PSYC,Information Technology,2020,1
+PSYC,Information Technology,2021,1
+PSYC,Information Technology,2022,1
+PSYC,Information Technology,2023,2
+PSYC,Information Technology,2024,2
+PSYC,Languages,2014,1
+PSYC,Languages,2015,1
+PSYC,Psychology,2014,49
+PSYC,Psychology,2015,51
+PSYC,Psychology,2016,50
+PSYC,Psychology,2017,51
+PSYC,Psychology,2018,53
+PSYC,Psychology,2019,56
+PSYC,Psychology,2020,55
+PSYC,Psychology,2021,54
+PSYC,Psychology,2022,53
+PSYC,Psychology,2023,57
+PSYC,Psychology,2024,62
+PSYC,Quantitative Analysis,2014,1
+PSYC,Quantitative Analysis,2015,1
+PSYC,Quantitative Analysis,2016,1
+PSYC,Quantitative Analysis,2017,2
+PSYC,Quantitative Analysis,2018,2
+PSYC,Quantitative Analysis,2019,2
+PSYC,Quantitative Analysis,2020,2
+PSYC,Quantitative Analysis,2021,2
+PSYC,Quantitative Analysis,2022,2
+PSYC,Quantitative Analysis,2023,2
+PSYC,Quantitative Analysis,2024,2
+PSYC,Repeatable Topics,2014,7
+PSYC,Repeatable Topics,2015,7
+PSYC,Repeatable Topics,2016,7
+PSYC,Repeatable Topics,2017,7
+PSYC,Repeatable Topics,2018,1
+PSYC,Repeatable Topics,2019,1
+PSYC,Repeatable Topics,2020,1
+PSYC,Repeatable Topics,2021,1
+PSYC,Repeatable Topics,2022,1
+PSYC,Repeatable Topics,2023,1
+PSYC,Repeatable Topics,2024,1
+PSYC,Research,2014,7
+PSYC,Research,2015,7
+PSYC,Research,2016,7
+PSYC,Research,2017,7
+PSYC,Research,2018,7
+PSYC,Research,2019,9
+PSYC,Research,2020,8
+PSYC,Research,2021,8
+PSYC,Research,2022,8
+PSYC,Research,2023,7
+PSYC,Research,2024,7
+PSYC,Social Issues,2014,4
+PSYC,Social Issues,2015,5
+PSYC,Social Issues,2016,5
+PSYC,Social Issues,2017,7
+PSYC,Social Issues,2018,7
+PSYC,Social Issues,2019,8
+PSYC,Social Issues,2020,8
+PSYC,Social Issues,2021,8
+PSYC,Social Issues,2022,9
+PSYC,Social Issues,2023,9
+PSYC,Social Issues,2024,9
+PSYC,Washington,2019,1
+PSYC,Washington,2020,1
+PSYC,Washington,2021,1
+PSYC,Washington,2022,1
+PSYC,Washington,2023,1
+PSYC,Washington,2024,1
+PSYC,,2018,6
+PSYC,,2019,6
+PSYC,,2020,6
+PSYC,,2021,6
+PSYC,,2022,6
+PSYC,,2023,6
+PSYC,,2024,6
+PUAD,Business,2014,20
+PUAD,Business,2015,23
+PUAD,Business,2016,24
+PUAD,Business,2017,28
+PUAD,Business,2018,28
+PUAD,Business,2019,28
+PUAD,Business,2020,28
+PUAD,Business,2021,28
+PUAD,Business,2022,23
+PUAD,Business,2023,22
+PUAD,Business,2024,11
+PUAD,Capstone,2014,1
+PUAD,Capstone,2015,1
+PUAD,Capstone,2016,1
+PUAD,Capstone,2017,1
+PUAD,Capstone,2018,1
+PUAD,Capstone,2019,1
+PUAD,Capstone,2020,1
+PUAD,Capstone,2021,1
+PUAD,Capstone,2022,1
+PUAD,Capstone,2023,4
+PUAD,Capstone,2024,4
+PUAD,Education,2014,5
+PUAD,Education,2015,5
+PUAD,Education,2016,3
+PUAD,Education,2017,3
+PUAD,Education,2018,3
+PUAD,Education,2019,3
+PUAD,Education,2020,3
+PUAD,Education,2021,3
+PUAD,Education,2022,3
+PUAD,Education,2023,2
+PUAD,Education,2024,2
+PUAD,Finance,2014,2
+PUAD,Finance,2015,2
+PUAD,Finance,2016,2
+PUAD,Finance,2017,2
+PUAD,Finance,2018,2
+PUAD,Finance,2019,2
+PUAD,Finance,2020,2
+PUAD,Finance,2021,2
+PUAD,Gender/Race/Identity,2017,1
+PUAD,Gender/Race/Identity,2018,1
+PUAD,Gender/Race/Identity,2019,1
+PUAD,Gender/Race/Identity,2020,1
+PUAD,Gender/Race/Identity,2021,1
+PUAD,Gender/Race/Identity,2022,1
+PUAD,Information Technology,2014,1
+PUAD,Information Technology,2015,1
+PUAD,Information Technology,2016,1
+PUAD,Information Technology,2017,1
+PUAD,Information Technology,2018,1
+PUAD,Information Technology,2019,2
+PUAD,Information Technology,2020,2
+PUAD,Information Technology,2021,2
+PUAD,Information Technology,2022,2
+PUAD,Information Technology,2023,2
+PUAD,Information Technology,2024,2
+PUAD,International Issues,2014,5
+PUAD,International Issues,2015,5
+PUAD,International Issues,2016,5
+PUAD,International Issues,2017,3
+PUAD,International Issues,2018,3
+PUAD,International Issues,2019,3
+PUAD,International Issues,2020,3
+PUAD,International Issues,2021,3
+PUAD,International Issues,2022,2
+PUAD,International Issues,2023,1
+PUAD,International Issues,2024,1
+PUAD,Management,2014,11
+PUAD,Management,2015,11
+PUAD,Management,2016,13
+PUAD,Management,2017,10
+PUAD,Management,2018,11
+PUAD,Management,2019,11
+PUAD,Management,2020,9
+PUAD,Management,2021,9
+PUAD,Management,2022,7
+PUAD,Management,2023,7
+PUAD,Management,2024,7
+PUAD,Politics and Policy,2014,13
+PUAD,Politics and Policy,2015,13
+PUAD,Politics and Policy,2016,14
+PUAD,Politics and Policy,2017,15
+PUAD,Politics and Policy,2018,15
+PUAD,Politics and Policy,2019,15
+PUAD,Politics and Policy,2020,15
+PUAD,Politics and Policy,2021,14
+PUAD,Politics and Policy,2022,13
+PUAD,Politics and Policy,2023,12
+PUAD,Politics and Policy,2024,12
+PUAD,Psychology,2014,4
+PUAD,Psychology,2015,4
+PUAD,Psychology,2016,4
+PUAD,Psychology,2017,3
+PUAD,Psychology,2018,4
+PUAD,Psychology,2019,4
+PUAD,Psychology,2020,4
+PUAD,Psychology,2021,4
+PUAD,Psychology,2022,3
+PUAD,Psychology,2023,3
+PUAD,Psychology,2024,3
+PUAD,Quantitative Analysis,2014,6
+PUAD,Quantitative Analysis,2015,6
+PUAD,Quantitative Analysis,2016,7
+PUAD,Quantitative Analysis,2017,7
+PUAD,Quantitative Analysis,2018,7
+PUAD,Quantitative Analysis,2019,7
+PUAD,Quantitative Analysis,2020,7
+PUAD,Quantitative Analysis,2021,7
+PUAD,Quantitative Analysis,2022,7
+PUAD,Quantitative Analysis,2023,7
+PUAD,Quantitative Analysis,2024,7
+PUAD,Repeatable Topics,2014,8
+PUAD,Repeatable Topics,2015,7
+PUAD,Repeatable Topics,2016,7
+PUAD,Repeatable Topics,2017,7
+PUAD,Research,2014,8
+PUAD,Research,2015,8
+PUAD,Research,2016,7
+PUAD,Research,2017,7
+PUAD,Research,2018,8
+PUAD,Research,2019,7
+PUAD,Research,2020,9
+PUAD,Research,2021,8
+PUAD,Research,2022,8
+PUAD,Research,2023,7
+PUAD,Research,2024,6
+PUAD,Social Issues,2014,13
+PUAD,Social Issues,2015,13
+PUAD,Social Issues,2016,12
+PUAD,Social Issues,2017,13
+PUAD,Social Issues,2018,13
+PUAD,Social Issues,2019,14
+PUAD,Social Issues,2020,14
+PUAD,Social Issues,2021,14
+PUAD,Social Issues,2022,12
+PUAD,Social Issues,2023,10
+PUAD,Social Issues,2024,10
+PUAD,,2018,7
+PUAD,,2019,7
+PUAD,,2020,7
+PUAD,,2021,7
+PUAD,,2022,7
+PUAD,,2023,6
+PUAD,,2024,7
+PUBH,Capstone,2014,1
+PUBH,Capstone,2015,1
+PUBH,Capstone,2016,3
+PUBH,Capstone,2017,3
+PUBH,Community Health,2014,7
+PUBH,Community Health,2015,8
+PUBH,Community Health,2016,7
+PUBH,Community Health,2017,7
+PUBH,Education,2014,1
+PUBH,Education,2015,1
+PUBH,Education,2016,1
+PUBH,Education,2017,1
+PUBH,Quantitative Analysis,2014,1
+PUBH,Quantitative Analysis,2015,1
+PUBH,Quantitative Analysis,2016,2
+PUBH,Quantitative Analysis,2017,2
+PUBH,Repeatable Topics,2014,4
+PUBH,Repeatable Topics,2015,4
+PUBH,Repeatable Topics,2016,4
+PUBH,Repeatable Topics,2017,4
+PUBH,Research,2016,1
+PUBH,Research,2017,1
+PUBH,Social Issues,2014,2
+PUBH,Social Issues,2015,3
+PUBH,Social Issues,2016,3
+PUBH,Social Issues,2017,3
+REAL,Capstone,2014,4
+REAL,Capstone,2015,4
+REAL,Capstone,2016,4
+REAL,Capstone,2017,4
+REAL,Capstone,2018,4
+REAL,Capstone,2019,4
+REAL,Capstone,2020,4
+REAL,Capstone,2021,4
+REAL,Capstone,2022,4
+REAL,Capstone,2023,5
+REAL,Capstone,2024,5
+REAL,Education,2014,2
+REAL,Education,2015,2
+REAL,Education,2016,2
+REAL,Education,2017,2
+REAL,Education,2018,2
+REAL,Education,2019,2
+REAL,Education,2020,2
+REAL,Education,2021,2
+REAL,Education,2022,2
+REAL,Finance,2014,2
+REAL,Finance,2015,2
+REAL,Finance,2016,2
+REAL,Finance,2017,2
+REAL,Finance,2018,2
+REAL,Finance,2019,2
+REAL,Finance,2020,2
+REAL,Finance,2021,2
+REAL,Finance,2022,2
+REAL,Finance,2023,2
+REAL,Finance,2024,4
+REAL,International Issues,2014,1
+REAL,International Issues,2015,1
+REAL,International Issues,2016,1
+REAL,International Issues,2017,1
+REAL,Management,2014,3
+REAL,Management,2015,4
+REAL,Management,2016,4
+REAL,Management,2017,4
+REAL,Management,2018,7
+REAL,Management,2019,7
+REAL,Management,2020,7
+REAL,Management,2021,7
+REAL,Management,2022,7
+REAL,Management,2023,7
+REAL,Management,2024,11
+REAL,Repeatable Topics,2017,1
+REAL,Washington,2014,1
+REAL,Washington,2015,1
+REAL,Washington,2016,1
+REAL,Washington,2017,1
+REAL,Washington,2018,1
+REAL,Washington,2019,1
+REAL,Washington,2020,1
+REAL,Washington,2021,1
+REAL,Washington,2022,1
+REAL,Washington,2023,1
+REAL,Washington,2024,2
+REAL,,2018,1
+REAL,,2019,1
+REAL,,2020,1
+REAL,,2021,1
+REAL,,2022,1
+REAL,,2023,1
+REAL,,2024,1
+RELG,Arts,2014,4
+RELG,Arts,2015,4
+RELG,Arts,2016,5
+RELG,Arts,2017,5
+RELG,Arts,2018,7
+RELG,Arts,2019,7
+RELG,Arts,2020,6
+RELG,Arts,2021,6
+RELG,Arts,2022,7
+RELG,Arts,2023,7
+RELG,Arts,2024,7
+RELG,Capstone,2014,4
+RELG,Capstone,2015,4
+RELG,Capstone,2016,4
+RELG,Capstone,2017,4
+RELG,Capstone,2018,4
+RELG,Capstone,2019,4
+RELG,Capstone,2020,4
+RELG,Capstone,2021,4
+RELG,Capstone,2022,4
+RELG,Capstone,2023,6
+RELG,Capstone,2024,6
+RELG,Community Health,2014,1
+RELG,Community Health,2015,2
+RELG,Community Health,2016,2
+RELG,Community Health,2017,2
+RELG,Community Health,2018,2
+RELG,Community Health,2019,2
+RELG,Community Health,2020,2
+RELG,Community Health,2021,2
+RELG,Community Health,2022,4
+RELG,Community Health,2023,4
+RELG,Community Health,2024,4
+RELG,Education,2014,1
+RELG,Education,2015,1
+RELG,Education,2016,1
+RELG,Education,2017,1
+RELG,Education,2018,1
+RELG,Education,2019,1
+RELG,Education,2020,1
+RELG,Education,2021,1
+RELG,Education,2022,1
+RELG,Gender/Race/Identity,2014,1
+RELG,Gender/Race/Identity,2015,1
+RELG,Gender/Race/Identity,2016,1
+RELG,Gender/Race/Identity,2017,1
+RELG,Gender/Race/Identity,2018,1
+RELG,Gender/Race/Identity,2019,1
+RELG,Gender/Race/Identity,2020,1
+RELG,Gender/Race/Identity,2021,8
+RELG,Gender/Race/Identity,2022,7
+RELG,Gender/Race/Identity,2023,6
+RELG,Gender/Race/Identity,2024,6
+RELG,History,2014,3
+RELG,History,2015,2
+RELG,History,2016,2
+RELG,History,2017,2
+RELG,History,2018,2
+RELG,History,2019,2
+RELG,History,2020,2
+RELG,History,2021,2
+RELG,History,2022,2
+RELG,History,2023,2
+RELG,History,2024,2
+RELG,Repeatable Topics,2014,17
+RELG,Repeatable Topics,2015,17
+RELG,Repeatable Topics,2016,18
+RELG,Repeatable Topics,2017,18
+RELG,Repeatable Topics,2018,9
+RELG,Repeatable Topics,2019,8
+RELG,Repeatable Topics,2020,8
+RELG,Repeatable Topics,2021,7
+RELG,Repeatable Topics,2022,7
+RELG,Repeatable Topics,2023,7
+RELG,Repeatable Topics,2024,7
+RELG,Research,2020,1
+RELG,Washington,2014,2
+RELG,Washington,2015,2
+RELG,Washington,2016,2
+RELG,Washington,2017,2
+RELG,Washington,2018,2
+RELG,Washington,2019,3
+RELG,Washington,2020,3
+RELG,Washington,2021,3
+RELG,Washington,2022,3
+RELG,Washington,2023,3
+RELG,Washington,2024,3
+RELG,,2018,7
+RELG,,2019,7
+RELG,,2020,7
+RELG,,2021,7
+RELG,,2022,7
+RELG,,2023,7
+RELG,,2024,7
+RUSS,Capstone,2014,3
+RUSS,Capstone,2015,2
+RUSS,Capstone,2016,2
+RUSS,Capstone,2017,3
+RUSS,Capstone,2018,3
+RUSS,Capstone,2019,3
+RUSS,Capstone,2020,3
+RUSS,Capstone,2021,4
+RUSS,Capstone,2022,4
+RUSS,Capstone,2023,6
+RUSS,Capstone,2024,6
+RUSS,Community Health,2022,2
+RUSS,Community Health,2023,2
+RUSS,Community Health,2024,2
+RUSS,Education,2014,3
+RUSS,Education,2015,3
+RUSS,Education,2016,3
+RUSS,Education,2017,2
+RUSS,Education,2018,2
+RUSS,Education,2019,2
+RUSS,Education,2020,2
+RUSS,Education,2021,2
+RUSS,Education,2022,2
+RUSS,History,2014,2
+RUSS,History,2015,2
+RUSS,History,2016,2
+RUSS,History,2017,2
+RUSS,History,2018,2
+RUSS,History,2019,2
+RUSS,History,2020,2
+RUSS,History,2021,2
+RUSS,History,2022,2
+RUSS,History,2023,2
+RUSS,History,2024,3
+RUSS,International Issues,2014,1
+RUSS,International Issues,2015,1
+RUSS,International Issues,2016,1
+RUSS,International Issues,2017,2
+RUSS,International Issues,2018,2
+RUSS,International Issues,2019,2
+RUSS,International Issues,2020,2
+RUSS,International Issues,2021,2
+RUSS,International Issues,2022,2
+RUSS,International Issues,2023,1
+RUSS,International Issues,2024,1
+RUSS,Languages,2014,12
+RUSS,Languages,2015,12
+RUSS,Languages,2016,12
+RUSS,Languages,2017,12
+RUSS,Languages,2018,12
+RUSS,Languages,2019,12
+RUSS,Languages,2020,12
+RUSS,Languages,2021,12
+RUSS,Languages,2022,12
+RUSS,Languages,2023,12
+RUSS,Languages,2024,12
+RUSS,Repeatable Topics,2014,4
+RUSS,Repeatable Topics,2015,4
+RUSS,Repeatable Topics,2016,4
+RUSS,Repeatable Topics,2017,4
+RUSS,Washington,2017,1
+RUSS,Washington,2018,1
+RUSS,,2018,4
+RUSS,,2019,4
+RUSS,,2020,4
+RUSS,,2021,4
+RUSS,,2022,4
+RUSS,,2023,4
+RUSS,,2024,4
+SABD,Capstone,2014,2
+SABD,Capstone,2015,2
+SABD,Capstone,2016,2
+SABD,Capstone,2017,2
+SABD,Capstone,2018,2
+SABD,Capstone,2019,2
+SABD,Capstone,2020,2
+SABD,Capstone,2021,2
+SABD,Capstone,2022,2
+SABD,Capstone,2023,2
+SABD,Capstone,2024,2
+SABD,Education,2014,1
+SABD,Education,2015,1
+SABD,Education,2016,1
+SABD,Education,2017,4
+SABD,Education,2018,3
+SABD,Education,2019,3
+SABD,Education,2020,3
+SABD,Education,2021,3
+SABD,Education,2022,3
+SABD,Education,2023,2
+SABD,Education,2024,3
+SABD,Languages,2014,12
+SABD,Languages,2015,12
+SABD,Languages,2016,12
+SABD,Languages,2017,13
+SABD,Languages,2018,14
+SABD,Languages,2019,14
+SABD,Languages,2020,14
+SABD,Languages,2021,3
+SABD,Languages,2022,3
+SABD,Languages,2023,3
+SABD,Languages,2024,4
+SAM,Business,2016,1
+SAM,Business,2017,1
+SAM,Business,2018,1
+SAM,Business,2019,1
+SAM,Business,2020,1
+SAM,Business,2021,1
+SAM,Business,2022,1
+SAM,Business,2023,1
+SAM,Business,2024,1
+SAM,Management,2016,1
+SAM,Management,2017,1
+SAM,Management,2018,1
+SAM,Management,2019,1
+SAM,Management,2020,1
+SAM,Management,2021,1
+SAM,Management,2022,1
+SAM,Management,2023,1
+SAM,Management,2024,1
+SAM,Media,2016,3
+SAM,Media,2017,3
+SAM,Media,2018,3
+SAM,Media,2019,3
+SAM,Media,2020,3
+SAM,Media,2021,3
+SAM,Media,2022,3
+SAM,Media,2023,3
+SAM,Media,2024,3
+SIS,Arts,2018,1
+SIS,Arts,2019,1
+SIS,Arts,2020,1
+SIS,Arts,2021,2
+SIS,Arts,2022,2
+SIS,Arts,2023,2
+SIS,Arts,2024,2
+SIS,Business,2014,1
+SIS,Business,2015,1
+SIS,Business,2016,1
+SIS,Business,2017,2
+SIS,Business,2018,2
+SIS,Business,2019,2
+SIS,Business,2020,2
+SIS,Business,2021,2
+SIS,Business,2022,2
+SIS,Business,2023,2
+SIS,Business,2024,2
+SIS,Capstone,2014,14
+SIS,Capstone,2015,14
+SIS,Capstone,2016,15
+SIS,Capstone,2017,15
+SIS,Capstone,2018,13
+SIS,Capstone,2019,14
+SIS,Capstone,2020,14
+SIS,Capstone,2021,14
+SIS,Capstone,2022,14
+SIS,Capstone,2023,10
+SIS,Capstone,2024,10
+SIS,Education,2014,15
+SIS,Education,2015,16
+SIS,Education,2016,16
+SIS,Education,2017,16
+SIS,Education,2018,18
+SIS,Education,2019,18
+SIS,Education,2020,18
+SIS,Education,2021,18
+SIS,Education,2022,18
+SIS,Education,2023,13
+SIS,Education,2024,15
+SIS,Finance,2014,6
+SIS,Finance,2015,6
+SIS,Finance,2016,6
+SIS,Finance,2017,6
+SIS,Finance,2018,6
+SIS,Finance,2019,6
+SIS,Finance,2020,6
+SIS,Finance,2021,6
+SIS,Finance,2022,6
+SIS,Finance,2023,5
+SIS,Finance,2024,6
+SIS,Gender/Race/Identity,2014,4
+SIS,Gender/Race/Identity,2015,4
+SIS,Gender/Race/Identity,2016,4
+SIS,Gender/Race/Identity,2017,4
+SIS,Gender/Race/Identity,2018,2
+SIS,Gender/Race/Identity,2019,2
+SIS,Gender/Race/Identity,2020,2
+SIS,Gender/Race/Identity,2021,2
+SIS,Gender/Race/Identity,2022,2
+SIS,Gender/Race/Identity,2023,2
+SIS,Gender/Race/Identity,2024,2
+SIS,History,2014,7
+SIS,History,2015,7
+SIS,History,2016,7
+SIS,History,2017,8
+SIS,History,2018,5
+SIS,History,2019,6
+SIS,History,2020,6
+SIS,History,2021,6
+SIS,History,2022,6
+SIS,History,2023,5
+SIS,History,2024,5
+SIS,Information Technology,2014,3
+SIS,Information Technology,2015,3
+SIS,Information Technology,2016,3
+SIS,Information Technology,2017,2
+SIS,Information Technology,2018,2
+SIS,Information Technology,2019,2
+SIS,Information Technology,2020,2
+SIS,Information Technology,2021,2
+SIS,Information Technology,2022,2
+SIS,Information Technology,2023,2
+SIS,Information Technology,2024,2
+SIS,International Issues,2014,49
+SIS,International Issues,2015,49
+SIS,International Issues,2016,50
+SIS,International Issues,2017,51
+SIS,International Issues,2018,45
+SIS,International Issues,2019,45
+SIS,International Issues,2020,46
+SIS,International Issues,2021,46
+SIS,International Issues,2022,46
+SIS,International Issues,2023,45
+SIS,International Issues,2024,46
+SIS,Management,2014,1
+SIS,Management,2015,1
+SIS,Management,2016,1
+SIS,Management,2017,2
+SIS,Management,2018,2
+SIS,Management,2019,2
+SIS,Management,2020,2
+SIS,Management,2021,2
+SIS,Management,2022,1
+SIS,Management,2023,1
+SIS,Management,2024,1
+SIS,Media,2014,1
+SIS,Media,2015,1
+SIS,Media,2016,1
+SIS,Media,2017,1
+SIS,Media,2018,1
+SIS,Media,2019,2
+SIS,Media,2020,2
+SIS,Media,2021,2
+SIS,Media,2022,2
+SIS,Media,2023,2
+SIS,Media,2024,1
+SIS,Politics and Policy,2014,23
+SIS,Politics and Policy,2015,23
+SIS,Politics and Policy,2016,24
+SIS,Politics and Policy,2017,26
+SIS,Politics and Policy,2018,24
+SIS,Politics and Policy,2019,23
+SIS,Politics and Policy,2020,23
+SIS,Politics and Policy,2021,23
+SIS,Politics and Policy,2022,23
+SIS,Politics and Policy,2023,23
+SIS,Politics and Policy,2024,23
+SIS,Psychology,2014,1
+SIS,Psychology,2015,2
+SIS,Psychology,2016,3
+SIS,Psychology,2017,2
+SIS,Psychology,2018,3
+SIS,Psychology,2019,3
+SIS,Psychology,2020,3
+SIS,Psychology,2021,3
+SIS,Psychology,2022,4
+SIS,Psychology,2023,2
+SIS,Psychology,2024,2
+SIS,Quantitative Analysis,2014,3
+SIS,Quantitative Analysis,2015,3
+SIS,Quantitative Analysis,2016,2
+SIS,Quantitative Analysis,2017,2
+SIS,Quantitative Analysis,2018,1
+SIS,Quantitative Analysis,2019,1
+SIS,Quantitative Analysis,2020,1
+SIS,Quantitative Analysis,2021,1
+SIS,Quantitative Analysis,2022,1
+SIS,Quantitative Analysis,2023,1
+SIS,Quantitative Analysis,2024,2
+SIS,Repeatable Topics,2014,8
+SIS,Repeatable Topics,2015,8
+SIS,Repeatable Topics,2016,8
+SIS,Repeatable Topics,2017,7
+SIS,Research,2014,16
+SIS,Research,2015,16
+SIS,Research,2016,16
+SIS,Research,2017,18
+SIS,Research,2018,19
+SIS,Research,2019,21
+SIS,Research,2020,21
+SIS,Research,2021,23
+SIS,Research,2022,23
+SIS,Research,2023,20
+SIS,Research,2024,22
+SIS,Social Issues,2014,7
+SIS,Social Issues,2015,7
+SIS,Social Issues,2016,6
+SIS,Social Issues,2017,6
+SIS,Social Issues,2018,6
+SIS,Social Issues,2019,6
+SIS,Social Issues,2020,7
+SIS,Social Issues,2021,7
+SIS,Social Issues,2022,7
+SIS,Social Issues,2023,7
+SIS,Social Issues,2024,7
+SIS,,2018,3
+SIS,,2019,3
+SIS,,2020,3
+SIS,,2021,3
+SIS,,2022,3
+SIS,,2023,2
+SIS,,2024,3
+SISA,Arts,2023,1
+SISA,Arts,2024,3
+SISA,Capstone,2014,6
+SISA,Capstone,2015,6
+SISA,Capstone,2016,6
+SISA,Capstone,2017,6
+SISA,Capstone,2018,14
+SISA,Capstone,2019,14
+SISA,Capstone,2020,14
+SISA,Capstone,2021,14
+SISA,Capstone,2022,14
+SISA,Capstone,2023,13
+SISA,Capstone,2024,13
+SISA,International Issues,2014,75
+SISA,International Issues,2015,75
+SISA,International Issues,2016,75
+SISA,International Issues,2017,75
+SISA,International Issues,2018,75
+SISA,International Issues,2019,75
+SISA,International Issues,2020,75
+SISA,International Issues,2021,75
+SISA,International Issues,2022,75
+SISA,International Issues,2023,75
+SISA,International Issues,2024,75
+SISA,Languages,2022,1
+SISA,Languages,2023,1
+SISA,Languages,2024,1
+SISG,Business,2017,1
+SISG,Business,2018,1
+SISG,Business,2019,1
+SISG,Business,2020,1
+SISG,Business,2021,1
+SISG,Business,2022,1
+SISG,Business,2023,1
+SISG,Business,2024,1
+SISG,Finance,2017,1
+SISG,Finance,2018,1
+SISG,Finance,2019,1
+SISG,Finance,2020,1
+SISG,Finance,2021,1
+SISG,Finance,2022,1
+SISG,Finance,2023,1
+SISG,Finance,2024,1
+SISG,History,2014,1
+SISG,History,2015,1
+SISG,History,2016,1
+SISG,History,2017,1
+SISG,History,2018,1
+SISG,History,2019,1
+SISG,History,2020,1
+SISG,History,2021,1
+SISG,History,2022,1
+SISG,History,2023,1
+SISG,International Issues,2014,4
+SISG,International Issues,2015,4
+SISG,International Issues,2016,4
+SISG,International Issues,2017,5
+SISG,International Issues,2018,5
+SISG,International Issues,2019,5
+SISG,International Issues,2020,6
+SISG,International Issues,2021,6
+SISG,International Issues,2022,6
+SISG,International Issues,2023,6
+SISG,International Issues,2024,10
+SISG,Management,2017,1
+SISG,Management,2018,1
+SISG,Management,2019,1
+SISG,Management,2020,1
+SISG,Management,2021,1
+SISG,Management,2022,1
+SISG,Management,2023,1
+SISG,Management,2024,1
+SISG,Politics and Policy,2014,1
+SISG,Politics and Policy,2015,1
+SISG,Politics and Policy,2016,1
+SISG,Politics and Policy,2017,2
+SISG,Politics and Policy,2018,2
+SISG,Politics and Policy,2019,2
+SISG,Politics and Policy,2020,2
+SISG,Politics and Policy,2021,1
+SISG,Politics and Policy,2022,1
+SISG,Politics and Policy,2023,1
+SISG,Psychology,2014,1
+SISG,Psychology,2015,1
+SISG,Psychology,2016,1
+SISG,Psychology,2017,1
+SISG,Psychology,2018,1
+SISG,Psychology,2019,1
+SISG,Psychology,2020,1
+SISG,Psychology,2021,1
+SISG,Psychology,2022,1
+SISG,Psychology,2023,1
+SISG,Research,2014,1
+SISG,Research,2015,1
+SISG,Research,2016,1
+SISG,Research,2017,1
+SISG,Research,2018,1
+SISG,Research,2019,1
+SISG,Research,2020,1
+SISG,Research,2021,1
+SISG,Research,2022,1
+SISG,Research,2023,1
+SISG,Research,2024,1
+SISG,Social Issues,2021,1
+SISG,Social Issues,2022,1
+SISG,Social Issues,2023,1
+SISU,Arts,2014,1
+SISU,Arts,2015,1
+SISU,Arts,2016,1
+SISU,Arts,2017,1
+SISU,Arts,2018,2
+SISU,Arts,2019,3
+SISU,Arts,2020,3
+SISU,Arts,2021,3
+SISU,Arts,2022,4
+SISU,Arts,2023,4
+SISU,Arts,2024,4
+SISU,Business,2014,1
+SISU,Business,2015,1
+SISU,Business,2016,1
+SISU,Business,2017,1
+SISU,Business,2018,1
+SISU,Business,2019,1
+SISU,Business,2020,1
+SISU,Business,2021,1
+SISU,Business,2022,1
+SISU,Business,2023,1
+SISU,Business,2024,1
+SISU,Capstone,2014,13
+SISU,Capstone,2015,13
+SISU,Capstone,2016,15
+SISU,Capstone,2017,18
+SISU,Capstone,2018,15
+SISU,Capstone,2019,15
+SISU,Capstone,2020,15
+SISU,Capstone,2021,15
+SISU,Capstone,2022,15
+SISU,Capstone,2023,17
+SISU,Capstone,2024,17
+SISU,Community Health,2014,5
+SISU,Community Health,2015,5
+SISU,Community Health,2016,5
+SISU,Community Health,2017,5
+SISU,Community Health,2018,5
+SISU,Community Health,2019,5
+SISU,Community Health,2020,5
+SISU,Community Health,2021,5
+SISU,Community Health,2022,5
+SISU,Community Health,2023,5
+SISU,Community Health,2024,5
+SISU,Education,2014,2
+SISU,Education,2015,2
+SISU,Education,2016,2
+SISU,Education,2017,2
+SISU,Education,2018,2
+SISU,Education,2019,3
+SISU,Education,2020,3
+SISU,Education,2021,3
+SISU,Education,2022,3
+SISU,Education,2023,1
+SISU,Education,2024,2
+SISU,Gender/Race/Identity,2014,8
+SISU,Gender/Race/Identity,2015,8
+SISU,Gender/Race/Identity,2016,8
+SISU,Gender/Race/Identity,2017,7
+SISU,Gender/Race/Identity,2018,8
+SISU,Gender/Race/Identity,2019,8
+SISU,Gender/Race/Identity,2020,8
+SISU,Gender/Race/Identity,2021,8
+SISU,Gender/Race/Identity,2022,8
+SISU,Gender/Race/Identity,2023,8
+SISU,Gender/Race/Identity,2024,8
+SISU,History,2014,17
+SISU,History,2015,17
+SISU,History,2016,17
+SISU,History,2017,16
+SISU,History,2018,16
+SISU,History,2019,15
+SISU,History,2020,15
+SISU,History,2021,15
+SISU,History,2022,15
+SISU,History,2023,15
+SISU,History,2024,15
+SISU,International Issues,2014,48
+SISU,International Issues,2015,49
+SISU,International Issues,2016,48
+SISU,International Issues,2017,46
+SISU,International Issues,2018,45
+SISU,International Issues,2019,45
+SISU,International Issues,2020,45
+SISU,International Issues,2021,44
+SISU,International Issues,2022,44
+SISU,International Issues,2023,45
+SISU,International Issues,2024,45
+SISU,Media,2014,1
+SISU,Media,2015,1
+SISU,Media,2016,1
+SISU,Media,2017,1
+SISU,Media,2018,1
+SISU,Media,2019,1
+SISU,Media,2020,1
+SISU,Media,2021,1
+SISU,Media,2022,1
+SISU,Media,2023,1
+SISU,Media,2024,1
+SISU,Politics and Policy,2014,15
+SISU,Politics and Policy,2015,15
+SISU,Politics and Policy,2016,16
+SISU,Politics and Policy,2017,16
+SISU,Politics and Policy,2018,14
+SISU,Politics and Policy,2019,14
+SISU,Politics and Policy,2020,14
+SISU,Politics and Policy,2021,15
+SISU,Politics and Policy,2022,14
+SISU,Politics and Policy,2023,13
+SISU,Politics and Policy,2024,13
+SISU,Psychology,2014,1
+SISU,Psychology,2015,1
+SISU,Psychology,2016,1
+SISU,Psychology,2017,1
+SISU,Psychology,2018,1
+SISU,Psychology,2019,1
+SISU,Psychology,2020,1
+SISU,Psychology,2021,1
+SISU,Psychology,2022,1
+SISU,Psychology,2023,1
+SISU,Psychology,2024,1
+SISU,Repeatable Topics,2014,6
+SISU,Repeatable Topics,2015,6
+SISU,Repeatable Topics,2016,6
+SISU,Repeatable Topics,2017,7
+SISU,Repeatable Topics,2018,5
+SISU,Repeatable Topics,2019,5
+SISU,Repeatable Topics,2020,5
+SISU,Repeatable Topics,2021,5
+SISU,Repeatable Topics,2022,5
+SISU,Repeatable Topics,2023,5
+SISU,Repeatable Topics,2024,5
+SISU,Research,2014,3
+SISU,Research,2015,3
+SISU,Research,2016,4
+SISU,Research,2017,4
+SISU,Research,2018,4
+SISU,Research,2019,3
+SISU,Research,2020,2
+SISU,Research,2021,2
+SISU,Research,2022,2
+SISU,Research,2023,2
+SISU,Research,2024,2
+SISU,Social Issues,2017,1
+SISU,Social Issues,2018,1
+SISU,Social Issues,2019,1
+SISU,Social Issues,2020,1
+SISU,Social Issues,2021,1
+SISU,Social Issues,2022,1
+SISU,Social Issues,2023,1
+SISU,Social Issues,2024,1
+SISU,,2018,3
+SISU,,2019,3
+SISU,,2020,3
+SISU,,2021,3
+SISU,,2022,3
+SISU,,2023,3
+SISU,,2024,3
+SOCY,Arts,2014,3
+SOCY,Arts,2015,4
+SOCY,Arts,2016,4
+SOCY,Arts,2017,4
+SOCY,Arts,2018,4
+SOCY,Arts,2019,6
+SOCY,Arts,2020,5
+SOCY,Arts,2021,5
+SOCY,Arts,2022,4
+SOCY,Arts,2023,3
+SOCY,Arts,2024,3
+SOCY,Business,2014,1
+SOCY,Capstone,2014,7
+SOCY,Capstone,2015,5
+SOCY,Capstone,2016,5
+SOCY,Capstone,2017,5
+SOCY,Capstone,2018,5
+SOCY,Capstone,2019,5
+SOCY,Capstone,2020,5
+SOCY,Capstone,2021,5
+SOCY,Capstone,2022,5
+SOCY,Capstone,2023,6
+SOCY,Capstone,2024,6
+SOCY,Community Health,2014,5
+SOCY,Community Health,2015,5
+SOCY,Community Health,2016,5
+SOCY,Community Health,2017,5
+SOCY,Community Health,2018,4
+SOCY,Community Health,2019,4
+SOCY,Community Health,2020,4
+SOCY,Community Health,2021,4
+SOCY,Community Health,2022,4
+SOCY,Community Health,2023,4
+SOCY,Community Health,2024,4
+SOCY,Education,2014,2
+SOCY,Education,2015,2
+SOCY,Education,2016,2
+SOCY,Education,2017,3
+SOCY,Education,2018,3
+SOCY,Education,2019,3
+SOCY,Education,2020,3
+SOCY,Education,2021,4
+SOCY,Education,2022,4
+SOCY,Education,2023,3
+SOCY,Education,2024,3
+SOCY,Gender/Race/Identity,2014,14
+SOCY,Gender/Race/Identity,2015,12
+SOCY,Gender/Race/Identity,2016,13
+SOCY,Gender/Race/Identity,2017,13
+SOCY,Gender/Race/Identity,2018,16
+SOCY,Gender/Race/Identity,2019,16
+SOCY,Gender/Race/Identity,2020,17
+SOCY,Gender/Race/Identity,2021,18
+SOCY,Gender/Race/Identity,2022,18
+SOCY,Gender/Race/Identity,2023,15
+SOCY,Gender/Race/Identity,2024,15
+SOCY,History,2014,2
+SOCY,History,2015,3
+SOCY,History,2016,4
+SOCY,History,2017,3
+SOCY,History,2018,2
+SOCY,History,2019,2
+SOCY,History,2020,2
+SOCY,History,2021,2
+SOCY,History,2022,2
+SOCY,History,2023,2
+SOCY,History,2024,2
+SOCY,International Issues,2014,2
+SOCY,International Issues,2015,2
+SOCY,International Issues,2016,2
+SOCY,International Issues,2017,2
+SOCY,International Issues,2018,2
+SOCY,International Issues,2019,2
+SOCY,International Issues,2020,2
+SOCY,International Issues,2021,2
+SOCY,International Issues,2022,2
+SOCY,Politics and Policy,2014,6
+SOCY,Politics and Policy,2015,6
+SOCY,Politics and Policy,2016,5
+SOCY,Politics and Policy,2017,5
+SOCY,Politics and Policy,2018,6
+SOCY,Politics and Policy,2019,4
+SOCY,Politics and Policy,2020,4
+SOCY,Politics and Policy,2021,4
+SOCY,Politics and Policy,2022,3
+SOCY,Politics and Policy,2023,3
+SOCY,Politics and Policy,2024,3
+SOCY,Quantitative Analysis,2014,2
+SOCY,Quantitative Analysis,2015,2
+SOCY,Quantitative Analysis,2016,3
+SOCY,Quantitative Analysis,2017,5
+SOCY,Quantitative Analysis,2018,5
+SOCY,Quantitative Analysis,2019,5
+SOCY,Quantitative Analysis,2020,5
+SOCY,Quantitative Analysis,2021,3
+SOCY,Quantitative Analysis,2022,3
+SOCY,Quantitative Analysis,2023,3
+SOCY,Quantitative Analysis,2024,3
+SOCY,Repeatable Topics,2014,7
+SOCY,Repeatable Topics,2015,7
+SOCY,Repeatable Topics,2016,7
+SOCY,Repeatable Topics,2017,7
+SOCY,Research,2014,6
+SOCY,Research,2015,6
+SOCY,Research,2016,6
+SOCY,Research,2017,8
+SOCY,Research,2018,8
+SOCY,Research,2019,8
+SOCY,Research,2020,8
+SOCY,Research,2021,9
+SOCY,Research,2022,9
+SOCY,Research,2023,10
+SOCY,Research,2024,10
+SOCY,Social Issues,2014,12
+SOCY,Social Issues,2015,12
+SOCY,Social Issues,2016,11
+SOCY,Social Issues,2017,12
+SOCY,Social Issues,2018,11
+SOCY,Social Issues,2019,10
+SOCY,Social Issues,2020,11
+SOCY,Social Issues,2021,11
+SOCY,Social Issues,2022,11
+SOCY,Social Issues,2023,9
+SOCY,Social Issues,2024,9
+SOCY,Washington,2020,1
+SOCY,Washington,2021,1
+SOCY,,2018,7
+SOCY,,2019,7
+SOCY,,2020,7
+SOCY,,2021,7
+SOCY,,2022,7
+SOCY,,2023,7
+SOCY,,2024,7
+SPA,Business,2021,2
+SPA,Business,2022,2
+SPA,Business,2023,2
+SPA,Business,2024,4
+SPA,Capstone,2015,2
+SPA,Capstone,2016,2
+SPA,Capstone,2017,3
+SPA,Capstone,2018,3
+SPA,Capstone,2019,3
+SPA,Capstone,2020,4
+SPA,Capstone,2021,4
+SPA,Capstone,2022,4
+SPA,Capstone,2023,6
+SPA,Capstone,2024,6
+SPA,Community Health,2015,1
+SPA,Community Health,2016,2
+SPA,Community Health,2017,4
+SPA,Community Health,2018,4
+SPA,Community Health,2019,4
+SPA,Community Health,2020,4
+SPA,Community Health,2021,4
+SPA,Community Health,2022,3
+SPA,Community Health,2023,3
+SPA,Community Health,2024,3
+SPA,Education,2015,1
+SPA,Education,2016,1
+SPA,Education,2017,1
+SPA,Education,2018,2
+SPA,Education,2019,2
+SPA,Education,2020,2
+SPA,Education,2021,2
+SPA,Education,2022,2
+SPA,International Issues,2020,1
+SPA,International Issues,2021,1
+SPA,International Issues,2022,1
+SPA,International Issues,2023,1
+SPA,International Issues,2024,1
+SPA,Management,2020,1
+SPA,Management,2021,1
+SPA,Management,2022,1
+SPA,Management,2023,1
+SPA,Management,2024,1
+SPA,Politics and Policy,2014,5
+SPA,Politics and Policy,2015,6
+SPA,Politics and Policy,2016,8
+SPA,Politics and Policy,2017,8
+SPA,Politics and Policy,2018,8
+SPA,Politics and Policy,2019,8
+SPA,Politics and Policy,2020,9
+SPA,Politics and Policy,2021,9
+SPA,Politics and Policy,2022,9
+SPA,Politics and Policy,2023,9
+SPA,Politics and Policy,2024,9
+SPA,Psychology,2024,1
+SPA,Quantitative Analysis,2016,2
+SPA,Quantitative Analysis,2017,4
+SPA,Quantitative Analysis,2018,4
+SPA,Quantitative Analysis,2019,4
+SPA,Quantitative Analysis,2020,4
+SPA,Quantitative Analysis,2021,4
+SPA,Quantitative Analysis,2022,8
+SPA,Quantitative Analysis,2023,8
+SPA,Quantitative Analysis,2024,8
+SPA,Repeatable Topics,2015,3
+SPA,Repeatable Topics,2016,3
+SPA,Repeatable Topics,2017,3
+SPA,Research,2014,2
+SPA,Research,2015,2
+SPA,Research,2016,2
+SPA,Research,2017,4
+SPA,Research,2018,4
+SPA,Research,2019,3
+SPA,Research,2020,2
+SPA,Research,2021,2
+SPA,Research,2022,2
+SPA,Research,2023,2
+SPA,Research,2024,5
+SPA,Social Issues,2018,1
+SPA,Social Issues,2019,2
+SPA,Social Issues,2020,2
+SPA,Social Issues,2021,2
+SPA,Social Issues,2022,2
+SPA,Social Issues,2023,2
+SPA,Social Issues,2024,2
+SPA,Washington,2020,3
+SPA,Washington,2021,3
+SPA,Washington,2022,3
+SPA,Washington,2023,2
+SPA,Washington,2024,3
+SPA,,2018,5
+SPA,,2019,5
+SPA,,2020,5
+SPA,,2021,5
+SPA,,2022,5
+SPA,,2023,5
+SPA,,2024,5
+SPAN,Business,2023,1
+SPAN,Business,2024,2
+SPAN,Capstone,2014,4
+SPAN,Capstone,2015,3
+SPAN,Capstone,2016,3
+SPAN,Capstone,2017,3
+SPAN,Capstone,2018,3
+SPAN,Capstone,2019,3
+SPAN,Capstone,2020,3
+SPAN,Capstone,2021,4
+SPAN,Capstone,2022,4
+SPAN,Capstone,2023,4
+SPAN,Capstone,2024,4
+SPAN,Community Health,2014,4
+SPAN,Community Health,2015,4
+SPAN,Community Health,2016,4
+SPAN,Community Health,2017,4
+SPAN,Community Health,2018,4
+SPAN,Community Health,2019,4
+SPAN,Community Health,2020,4
+SPAN,Community Health,2021,5
+SPAN,Community Health,2022,5
+SPAN,Community Health,2023,5
+SPAN,Community Health,2024,5
+SPAN,Education,2014,4
+SPAN,Education,2015,4
+SPAN,Education,2016,4
+SPAN,Education,2017,3
+SPAN,Education,2018,3
+SPAN,Education,2019,3
+SPAN,Education,2020,3
+SPAN,Education,2021,3
+SPAN,Education,2022,3
+SPAN,Education,2023,3
+SPAN,Education,2024,3
+SPAN,History,2014,21
+SPAN,History,2015,21
+SPAN,History,2016,21
+SPAN,History,2017,21
+SPAN,History,2018,21
+SPAN,History,2019,21
+SPAN,History,2020,23
+SPAN,History,2021,23
+SPAN,History,2022,23
+SPAN,History,2023,25
+SPAN,History,2024,25
+SPAN,Languages,2014,22
+SPAN,Languages,2015,22
+SPAN,Languages,2016,22
+SPAN,Languages,2017,22
+SPAN,Languages,2018,23
+SPAN,Languages,2019,24
+SPAN,Languages,2020,25
+SPAN,Languages,2021,25
+SPAN,Languages,2022,28
+SPAN,Languages,2023,32
+SPAN,Languages,2024,35
+SPAN,Media,2014,2
+SPAN,Media,2015,2
+SPAN,Media,2016,2
+SPAN,Media,2017,2
+SPAN,Media,2018,2
+SPAN,Media,2019,2
+SPAN,Media,2020,2
+SPAN,Media,2021,2
+SPAN,Media,2022,2
+SPAN,Media,2023,2
+SPAN,Media,2024,2
+SPAN,Repeatable Topics,2014,5
+SPAN,Repeatable Topics,2015,5
+SPAN,Repeatable Topics,2016,5
+SPAN,Repeatable Topics,2017,5
+SPAN,,2018,5
+SPAN,,2019,5
+SPAN,,2020,5
+SPAN,,2021,5
+SPAN,,2022,5
+SPAN,,2023,5
+SPAN,,2024,5
+SPEX,Business,2016,3
+SPEX,Business,2017,6
+SPEX,Business,2018,8
+SPEX,Business,2019,8
+SPEX,Business,2020,8
+SPEX,Capstone,2014,2
+SPEX,Capstone,2015,3
+SPEX,Capstone,2016,3
+SPEX,Capstone,2017,3
+SPEX,Capstone,2018,3
+SPEX,Capstone,2019,2
+SPEX,Capstone,2020,2
+SPEX,Education,2014,2
+SPEX,Education,2015,2
+SPEX,Education,2016,2
+SPEX,Education,2017,4
+SPEX,Education,2018,5
+SPEX,Education,2019,6
+SPEX,Education,2020,6
+SPEX,International Issues,2018,1
+SPEX,International Issues,2019,1
+SPEX,International Issues,2020,1
+SPEX,Management,2016,2
+SPEX,Management,2017,3
+SPEX,Management,2018,2
+SPEX,Management,2019,2
+SPEX,Management,2020,2
+SPEX,Quantitative Analysis,2016,1
+SPEX,Quantitative Analysis,2017,2
+SPEX,Quantitative Analysis,2018,1
+SPEX,Quantitative Analysis,2019,1
+SPEX,Quantitative Analysis,2020,1
+SPEX,Repeatable Topics,2014,7
+SPEX,Repeatable Topics,2015,7
+SPEX,Repeatable Topics,2016,7
+SPEX,Repeatable Topics,2017,7
+SPEX,Research,2016,4
+SPEX,Research,2017,3
+SPEX,Research,2018,2
+SPEX,Research,2019,2
+SPEX,Research,2020,3
+SPEX,Washington,2016,2
+SPEX,Washington,2017,2
+SPEX,Washington,2018,2
+SPEX,Washington,2019,2
+SPEX,Washington,2020,3
+SPEX,,2018,7
+SPEX,,2019,7
+SPEX,,2020,7
+STAT,Capstone,2015,4
+STAT,Capstone,2016,4
+STAT,Capstone,2017,4
+STAT,Capstone,2018,5
+STAT,Capstone,2019,4
+STAT,Capstone,2020,4
+STAT,Capstone,2021,4
+STAT,Capstone,2022,4
+STAT,Capstone,2023,5
+STAT,Capstone,2024,5
+STAT,Community Health,2014,1
+STAT,Community Health,2015,2
+STAT,Community Health,2016,2
+STAT,Community Health,2017,2
+STAT,Community Health,2018,2
+STAT,Community Health,2019,2
+STAT,Community Health,2020,2
+STAT,Community Health,2021,2
+STAT,Community Health,2022,4
+STAT,Community Health,2023,4
+STAT,Community Health,2024,4
+STAT,Education,2014,1
+STAT,Education,2015,1
+STAT,Education,2016,1
+STAT,Education,2017,1
+STAT,Education,2018,1
+STAT,Education,2019,1
+STAT,Education,2020,1
+STAT,Education,2021,1
+STAT,Education,2022,1
+STAT,Gender/Race/Identity,2014,1
+STAT,Gender/Race/Identity,2015,1
+STAT,Gender/Race/Identity,2016,1
+STAT,Gender/Race/Identity,2017,1
+STAT,Gender/Race/Identity,2018,1
+STAT,Gender/Race/Identity,2019,1
+STAT,Gender/Race/Identity,2020,1
+STAT,Gender/Race/Identity,2021,2
+STAT,Gender/Race/Identity,2022,2
+STAT,Gender/Race/Identity,2023,2
+STAT,Gender/Race/Identity,2024,2
+STAT,Quantitative Analysis,2014,31
+STAT,Quantitative Analysis,2015,32
+STAT,Quantitative Analysis,2016,32
+STAT,Quantitative Analysis,2017,36
+STAT,Quantitative Analysis,2018,36
+STAT,Quantitative Analysis,2019,41
+STAT,Quantitative Analysis,2020,44
+STAT,Quantitative Analysis,2021,39
+STAT,Quantitative Analysis,2022,39
+STAT,Quantitative Analysis,2023,39
+STAT,Quantitative Analysis,2024,39
+STAT,Repeatable Topics,2014,7
+STAT,Repeatable Topics,2015,7
+STAT,Repeatable Topics,2016,7
+STAT,Repeatable Topics,2017,7
+STAT,Research,2015,2
+STAT,Research,2016,2
+STAT,Research,2017,2
+STAT,Research,2018,2
+STAT,Research,2019,2
+STAT,Research,2020,2
+STAT,Research,2021,2
+STAT,Research,2022,2
+STAT,Research,2023,2
+STAT,Research,2024,2
+STAT,,2018,7
+STAT,,2019,7
+STAT,,2020,7
+STAT,,2021,7
+STAT,,2022,7
+STAT,,2023,7
+STAT,,2024,7
+SWAH,Community Health,2022,1
+SWAH,Community Health,2023,1
+SWAH,Community Health,2024,1
+SWAH,Education,2014,1
+SWAH,Education,2015,1
+SWAH,Education,2016,1
+SWAH,Languages,2014,6
+SWAH,Languages,2015,6
+SWAH,Languages,2016,6
+SWAH,Languages,2017,7
+SWAH,Languages,2018,7
+SWAH,Languages,2019,7
+SWAH,Languages,2020,8
+SWAH,Languages,2021,8
+SWAH,Languages,2022,8
+SWAH,Languages,2023,8
+SWAH,Languages,2024,8
+SWAH,Repeatable Topics,2014,1
+SWAH,Repeatable Topics,2015,1
+SWAH,Repeatable Topics,2016,2
+SWAH,Repeatable Topics,2017,2
+SWAH,,2018,2
+SWAH,,2019,2
+SWAH,,2020,2
+SWAH,,2021,2
+SWAH,,2022,2
+SWAH,,2023,2
+SWAH,,2024,2
+TEFL,Business,2015,2
+TEFL,Business,2016,2
+TEFL,Business,2017,2
+TEFL,Languages,2014,5
+TEFL,Languages,2015,9
+TEFL,Languages,2016,9
+TEFL,Languages,2017,9
+TEFL,Repeatable Topics,2015,1
+TEFL,Repeatable Topics,2016,1
+TEFL,Repeatable Topics,2017,1
+TEFL,Research,2014,1
+TEFL,Research,2015,1
+TEFL,Research,2016,1
+TEFL,Research,2017,1
+TESL,Business,2014,2
+TESL,Business,2015,3
+TESL,Business,2016,3
+TESL,Business,2017,3
+TESL,Business,2018,3
+TESL,Business,2019,3
+TESL,Business,2020,3
+TESL,Business,2021,3
+TESL,Business,2022,3
+TESL,Business,2023,3
+TESL,Business,2024,3
+TESL,Capstone,2014,2
+TESL,Capstone,2015,2
+TESL,Capstone,2016,2
+TESL,Capstone,2017,2
+TESL,Capstone,2018,2
+TESL,Capstone,2019,2
+TESL,Capstone,2020,2
+TESL,Capstone,2021,2
+TESL,Capstone,2022,2
+TESL,Capstone,2023,5
+TESL,Capstone,2024,5
+TESL,Community Health,2022,3
+TESL,Community Health,2023,3
+TESL,Community Health,2024,3
+TESL,Education,2014,4
+TESL,Education,2015,5
+TESL,Education,2016,5
+TESL,Education,2017,5
+TESL,Education,2018,5
+TESL,Education,2019,5
+TESL,Education,2020,5
+TESL,Education,2021,5
+TESL,Education,2022,3
+TESL,Education,2023,2
+TESL,Education,2024,2
+TESL,Gender/Race/Identity,2021,1
+TESL,Gender/Race/Identity,2022,1
+TESL,Gender/Race/Identity,2023,1
+TESL,Gender/Race/Identity,2024,1
+TESL,Information Technology,2014,1
+TESL,Information Technology,2015,1
+TESL,Information Technology,2016,1
+TESL,Information Technology,2017,1
+TESL,Information Technology,2018,2
+TESL,Information Technology,2019,2
+TESL,Information Technology,2020,2
+TESL,Information Technology,2021,2
+TESL,Information Technology,2022,2
+TESL,Information Technology,2023,2
+TESL,Information Technology,2024,2
+TESL,Languages,2014,11
+TESL,Languages,2015,16
+TESL,Languages,2016,16
+TESL,Languages,2017,16
+TESL,Languages,2018,20
+TESL,Languages,2019,20
+TESL,Languages,2020,20
+TESL,Languages,2021,20
+TESL,Languages,2022,21
+TESL,Languages,2023,21
+TESL,Languages,2024,21
+TESL,Psychology,2014,1
+TESL,Psychology,2015,1
+TESL,Psychology,2016,1
+TESL,Psychology,2017,1
+TESL,Repeatable Topics,2014,4
+TESL,Repeatable Topics,2015,4
+TESL,Repeatable Topics,2016,5
+TESL,Repeatable Topics,2017,5
+TESL,Research,2015,1
+TESL,Research,2016,2
+TESL,Research,2017,2
+TESL,Research,2018,2
+TESL,Research,2019,2
+TESL,Research,2020,2
+TESL,Research,2021,2
+TESL,Research,2022,3
+TESL,Research,2023,3
+TESL,Research,2024,3
+TESL,,2018,5
+TESL,,2019,5
+TESL,,2020,5
+TESL,,2021,5
+TESL,,2022,5
+TESL,,2023,5
+TESL,,2024,5
+THTR,Arts,2024,5
+THTR,Business,2024,2
+THTR,Capstone,2024,5
+THTR,Education,2024,3
+THTR,Finance,2024,3
+THTR,Information Technology,2024,4
+THTR,Management,2024,4
+THTR,Media,2024,1
+THTR,Psychology,2024,13
+THTR,,2024,5
+UCOL,Education,2014,3
+UCOL,Education,2015,3
+UCOL,Education,2016,3
+UCOL,Education,2017,3
+UCOL,Education,2018,3
+UCOL,Education,2019,3
+UCOL,Education,2020,3
+UCOL,Education,2021,3
+UGST,Business,2014,1
+UGST,Business,2015,1
+UGST,Business,2016,1
+UGST,Business,2017,1
+UGST,Business,2018,1
+UGST,Business,2019,1
+UGST,Business,2020,1
+UGST,Business,2021,1
+UGST,Business,2022,1
+UGST,Business,2023,1
+UGST,Business,2024,1
+UGST,Capstone,2022,1
+UGST,Capstone,2023,1
+UGST,Capstone,2024,1
+UGST,Community Health,2024,1
+UGST,Education,2023,1
+UGST,Education,2024,1
+UGST,Repeatable Topics,2016,1
+UGST,Repeatable Topics,2017,1
+UGST,Research,2021,1
+UGST,Research,2022,1
+UGST,Research,2023,1
+UGST,Research,2024,1
+UGST,Washington,2015,1
+UGST,Washington,2016,1
+UGST,Washington,2017,1
+UGST,Washington,2018,1
+UGST,Washington,2019,1
+UGST,Washington,2020,1
+UGST,Washington,2021,2
+UGST,Washington,2022,2
+UGST,Washington,2023,1
+UGST,Washington,2024,1
+UGST,,2018,1
+UGST,,2019,1
+UGST,,2020,1
+UGST,,2021,1
+UGST,,2022,1
+UGST,,2023,2
+UGST,,2024,2
+WGSS,Arts,2014,1
+WGSS,Arts,2015,1
+WGSS,Arts,2016,1
+WGSS,Arts,2017,1
+WGSS,Arts,2018,1
+WGSS,Arts,2019,1
+WGSS,Arts,2020,1
+WGSS,Arts,2021,1
+WGSS,Arts,2022,2
+WGSS,Arts,2023,2
+WGSS,Arts,2024,2
+WGSS,Capstone,2014,4
+WGSS,Capstone,2015,4
+WGSS,Capstone,2016,4
+WGSS,Capstone,2017,4
+WGSS,Capstone,2018,4
+WGSS,Capstone,2019,4
+WGSS,Capstone,2020,4
+WGSS,Capstone,2021,5
+WGSS,Capstone,2022,5
+WGSS,Capstone,2023,7
+WGSS,Capstone,2024,7
+WGSS,Community Health,2014,2
+WGSS,Community Health,2015,3
+WGSS,Community Health,2016,3
+WGSS,Community Health,2017,3
+WGSS,Community Health,2018,3
+WGSS,Community Health,2019,3
+WGSS,Community Health,2020,3
+WGSS,Community Health,2021,3
+WGSS,Community Health,2022,5
+WGSS,Community Health,2023,5
+WGSS,Community Health,2024,5
+WGSS,Gender/Race/Identity,2014,8
+WGSS,Gender/Race/Identity,2015,8
+WGSS,Gender/Race/Identity,2016,8
+WGSS,Gender/Race/Identity,2017,8
+WGSS,Gender/Race/Identity,2018,8
+WGSS,Gender/Race/Identity,2019,8
+WGSS,Gender/Race/Identity,2020,10
+WGSS,Gender/Race/Identity,2021,11
+WGSS,Gender/Race/Identity,2022,13
+WGSS,Gender/Race/Identity,2023,11
+WGSS,Gender/Race/Identity,2024,13
+WGSS,History,2023,1
+WGSS,History,2024,5
+WGSS,International Issues,2014,1
+WGSS,International Issues,2015,1
+WGSS,International Issues,2016,1
+WGSS,International Issues,2017,1
+WGSS,International Issues,2018,1
+WGSS,International Issues,2019,1
+WGSS,International Issues,2020,1
+WGSS,International Issues,2021,1
+WGSS,International Issues,2022,1
+WGSS,International Issues,2023,1
+WGSS,International Issues,2024,2
+WGSS,Languages,2023,1
+WGSS,Languages,2024,1
+WGSS,Repeatable Topics,2014,2
+WGSS,Repeatable Topics,2015,2
+WGSS,Repeatable Topics,2016,2
+WGSS,Repeatable Topics,2017,4
+WGSS,Research,2014,1
+WGSS,Research,2015,1
+WGSS,Research,2016,1
+WGSS,Research,2017,1
+WGSS,Research,2018,1
+WGSS,Research,2019,1
+WGSS,Research,2020,1
+WGSS,,2018,4
+WGSS,,2019,4
+WGSS,,2020,6
+WGSS,,2021,6
+WGSS,,2022,6
+WGSS,,2023,6
+WGSS,,2024,6
+WLC,Capstone,2020,2
+WLC,Capstone,2021,2
+WLC,Capstone,2022,2
+WLC,Capstone,2023,3
+WLC,Capstone,2024,3
+WLC,Community Health,2022,2
+WLC,Community Health,2023,2
+WLC,Community Health,2024,2
+WLC,Education,2020,1
+WLC,Education,2021,1
+WLC,Education,2022,1
+WLC,History,2024,1
+WLC,,2020,4
+WLC,,2021,4
+WLC,,2022,4
+WLC,,2023,5
+WLC,,2024,5
+WRT,Arts,2020,1
+WRT,Arts,2021,1
+WRT,Arts,2022,1
+WRT,Arts,2023,1
+WRT,Arts,2024,1
+WRT,Capstone,2024,1
+WRT,Community Health,2020,1
+WRT,Community Health,2021,1
+WRT,Community Health,2022,3
+WRT,Community Health,2023,3
+WRT,Community Health,2024,3
+WRT,Gender/Race/Identity,2024,1
+WRT,Languages,2022,1
+WRT,Languages,2023,1
+WRT,Languages,2024,1
+WRT,Media,2020,3
+WRT,Media,2021,3
+WRT,Media,2022,4
+WRT,Media,2023,4
+WRT,Media,2024,5
+WRT,Research,2020,7
+WRT,Research,2021,7
+WRT,Research,2022,8
+WRT,Research,2023,9
+WRT,Research,2024,10
+WRTG,Arts,2019,1
+WRTG,Capstone,2014,2
+WRTG,Capstone,2018,1
+WRTG,Capstone,2019,1
+WRTG,Community Health,2015,1
+WRTG,Community Health,2016,1
+WRTG,Community Health,2017,1
+WRTG,Community Health,2018,1
+WRTG,Community Health,2019,1
+WRTG,Media,2019,2
+WRTG,Research,2014,6
+WRTG,Research,2015,6
+WRTG,Research,2016,6
+WRTG,Research,2017,6
+WRTG,Research,2018,5
+WRTG,Research,2019,6
+WSEM,Capstone,2023,3
+WSEM,Capstone,2024,3
+WSEM,Education,2023,1
+WSEM,Education,2024,1
+WSEM,International Issues,2017,1
+WSEM,International Issues,2018,4
+WSEM,International Issues,2019,5
+WSEM,International Issues,2020,5
+WSEM,International Issues,2021,7
+WSEM,International Issues,2022,7
+WSEM,International Issues,2023,8
+WSEM,International Issues,2024,4
+WSEM,Media,2018,1
+WSEM,Media,2019,1
+WSEM,Media,2020,1
+WSEM,Media,2021,1
+WSEM,Media,2022,1
+WSEM,Media,2023,1
+WSEM,Politics and Policy,2018,7
+WSEM,Politics and Policy,2019,9
+WSEM,Politics and Policy,2020,10
+WSEM,Politics and Policy,2021,10
+WSEM,Politics and Policy,2022,10
+WSEM,Politics and Policy,2023,10
+WSEM,Repeatable Topics,2014,7
+WSEM,Repeatable Topics,2015,9
+WSEM,Repeatable Topics,2016,9
+WSEM,Repeatable Topics,2017,9
+WSEM,Repeatable Topics,2018,2
+WSEM,Research,2014,2
+WSEM,Research,2015,2
+WSEM,Research,2018,1
+WSEM,Research,2019,2
+WSEM,Research,2020,2
+WSEM,Research,2021,2
+WSEM,Research,2022,2
+WSEM,Research,2023,2
+WSEM,Research,2024,2
+WSEM,Social Issues,2018,1
+WSEM,Social Issues,2019,2
+WSEM,Social Issues,2020,2
+WSEM,Social Issues,2021,2
+WSEM,Social Issues,2022,2
+WSEM,Social Issues,2023,2
+WSEM,Washington,2014,5
+WSEM,Washington,2015,5
+WSEM,Washington,2016,9
+WSEM,Washington,2017,11
+WSEM,Washington,2018,19
+WSEM,Washington,2019,22
+WSEM,Washington,2020,22
+WSEM,Washington,2021,23
+WSEM,Washington,2022,23
+WSEM,Washington,2023,19
+WSEM,Washington,2024,8
+WSEM,,2018,7
+WSEM,,2019,7
+WSEM,,2020,7
+WSEM,,2021,7
+WSEM,,2022,7
+WSEM,,2023,7
+WSEM,,2024,7
