@@ -279,14 +279,16 @@ server <- function(input, output) {
       scale_fill_brewer(palette = "Set2") +
       labs(
         title = "Budget Changes",
-        
+        y = "Budget (in thousands)",
         legend.position = "none"
       ) +
     theme(plot.title = element_text(face = "bold", size = 16),)
       
   ) 
   output$budget_by_school <- renderPlot(
-    ggplot(budget_allocation, aes(x = year, y = budget, color = school)) +
+    budget_allocation %>%
+      filter(year %in% c(min(input$budget_years):max(input$budget_years))) %>%
+    ggplot(aes(x = year, y = budget, color = school)) +
       geom_line(size = 1.2) +
       geom_point(size = 2) +
       labs(
@@ -307,7 +309,9 @@ server <- function(input, output) {
   )
   classes_by_school_2 <- read_csv("classes_by_school_2.csv")
   output$class_budget <- renderPlot(
-    ggplot(classes_by_school_2, aes(x = year, y = budget_divided_by_classes, color = school, fill = school)) +  
+    classes_by_school_2 %>%
+    filter(year %in% c(min(input$budget_years):max(input$budget_years))) %>%
+    ggplot( aes(x = year, y = budget_divided_by_classes, color = school, fill = school)) +  
       geom_line() +
       geom_point(shape = 21, size = 1) +  
       labs(
