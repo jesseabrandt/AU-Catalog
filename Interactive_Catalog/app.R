@@ -93,7 +93,7 @@ ui <- fluidPage(titlePanel("American University Catalog"),
 
 ######## SERVER
 server <- function(input, output) {
-  courses <- read_csv("data_placeholder3.csv")
+  courses <- read_csv("data_placeholder4.csv")
   courses$course_num = as.integer(courses$course_num)
   #implement year = All, filter or don't filter years in search results
   
@@ -276,7 +276,7 @@ server <- function(input, output) {
       theme_minimal() +
       scale_fill_brewer(palette = "Set2") +
       labs(
-        title = "Budget Increases",
+        title = "Budget Changes",
         
         legend.position = "none"
       ) +
@@ -372,7 +372,7 @@ server <- function(input, output) {
   pht <- DescTools::PostHocTest(model)
   output$anova_results <- renderTable({
     (anova(model))
-  })
+  }, rownames = TRUE)
   output$pht <- renderTable(PostHocTest(model)$school, rownames = TRUE)
 }
 
