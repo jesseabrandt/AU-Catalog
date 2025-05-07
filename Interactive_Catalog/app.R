@@ -67,7 +67,9 @@ ui <- fluidPage(titlePanel("American University Catalog"),
                 p("Course descriptions were analyzed using Latent Dirichlet Allocation (LDA) to find 20 topics based on which words appeared together. These topics were manually classified based on top words."),
                 p("Below are the results of ANOVA for the quantitative analysis topic by school."),
                 tableOutput("anova_results"),
-                tableOutput("pht")
+                tableOutput("pht"),
+                p("Quantitative analysis is topic 8."),
+                img(src = "/topics2.png")
                 )),
               tabPanel(title = "Budget Visualizations", fluidPage(
                 h2("Budget Analysis"),
