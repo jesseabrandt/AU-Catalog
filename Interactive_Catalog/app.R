@@ -17,6 +17,7 @@ library(shiny)
 library(tidyverse)
 library(bslib)
 library(shinydashboard)
+library(DescTools)
 
 # Define UI for 
 ui <- fluidPage(titlePanel("American University Catalog"),
@@ -54,9 +55,19 @@ ui <- fluidPage(titlePanel("American University Catalog"),
                   tabPanel(title = "Course Details", value = "details", fluidPage(
                     h2(textOutput("selectedCourse")),
                     textOutput("selectedDescription"),
-                    uiOutput("selectedLink")
+                    uiOutput("selectedLink"),
                     #textOutput("moreInfo")
+                    br(),
+                    tags$h3("Visualizations"),
+                    plotOutput("dept_class_num"),
+                    plotOutput("school_class_num")
                   )),
+              tabPanel(title = "Course Topics", fluidPage(
+                h2("Course Topics"),
+                p("Course descriptions were analyzed using Latent Dirichlet Allocation (LDA) to find 20 topics based on which words appeared together. These topics were manually classified based on top words."),
+                p("Below are the results of ANOVA for the quantitative analysis topic by school."),
+                textOutput("anova_results")
+                )),
               tabPanel(title = "Budget Visualizations", fluidPage(
                 h2("Budget Analysis"),
                 plotOutput("budget_by_school"),
@@ -72,6 +83,7 @@ ui <- fluidPage(titlePanel("American University Catalog"),
                 plotOutput("class_num"),
                 plotOutput("year_budget")
               ))
+              
               )
 )
 
@@ -183,6 +195,69 @@ server <- function(input, output) {
     }
   )
   
+  #Course charts
+  output$school_class_num <- renderPlot(
+    {
+      validate(
+        need(!is.null(input$searchResults_rows_selected), "No course selected.")
+      )
+      searched <- courses %>%
+      filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
+      filter(academic_year == input$yearInput) %>%
+      filter(course_num %in% switch(input$courseGrad, "All" = c(0:999),
+                                    "Undergraduate (100-499)" = c(100:499),
+                                    "Graduate (500+)" = c(500:999),
+                                    "Noncredit (000-099)" = c(0:99)))
+    courses %>%
+      filter(school == searched$school[[input$searchResults_rows_selected]]) %>%
+      group_by(dept, fall) %>%
+      summarize(n = n()) %>%
+      ggplot(aes(x = fall, y = n, fill = dept)) +
+      geom_col() +
+      labs(
+        title = "Number of Classes by Department (Selected School)",
+        x = "Year",
+        y = "Number of Classes"
+      ) +
+      theme_minimal() +
+      scale_fill_viridis_d() +
+      theme(
+        plot.title = element_text(face = "bold", size = 16)
+      )
+    }
+  )
+  output$dept_class_num <- renderPlot(
+    {
+      validate(
+        need(!is.null(input$searchResults_rows_selected), "")
+      )
+      searched <- courses %>%
+        filter(grepl(tolower(input$searchBox), tolower(description))| grepl(tolower(input$searchBox), tolower(title))) %>%
+        filter(academic_year == input$yearInput) %>%
+        filter(course_num %in% switch(input$courseGrad, "All" = c(0:999),
+                                      "Undergraduate (100-499)" = c(100:499),
+                                      "Graduate (500+)" = c(500:999),
+                                      "Noncredit (000-099)" = c(0:99)))
+      courses %>%
+        filter(dept == searched$dept[[input$searchResults_rows_selected]]) %>%
+        group_by(dept, fall) %>%
+        summarize(n = n()) %>%
+        ggplot(aes(x = fall, y = n, fill = dept)) +
+        geom_col() +
+        labs(
+          title = "Number of Classes in Department",
+          x = "Year",
+          y = "Number of Classes"
+        ) +
+        theme_minimal() +
+        scale_fill_viridis_d() +
+        theme(
+          plot.title = element_text(face = "bold", size = 16)
+        )
+    }
+  )
+  
+  
   #Budget Analysis Section
   budget_allocation <- read_csv("budget_allocation.csv")
   budget_pct_change <- read_csv("budget_pct_change.csv")
@@ -223,7 +298,7 @@ server <- function(input, output) {
             axis.text.x = element_text(angle = 45, hjust = 1))  
   )
   
-  
+  ## Yearly Analysis Section
   output$class_num <- renderPlot(
     courses %>%
       filter(academic_year == input$yearInput2) |>
@@ -237,8 +312,8 @@ server <- function(input, output) {
         y = "Number of Classes",
         fill = "School"
       ) +
-      scale_color_brewer(palette = "Set2") + 
-      scale_fill_brewer(palette = "Set2") + 
+      scale_color_brewer(palette = "BrBG") + 
+      scale_fill_brewer(palette = "BrBG") + 
       theme_minimal() +
       theme(
         plot.title = element_text(face = "bold", size = 16),
@@ -261,14 +336,22 @@ server <- function(input, output) {
       scale_y_continuous(labels = scales::comma) +
       theme_minimal() +
       scale_color_brewer(palette = "Set2") + 
-      scale_fill_brewer(palette = "BrBG") +  
+      scale_fill_brewer(palette = "Set2") +  
       theme(
         axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
         plot.title = element_text(face = "bold", size = 16),
         axis.title = element_text(size = 12)
       )
   )
-  
+  ### Course Topics
+  topics <- read_csv("topics_clean.csv")
+  model <- aov(formula = quant~school, data = topics)
+  # anova(model)
+  # DescTools::PostHocTest(model)
+  output$anova_results <- renderText({
+    (anova(model))
+  })
+  output$pht <- renderText(PostHocTest(model))
 }
 
 # Run the application 
