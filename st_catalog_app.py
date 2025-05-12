@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-from scipy.stats import f_oneway
-import seaborn as sns
-import matplotlib.pyplot as plt
+
 "# AU Catalog Topic Modelling"
 "Course descriptions were analyzed using Latent Dirichlet Allocation (LDA) to find 20 topics based on which words appeared together. These topics were manually classified based on top words."
 "### Average Course Topic Gamma by School"
