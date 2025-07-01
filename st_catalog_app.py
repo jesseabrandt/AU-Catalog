@@ -17,3 +17,8 @@ st.bar_chart(data = schools, x = "school", y = topic)
 depts = pd.read_csv("by_dept.csv")
 
 st.write(depts)
+
+dept_names = pd.unique(depts["dept"])
+depts_picked = st.multiselect(options = dept_names, label = "Departments")
+dept_years = pd.read_csv("by_dept_year.csv")
+st.line_chart(data = dept_years[dept_years["dept"].isin (depts_picked)], x="year (fall)", y = topic, color = "dept")
