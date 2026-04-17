@@ -1,0 +1,1 @@
+I have a bunch of text data. I want to use tools like minilm to analyze it. I want to incorporate existing structure and steps including regex parsing. I want to use modelrunnR. I want good development practices followed, but i don't want sprawl. I want analysis to be readable, reproducable, interpretable. easy to see what code did and what steps were followed.
